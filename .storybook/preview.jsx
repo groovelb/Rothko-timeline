@@ -1,7 +1,7 @@
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
-import { defaultTheme } from '../src/styles/themes';
+import { rothkoTheme } from '../src/styles/themes';
 
 // Google Fonts 로드 (Material Symbols + 기본 폰트)
 const googleFonts = [
@@ -11,6 +11,8 @@ const googleFonts = [
   'Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200',
   // Default Theme Font
   'Outfit:wght@300;400;500;600;700;800;900',
+  // Rothko Theme Font (Serif)
+  'Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500',
 ];
 
 googleFonts.forEach((font) => {
@@ -63,7 +65,7 @@ const preview = {
   },
   decorators: [
     (Story) => (
-      <ThemeProvider theme={defaultTheme}>
+      <ThemeProvider theme={rothkoTheme}>
         <CssBaseline />
         <div style={{ width: '100%', paddingTop: '40px' }}>
           <Story />

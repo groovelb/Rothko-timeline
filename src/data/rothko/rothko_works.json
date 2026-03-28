@@ -87,7 +87,8 @@
           "ratio": 0.3
         }
       ],
-      "emotion_y": 0.45
+      "emotion_y": 0.45,
+      "image": null
     },
     {
       "id": "W002",
@@ -115,7 +116,8 @@
           "ratio": 0.3
         }
       ],
-      "emotion_y": 0.5
+      "emotion_y": 0.5,
+      "image": "/images/rothko/W002_1933_untitled-portland-oregon.jpg"
     },
     {
       "id": "W003",
@@ -143,7 +145,8 @@
           "ratio": 0.2
         }
       ],
-      "emotion_y": 0.45
+      "emotion_y": 0.45,
+      "image": null
     },
     {
       "id": "W004",
@@ -171,7 +174,8 @@
           "ratio": 0.25
         }
       ],
-      "emotion_y": 0.35
+      "emotion_y": 0.35,
+      "image": "/images/rothko/W004_1936_self-portrait.jpg"
     },
     {
       "id": "W005",
@@ -200,7 +204,8 @@
           "ratio": 0.3
         }
       ],
-      "emotion_y": 0.3
+      "emotion_y": 0.3,
+      "image": "/images/rothko/W005_1936_street-scene.jpg"
     },
     {
       "id": "W006",
@@ -228,7 +233,8 @@
           "ratio": 0.3
         }
       ],
-      "emotion_y": 0.25
+      "emotion_y": 0.25,
+      "image": "/images/rothko/W006_1937_untitled-subway.jpg"
     },
     {
       "id": "W007",
@@ -256,7 +262,8 @@
           "ratio": 0.25
         }
       ],
-      "emotion_y": 0.35
+      "emotion_y": 0.35,
+      "image": "/images/rothko/W007_1938_entrance-to-subway.jpg"
     },
     {
       "id": "W008",
@@ -284,7 +291,8 @@
           "ratio": 0.3
         }
       ],
-      "emotion_y": 0.15
+      "emotion_y": 0.15,
+      "image": "/images/rothko/W008_1940_underground-fantasy.jpg"
     },
     {
       "id": "W009",
@@ -312,7 +320,8 @@
           "ratio": 0.3
         }
       ],
-      "emotion_y": 0.2
+      "emotion_y": 0.2,
+      "image": "/images/rothko/W009_1941_antigone.jpg"
     },
     {
       "id": "W010",
@@ -340,7 +349,8 @@
           "ratio": 0.25
         }
       ],
-      "emotion_y": 0.25
+      "emotion_y": 0.25,
+      "image": "/images/rothko/W010_1942_the-omen-of-the-eagle.jpg"
     },
     {
       "id": "W011",
@@ -368,7 +378,8 @@
           "ratio": 0.25
         }
       ],
-      "emotion_y": 0.3
+      "emotion_y": 0.3,
+      "image": "/images/rothko/W011_1943_the-syrian-bull.jpg"
     },
     {
       "id": "W012",
@@ -396,7 +407,8 @@
           "ratio": 0.3
         }
       ],
-      "emotion_y": 0.25
+      "emotion_y": 0.25,
+      "image": "/images/rothko/W012_1944_slow-swirl-at-the-edge-of-the-sea.jpg"
     },
     {
       "id": "W013",
@@ -424,7 +436,8 @@
           "ratio": 0.3
         }
       ],
-      "emotion_y": 0.45
+      "emotion_y": 0.45,
+      "image": "/images/rothko/W013_1945_baptismal-scene.jpg"
     },
     {
       "id": "W014",
@@ -452,7 +465,8 @@
           "ratio": 0.25
         }
       ],
-      "emotion_y": 0.5
+      "emotion_y": 0.5,
+      "image": "/images/rothko/W014_1946_sacrifice.jpg"
     },
     {
       "id": "W015",
@@ -480,7 +494,8 @@
           "ratio": 0.4
         }
       ],
-      "emotion_y": 0.5
+      "emotion_y": 0.5,
+      "image": "/images/rothko/W015_1947_no-9.jpg"
     },
     {
       "id": "W016",
@@ -508,7 +523,8 @@
           "ratio": 0.35
         }
       ],
-      "emotion_y": 0.15
+      "emotion_y": 0.15,
+      "image": "/images/rothko/W016_1948_no-9-white-and-black-on-wine.jpg"
     },
     {
       "id": "W017",
@@ -536,7 +552,8 @@
           "ratio": 0.35
         }
       ],
-      "emotion_y": 0.15
+      "emotion_y": 0.15,
+      "image": "/images/rothko/W017_1948_no-10.jpg"
     },
     {
       "id": "W018",
@@ -568,7 +585,8 @@
           "ratio": 0.25
         }
       ],
-      "emotion_y": 0.15
+      "emotion_y": 0.15,
+      "image": "/images/rothko/W018_1948_multiform.jpg"
     },
     {
       "id": "W019",
@@ -597,7 +615,8 @@
         }
       ],
       "background": "#D08030",
-      "emotion_y": 0.7
+      "emotion_y": 0.7,
+      "image": "/images/rothko/W019_1949_no-3no-13-magenta-black-green-on-orange.jpg"
     },
     {
       "id": "W020",
@@ -622,7 +641,8 @@
         }
       ],
       "background": "#B88040",
-      "emotion_y": 0.7
+      "emotion_y": 0.7,
+      "image": "/images/rothko/W020_1949_no-1-no-18-1949.jpg"
     },
     {
       "id": "W021",
@@ -652,7 +672,8 @@
         }
       ],
       "background": "#D07040",
-      "emotion_y": 0.8
+      "emotion_y": 0.8,
+      "image": "/images/rothko/W021_1950_no-5no-22.jpg"
     },
     {
       "id": "W022",
@@ -678,7 +699,8 @@
         }
       ],
       "background": "#A0B060",
-      "emotion_y": 0.8
+      "emotion_y": 0.8,
+      "image": "/images/rothko/W022_1950_no-10.jpg"
     },
     {
       "id": "W023",
@@ -708,7 +730,8 @@
         }
       ],
       "background": "#804030",
-      "emotion_y": 0.83
+      "emotion_y": 0.83,
+      "image": "/images/rothko/W023_1951_no-7.jpg"
     },
     {
       "id": "W024",
@@ -733,7 +756,8 @@
         }
       ],
       "background": "#D09050",
-      "emotion_y": 0.83
+      "emotion_y": 0.83,
+      "image": null
     },
     {
       "id": "W025",
@@ -762,7 +786,8 @@
         }
       ],
       "background": "#B08040",
-      "emotion_y": 0.85
+      "emotion_y": 0.85,
+      "image": "/images/rothko/W025_1952_untitled-yellow-red-and-blue.jpg"
     },
     {
       "id": "W026",
@@ -787,7 +812,8 @@
         }
       ],
       "background": "#906040",
-      "emotion_y": 0.85
+      "emotion_y": 0.85,
+      "image": "/images/rothko/W026_1953_no-61-rust-and-blue.jpg"
     },
     {
       "id": "W027",
@@ -817,7 +843,8 @@
         }
       ],
       "background": "#703040",
-      "emotion_y": 0.85
+      "emotion_y": 0.85,
+      "image": "/images/rothko/W027_1954_no-1-royal-red-and-blue.jpg"
     },
     {
       "id": "W028",
@@ -847,7 +874,8 @@
         }
       ],
       "background": "#A0A060",
-      "emotion_y": 0.85
+      "emotion_y": 0.85,
+      "image": "/images/rothko/W028_1954_untitled-yellow-and-blue.jpg"
     },
     {
       "id": "W029",
@@ -872,7 +900,8 @@
         }
       ],
       "background": "#A03020",
-      "emotion_y": 0.85
+      "emotion_y": 0.85,
+      "image": "/images/rothko/W029_1954_ochre-and-red-on-red.jpg"
     },
     {
       "id": "W030",
@@ -901,7 +930,8 @@
         }
       ],
       "background": "#F0D8D0",
-      "emotion_y": 0.75
+      "emotion_y": 0.75,
+      "image": "/images/rothko/W030_1955_untitled-yellow-pink-yellow-on-light-pink.jpg"
     },
     {
       "id": "W031",
@@ -926,7 +956,8 @@
         }
       ],
       "background": "#B03020",
-      "emotion_y": 0.95
+      "emotion_y": 0.95,
+      "image": "/images/rothko/W031_1956_green-and-tangerine-on-red.jpg"
     },
     {
       "id": "W032",
@@ -951,7 +982,8 @@
         }
       ],
       "background": "#804020",
-      "emotion_y": 0.95
+      "emotion_y": 0.95,
+      "image": "/images/rothko/W032_1956_olive-over-red.jpg"
     },
     {
       "id": "W033",
@@ -976,7 +1008,8 @@
         }
       ],
       "background": "#A02818",
-      "emotion_y": 0.8
+      "emotion_y": 0.8,
+      "image": "/images/rothko/W033_1957_orange-and-red-on-red.jpg"
     },
     {
       "id": "W034",
@@ -1010,7 +1043,8 @@
         }
       ],
       "background": "#D8A0A0",
-      "emotion_y": 0.8
+      "emotion_y": 0.8,
+      "image": "/images/rothko/W034_1957_white-center-yellow-pink-and-lavender-on-rose.jpg"
     },
     {
       "id": "W035",
@@ -1035,7 +1069,8 @@
         }
       ],
       "background": "#3A1515",
-      "emotion_y": 0.1
+      "emotion_y": 0.1,
+      "image": "/images/rothko/W035_1958_black-on-maroon.jpg"
     },
     {
       "id": "W036",
@@ -1060,7 +1095,8 @@
         }
       ],
       "background": "#3A1212",
-      "emotion_y": -0.3
+      "emotion_y": -0.3,
+      "image": "/images/rothko/W036_1959_red-on-maroon.jpg"
     },
     {
       "id": "W037",
@@ -1093,7 +1129,8 @@
         }
       ],
       "background": "#801818",
-      "emotion_y": 0.1
+      "emotion_y": 0.1,
+      "image": "/images/rothko/W037_1958_four-darks-in-red.jpg"
     },
     {
       "id": "W038",
@@ -1123,7 +1160,8 @@
         }
       ],
       "background": "#381010",
-      "emotion_y": 0.1
+      "emotion_y": 0.1,
+      "image": "/images/rothko/W038_1958_no-10.jpg"
     },
     {
       "id": "W039",
@@ -1148,7 +1186,8 @@
         }
       ],
       "background": "#2A0A0A",
-      "emotion_y": -0.3
+      "emotion_y": -0.3,
+      "image": "/images/rothko/W039_1959_untitled-seagram-mural-section-3.jpg"
     },
     {
       "id": "W040",
@@ -1173,7 +1212,8 @@
         }
       ],
       "background": "#300E0E",
-      "emotion_y": -0.3
+      "emotion_y": -0.3,
+      "image": "/images/rothko/W040_1959_untitled-seagram-mural-section-6.jpg"
     },
     {
       "id": "W041",
@@ -1207,7 +1247,8 @@
         }
       ],
       "background": "#D07030",
-      "emotion_y": 0.3
+      "emotion_y": 0.3,
+      "image": "/images/rothko/W041_1961_orange-red-yellow.jpg"
     },
     {
       "id": "W042",
@@ -1236,7 +1277,8 @@
         }
       ],
       "background": "#402020",
-      "emotion_y": 0.3
+      "emotion_y": 0.3,
+      "image": "/images/rothko/W042_1961_no-16-red-brown-and-black.jpg"
     },
     {
       "id": "W043",
@@ -1261,7 +1303,8 @@
         }
       ],
       "background": "#501515",
-      "emotion_y": -0.35
+      "emotion_y": -0.35,
+      "image": "/images/rothko/W043_1962_harvard-mural-panel-1-triptych.jpg"
     },
     {
       "id": "W044",
@@ -1295,7 +1338,8 @@
         }
       ],
       "background": "#503040",
-      "emotion_y": -0.35
+      "emotion_y": -0.35,
+      "image": "/images/rothko/W044_1951_no-6-violet-green-and-red.jpg"
     },
     {
       "id": "W045",
@@ -1320,7 +1364,8 @@
         }
       ],
       "background": "#4A5060",
-      "emotion_y": -0.35
+      "emotion_y": -0.35,
+      "image": "/images/rothko/W045_1962_blue-and-grey.jpg"
     },
     {
       "id": "W046",
@@ -1346,7 +1391,8 @@
         }
       ],
       "background": "#0F0F0F",
-      "emotion_y": -0.2
+      "emotion_y": -0.2,
+      "image": "/images/rothko/W046_1964_no-8-black-form-series.jpg"
     },
     {
       "id": "W047",
@@ -1372,7 +1418,8 @@
         }
       ],
       "background": "#100810",
-      "emotion_y": -0.09
+      "emotion_y": -0.09,
+      "image": "/images/rothko/W047_1964_rothko-chapel-paintings.jpg"
     },
     {
       "id": "W048",
@@ -1397,7 +1444,8 @@
         }
       ],
       "background": "#605040",
-      "emotion_y": -0.7
+      "emotion_y": -0.7,
+      "image": "/images/rothko/W048_1968_untitled-brown-and-gray.jpg"
     },
     {
       "id": "W049",
@@ -1423,7 +1471,8 @@
         }
       ],
       "background": "#3A3A3A",
-      "emotion_y": -0.85
+      "emotion_y": -0.85,
+      "image": "/images/rothko/W049_1969_untitled-black-on-gray.jpg"
     },
     {
       "id": "W050",
@@ -1449,7 +1498,8 @@
         }
       ],
       "background": "#1A1A1A",
-      "emotion_y": -1
+      "emotion_y": -1,
+      "image": "/images/rothko/W050_1970_untitled.jpg"
     }
   ],
   "auction_records_top7": [
