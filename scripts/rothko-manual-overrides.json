@@ -1,0 +1,20 @@
+{
+  "W047": {
+    "note": "채플 내부 전경 사진 — 작품 클로즈업 아님. 수동 색상 지정.",
+    "color_blocks": [
+      { "color": "#1A0A1A", "ratio": 0.5 },
+      { "color": "#0A0A0A", "ratio": 0.5 }
+    ],
+    "background": "#100810",
+    "color_extraction": {
+      "method": "manual_override",
+      "confidence": "manual",
+      "background": { "color": "#100810", "ratio": 0.1 },
+      "blocks": [
+        { "color": "#1A0A1A", "ratio": 0.5, "y_start": 0.1, "y_end": 0.5 },
+        { "color": "#0A0A0A", "ratio": 0.5, "y_start": 0.5, "y_end": 0.9 }
+      ],
+      "edge_colors": []
+    }
+  }
+}

@@ -6,12 +6,10 @@
  */
 
 import defaultTheme from './default.js';
-import rothkoTheme from './rothko.js';
 
 /** 사용 가능한 테마 목록 */
 export const themes = {
   default: defaultTheme,
-  rothko: rothkoTheme,
 };
 
 /** 테마 메타데이터 */
@@ -19,11 +17,6 @@ export const themeMeta = {
   default: {
     name: 'Default',
     description: '프로젝트 기본 테마',
-    mode: 'light',
-  },
-  rothko: {
-    name: 'Rothko Timeline',
-    description: '로스코 타임라인 전용 테마 — 미술관의 연대기 벽',
     mode: 'light',
   },
 };
@@ -45,5 +38,5 @@ export const getTheme = (themeName) => {
  */
 export const getThemeNames = () => Object.keys(themes);
 
-export { defaultTheme, rothkoTheme };
+export { defaultTheme };
 export default themes;

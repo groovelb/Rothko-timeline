@@ -21,6 +21,7 @@ import { Box } from '@mui/material';
  * @param {number} letterSpacing - 자간 배율 [Optional, 기본값: 1]
  * @param {number} wordSpacing - 단어 간격 배율 [Optional, 기본값: 1]
  * @param {number} fontWeight - 폰트 굵기 [Optional]
+ * @param {string} fontFamily - 폰트 패밀리 (variant 기본값 오버라이드) [Optional]
  *
  * Example usage:
  * <FitText text="Hello World" variant="headline" />
@@ -34,6 +35,7 @@ export function FitText({
   letterSpacing = 1,
   wordSpacing = 1,
   fontWeight,
+  fontFamily: fontFamilyProp,
   ...props
 }) {
   const containerRef = useRef(null);
@@ -46,7 +48,7 @@ export function FitText({
    * - body: Inter 폰트, 여유로운 행간(1.3), 기본 굵기 300
    */
   const isHeadline = variant === 'h1' || variant === 'headline';
-  const fontFamily = isHeadline ? '"Chillax", sans-serif' : '"Inter", sans-serif';
+  const fontFamily = fontFamilyProp || (isHeadline ? '"Chillax", sans-serif' : '"Inter", sans-serif');
   const lineHeight = isHeadline ? 0.9 : 1.3;
   const defaultFontWeight = isHeadline ? 400 : 300;
   const finalFontWeight = fontWeight !== undefined ? fontWeight : defaultFontWeight;

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Mark Rothko — Major Works (50 Selected)",
+    "title": "Mark Rothko — Major Works (47 Selected)",
     "artist": {
       "name": "Mark Rothko",
       "birth_name": "Markus Yakovlevich Rothkowitz",
@@ -61,36 +61,6 @@
   },
   "works": [
     {
-      "id": "W001",
-      "year": 1932,
-      "year_end": 1933,
-      "title": "The Road",
-      "period": "FIG",
-      "medium": "oil on canvas",
-      "collection": "Christopher Rothko Collection",
-      "collection_type": "private",
-      "exhibition_note": "2023 Fondation Louis Vuitton retrospective",
-      "auction_record": null,
-      "significance": "초기 풍경화",
-      "composition_type": "figurative",
-      "color_blocks": [
-        {
-          "color": "#6B4226",
-          "ratio": 0.4
-        },
-        {
-          "color": "#8B7D5B",
-          "ratio": 0.3
-        },
-        {
-          "color": "#A09070",
-          "ratio": 0.3
-        }
-      ],
-      "emotion_y": 0.45,
-      "image": null
-    },
-    {
       "id": "W002",
       "year": 1933,
       "title": "Untitled (Portland, Oregon)",
@@ -104,49 +74,46 @@
       "composition_type": "figurative",
       "color_blocks": [
         {
-          "color": "#7BA0B5",
-          "ratio": 0.4
+          "color": "#f8ebc9",
+          "ratio": 0.59
         },
         {
-          "color": "#A8C4A0",
-          "ratio": 0.3
+          "color": "#bbaa85",
+          "ratio": 0.28
         },
         {
-          "color": "#D4C9A8",
-          "ratio": 0.3
-        }
-      ],
-      "emotion_y": 0.5,
-      "image": "/images/rothko/W002_1933_untitled-portland-oregon.jpg"
-    },
-    {
-      "id": "W003",
-      "year": 1935,
-      "title": "Crucifixion",
-      "period": "FIG",
-      "medium": "oil on canvas",
-      "collection": "Private collection",
-      "collection_type": "private",
-      "exhibition_note": "1936 Paris Galerie Bonaparte",
-      "auction_record": null,
-      "significance": "종교적 주제의 초기 탐구",
-      "composition_type": "figurative",
-      "color_blocks": [
-        {
-          "color": "#3C2415",
-          "ratio": 0.5
-        },
-        {
-          "color": "#8B4513",
-          "ratio": 0.3
-        },
-        {
-          "color": "#C4A882",
-          "ratio": 0.2
+          "color": "#5d574d",
+          "ratio": 0.13
         }
       ],
       "emotion_y": 0.45,
-      "image": null
+      "image": "/images/rothko/W002_1933_untitled-portland-oregon.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#f8ebc9",
+            "ratio": 0.59,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#bbaa85",
+            "ratio": 0.28,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#5d574d",
+            "ratio": 0.13,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W004",
@@ -162,20 +129,46 @@
       "composition_type": "figurative",
       "color_blocks": [
         {
-          "color": "#2C2C2C",
-          "ratio": 0.4
+          "color": "#2d1416",
+          "ratio": 0.46
         },
         {
-          "color": "#8B6F5E",
-          "ratio": 0.35
+          "color": "#742f16",
+          "ratio": 0.3
         },
         {
-          "color": "#C4A882",
-          "ratio": 0.25
+          "color": "#c46523",
+          "ratio": 0.24
         }
       ],
-      "emotion_y": 0.35,
-      "image": "/images/rothko/W004_1936_self-portrait.jpg"
+      "emotion_y": 0.3,
+      "image": "/images/rothko/W004_1936_self-portrait.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#2d1416",
+            "ratio": 0.46,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#742f16",
+            "ratio": 0.3,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#c46523",
+            "ratio": 0.24,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W005",
@@ -192,20 +185,46 @@
       "composition_type": "figurative",
       "color_blocks": [
         {
-          "color": "#5C5C5C",
-          "ratio": 0.35
+          "color": "#b68662",
+          "ratio": 0.54
         },
         {
-          "color": "#8B7D6B",
-          "ratio": 0.35
-        },
-        {
-          "color": "#A09070",
+          "color": "#ab9a86",
           "ratio": 0.3
+        },
+        {
+          "color": "#44302a",
+          "ratio": 0.16
         }
       ],
       "emotion_y": 0.3,
-      "image": "/images/rothko/W005_1936_street-scene.jpg"
+      "image": "/images/rothko/W005_1936_street-scene.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#b68662",
+            "ratio": 0.54,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#ab9a86",
+            "ratio": 0.3,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#44302a",
+            "ratio": 0.16,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W006",
@@ -221,20 +240,46 @@
       "composition_type": "figurative",
       "color_blocks": [
         {
-          "color": "#4A4A3A",
-          "ratio": 0.4
+          "color": "#b07600",
+          "ratio": 0.44
         },
         {
-          "color": "#8B7B5E",
-          "ratio": 0.3
+          "color": "#ac957b",
+          "ratio": 0.33
         },
         {
-          "color": "#C8B88A",
-          "ratio": 0.3
+          "color": "#62462f",
+          "ratio": 0.23
         }
       ],
-      "emotion_y": 0.25,
-      "image": "/images/rothko/W006_1937_untitled-subway.jpg"
+      "emotion_y": 0.15,
+      "image": "/images/rothko/W006_1937_untitled-subway.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#b07600",
+            "ratio": 0.44,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#ac957b",
+            "ratio": 0.33,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#62462f",
+            "ratio": 0.23,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W007",
@@ -250,20 +295,46 @@
       "composition_type": "figurative",
       "color_blocks": [
         {
-          "color": "#3A3A2A",
-          "ratio": 0.45
+          "color": "#433441",
+          "ratio": 0.49
         },
         {
-          "color": "#7B6B4E",
-          "ratio": 0.3
+          "color": "#bd8656",
+          "ratio": 0.26
         },
         {
-          "color": "#B8A87A",
+          "color": "#755c4e",
           "ratio": 0.25
         }
       ],
-      "emotion_y": 0.35,
-      "image": "/images/rothko/W007_1938_entrance-to-subway.jpg"
+      "emotion_y": 0.3,
+      "image": "/images/rothko/W007_1938_entrance-to-subway.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#433441",
+            "ratio": 0.49,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#bd8656",
+            "ratio": 0.26,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#755c4e",
+            "ratio": 0.25,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W008",
@@ -279,20 +350,46 @@
       "composition_type": "figurative",
       "color_blocks": [
         {
-          "color": "#4A3A4A",
-          "ratio": 0.4
+          "color": "#c3a987",
+          "ratio": 0.56
         },
         {
-          "color": "#8B6B5E",
-          "ratio": 0.3
+          "color": "#716357",
+          "ratio": 0.23
         },
         {
-          "color": "#C8A8B0",
-          "ratio": 0.3
+          "color": "#9a7846",
+          "ratio": 0.21
         }
       ],
-      "emotion_y": 0.15,
-      "image": "/images/rothko/W008_1940_underground-fantasy.jpg"
+      "emotion_y": 0.05,
+      "image": "/images/rothko/W008_1940_underground-fantasy.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#c3a987",
+            "ratio": 0.56,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#716357",
+            "ratio": 0.23,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#9a7846",
+            "ratio": 0.21,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W009",
@@ -308,20 +405,46 @@
       "composition_type": "mythomorphic",
       "color_blocks": [
         {
-          "color": "#5A6B5A",
-          "ratio": 0.35
+          "color": "#e1ceaf",
+          "ratio": 0.7
         },
         {
-          "color": "#8B6B7B",
-          "ratio": 0.35
+          "color": "#b7997d",
+          "ratio": 0.19
         },
         {
-          "color": "#B8A090",
-          "ratio": 0.3
+          "color": "#68615a",
+          "ratio": 0.11
         }
       ],
-      "emotion_y": 0.2,
-      "image": "/images/rothko/W009_1941_antigone.jpg"
+      "emotion_y": 0.15,
+      "image": "/images/rothko/W009_1941_antigone.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#e1ceaf",
+            "ratio": 0.7,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#b7997d",
+            "ratio": 0.19,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#68615a",
+            "ratio": 0.11,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W010",
@@ -337,20 +460,56 @@
       "composition_type": "mythomorphic",
       "color_blocks": [
         {
-          "color": "#5C4A3A",
-          "ratio": 0.4
+          "color": "#db8e2c",
+          "ratio": 0.38
         },
         {
-          "color": "#8B7B5E",
-          "ratio": 0.35
+          "color": "#d9a476",
+          "ratio": 0.36
         },
         {
-          "color": "#A09070",
-          "ratio": 0.25
+          "color": "#dc4f2d",
+          "ratio": 0.14
+        },
+        {
+          "color": "#2b2218",
+          "ratio": 0.13
         }
       ],
-      "emotion_y": 0.25,
-      "image": "/images/rothko/W010_1942_the-omen-of-the-eagle.jpg"
+      "emotion_y": 0.2,
+      "image": "/images/rothko/W010_1942_the-omen-of-the-eagle.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#db8e2c",
+            "ratio": 0.38,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#d9a476",
+            "ratio": 0.36,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#dc4f2d",
+            "ratio": 0.14,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#2b2218",
+            "ratio": 0.13,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W011",
@@ -366,20 +525,36 @@
       "composition_type": "mythomorphic",
       "color_blocks": [
         {
-          "color": "#6B5A3A",
-          "ratio": 0.4
+          "color": "#c9bfae",
+          "ratio": 0.75
         },
         {
-          "color": "#A08B5E",
-          "ratio": 0.35
-        },
-        {
-          "color": "#C4A878",
+          "color": "#e2c649",
           "ratio": 0.25
         }
       ],
       "emotion_y": 0.3,
-      "image": "/images/rothko/W011_1943_the-syrian-bull.jpg"
+      "image": "/images/rothko/W011_1943_the-syrian-bull.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#c9bfae",
+            "ratio": 0.75,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#e2c649",
+            "ratio": 0.25,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W012",
@@ -395,20 +570,36 @@
       "composition_type": "mythomorphic",
       "color_blocks": [
         {
-          "color": "#4A7BA0",
-          "ratio": 0.35
+          "color": "#d3a166",
+          "ratio": 0.62
         },
         {
-          "color": "#C48BAB",
-          "ratio": 0.35
-        },
-        {
-          "color": "#90B890",
-          "ratio": 0.3
+          "color": "#91573b",
+          "ratio": 0.38
         }
       ],
-      "emotion_y": 0.25,
-      "image": "/images/rothko/W012_1944_slow-swirl-at-the-edge-of-the-sea.jpg"
+      "emotion_y": -0.15,
+      "image": "/images/rothko/W012_1944_slow-swirl-at-the-edge-of-the-sea.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#d3a166",
+            "ratio": 0.62,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#91573b",
+            "ratio": 0.38,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W013",
@@ -424,20 +615,36 @@
       "composition_type": "mythomorphic",
       "color_blocks": [
         {
-          "color": "#A0B8C4",
-          "ratio": 0.4
+          "color": "#ecd8b7",
+          "ratio": 0.82
         },
         {
-          "color": "#C4A8B8",
-          "ratio": 0.3
-        },
-        {
-          "color": "#E0D0C0",
-          "ratio": 0.3
+          "color": "#a29787",
+          "ratio": 0.18
         }
       ],
       "emotion_y": 0.45,
-      "image": "/images/rothko/W013_1945_baptismal-scene.jpg"
+      "image": "/images/rothko/W013_1945_baptismal-scene.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#ecd8b7",
+            "ratio": 0.82,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#a29787",
+            "ratio": 0.18,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W014",
@@ -453,20 +660,66 @@
       "composition_type": "multiform",
       "color_blocks": [
         {
-          "color": "#8B3A3A",
-          "ratio": 0.4
+          "color": "#b9a88e",
+          "ratio": 0.33
         },
         {
-          "color": "#6B4A2A",
-          "ratio": 0.35
+          "color": "#ab9880",
+          "ratio": 0.29
         },
         {
-          "color": "#C4A060",
-          "ratio": 0.25
+          "color": "#b5a48a",
+          "ratio": 0.39
         }
       ],
       "emotion_y": 0.5,
-      "image": "/images/rothko/W014_1946_sacrifice.jpg"
+      "image": "/images/rothko/W014_1946_sacrifice.jpg",
+      "background": "#b6a487",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#b6a487",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#b9a88e",
+            "ratio": 0.33,
+            "y_start": 0.07,
+            "y_end": 0.3
+          },
+          {
+            "color": "#ab9880",
+            "ratio": 0.29,
+            "y_start": 0.41,
+            "y_end": 0.62
+          },
+          {
+            "color": "#b5a48a",
+            "ratio": 0.39,
+            "y_start": 0.66,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#ba8f68",
+            "y_position": 0.32,
+            "width": 0.04
+          },
+          {
+            "color": "#b89473",
+            "y_position": 0.39,
+            "width": 0.04
+          },
+          {
+            "color": "#b7a489",
+            "y_position": 0.64,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W015",
@@ -482,20 +735,66 @@
       "composition_type": "multiform",
       "color_blocks": [
         {
-          "color": "#D4C450",
-          "ratio": 0.3
+          "color": "#bc8e6b",
+          "ratio": 0.26
         },
         {
-          "color": "#6B9B5A",
-          "ratio": 0.3
+          "color": "#b07953",
+          "ratio": 0.22
         },
         {
-          "color": "#E8E0C0",
-          "ratio": 0.4
+          "color": "#a65c58",
+          "ratio": 0.52
         }
       ],
       "emotion_y": 0.5,
-      "image": "/images/rothko/W015_1947_no-9.jpg"
+      "image": "/images/rothko/W015_1947_no-9.jpg",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#b96d57",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#bc8e6b",
+            "ratio": 0.26,
+            "y_start": 0.07,
+            "y_end": 0.25
+          },
+          {
+            "color": "#b07953",
+            "ratio": 0.22,
+            "y_start": 0.29,
+            "y_end": 0.44
+          },
+          {
+            "color": "#a65c58",
+            "ratio": 0.52,
+            "y_start": 0.56,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#bc8359",
+            "y_position": 0.27,
+            "width": 0.04
+          },
+          {
+            "color": "#97632b",
+            "y_position": 0.46,
+            "width": 0.04
+          },
+          {
+            "color": "#b15840",
+            "y_position": 0.54,
+            "width": 0.04
+          }
+        ]
+      },
+      "background": "#b96d57"
     },
     {
       "id": "W016",
@@ -511,20 +810,76 @@
       "composition_type": "multiform",
       "color_blocks": [
         {
-          "color": "#E8E0D0",
-          "ratio": 0.35
+          "color": "#d23223",
+          "ratio": 0.5
         },
         {
-          "color": "#1C1C1C",
-          "ratio": 0.3
+          "color": "#c04a22",
+          "ratio": 0.07
         },
         {
-          "color": "#6B2030",
+          "color": "#db6147",
+          "ratio": 0.08
+        },
+        {
+          "color": "#e06200",
           "ratio": 0.35
         }
       ],
-      "emotion_y": 0.15,
-      "image": "/images/rothko/W016_1948_no-9-white-and-black-on-wine.jpg"
+      "emotion_y": -0.45,
+      "image": "/images/rothko/W016_1948_no-9-white-and-black-on-wine.jpg",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#da5126",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#d23223",
+            "ratio": 0.5,
+            "y_start": 0.07,
+            "y_end": 0.44
+          },
+          {
+            "color": "#c04a22",
+            "ratio": 0.07,
+            "y_start": 0.48,
+            "y_end": 0.53
+          },
+          {
+            "color": "#db6147",
+            "ratio": 0.08,
+            "y_start": 0.57,
+            "y_end": 0.63
+          },
+          {
+            "color": "#e06200",
+            "ratio": 0.35,
+            "y_start": 0.67,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#bd4a25",
+            "y_position": 0.46,
+            "width": 0.04
+          },
+          {
+            "color": "#d94f28",
+            "y_position": 0.55,
+            "width": 0.04
+          },
+          {
+            "color": "#e16c40",
+            "y_position": 0.65,
+            "width": 0.04
+          }
+        ]
+      },
+      "background": "#da5126"
     },
     {
       "id": "W017",
@@ -540,20 +895,61 @@
       "composition_type": "multiform",
       "color_blocks": [
         {
-          "color": "#D4A850",
-          "ratio": 0.3
+          "color": "#e6734b",
+          "ratio": 0.44
         },
         {
-          "color": "#5A8B6B",
-          "ratio": 0.35
+          "color": "#70662b",
+          "ratio": 0.23
         },
         {
-          "color": "#C47050",
-          "ratio": 0.35
+          "color": "#ca751b",
+          "ratio": 0.32
         }
       ],
-      "emotion_y": 0.15,
-      "image": "/images/rothko/W017_1948_no-10.jpg"
+      "emotion_y": -0.45,
+      "image": "/images/rothko/W017_1948_no-10.jpg",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#d5812e",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#e6734b",
+            "ratio": 0.44,
+            "y_start": 0.07,
+            "y_end": 0.42
+          },
+          {
+            "color": "#70662b",
+            "ratio": 0.23,
+            "y_start": 0.46,
+            "y_end": 0.64
+          },
+          {
+            "color": "#ca751b",
+            "ratio": 0.32,
+            "y_start": 0.68,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#846330",
+            "y_position": 0.44,
+            "width": 0.04
+          },
+          {
+            "color": "#ab7426",
+            "y_position": 0.66,
+            "width": 0.04
+          }
+        ]
+      },
+      "background": "#d5812e"
     },
     {
       "id": "W018",
@@ -569,24 +965,106 @@
       "composition_type": "multiform",
       "color_blocks": [
         {
-          "color": "#E8903A",
-          "ratio": 0.25
+          "color": "#f0b800",
+          "ratio": 0.13
         },
         {
-          "color": "#D4C450",
-          "ratio": 0.25
+          "color": "#d8b674",
+          "ratio": 0.28
         },
         {
-          "color": "#E07080",
-          "ratio": 0.25
+          "color": "#b98742",
+          "ratio": 0.12
         },
         {
-          "color": "#C84040",
-          "ratio": 0.25
+          "color": "#d2b178",
+          "ratio": 0.14
+        },
+        {
+          "color": "#cdcbaa",
+          "ratio": 0.24
+        },
+        {
+          "color": "#f7cb8b",
+          "ratio": 0.09
         }
       ],
-      "emotion_y": 0.15,
-      "image": "/images/rothko/W018_1948_multiform.jpg"
+      "emotion_y": -0.45,
+      "image": "/images/rothko/W018_1948_multiform.jpg",
+      "background": "#e1ba7d",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#e1ba7d",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#f0b800",
+            "ratio": 0.13,
+            "y_start": 0.07,
+            "y_end": 0.15
+          },
+          {
+            "color": "#d8b674",
+            "ratio": 0.28,
+            "y_start": 0.19,
+            "y_end": 0.38
+          },
+          {
+            "color": "#b98742",
+            "ratio": 0.12,
+            "y_start": 0.42,
+            "y_end": 0.49
+          },
+          {
+            "color": "#d2b178",
+            "ratio": 0.14,
+            "y_start": 0.53,
+            "y_end": 0.62
+          },
+          {
+            "color": "#cdcbaa",
+            "ratio": 0.24,
+            "y_start": 0.66,
+            "y_end": 0.83
+          },
+          {
+            "color": "#f7cb8b",
+            "ratio": 0.09,
+            "y_start": 0.87,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#efba36",
+            "y_position": 0.17,
+            "width": 0.04
+          },
+          {
+            "color": "#dba55b",
+            "y_position": 0.4,
+            "width": 0.04
+          },
+          {
+            "color": "#caa05b",
+            "y_position": 0.51,
+            "width": 0.04
+          },
+          {
+            "color": "#e7a56a",
+            "y_position": 0.64,
+            "width": 0.04
+          },
+          {
+            "color": "#d3c290",
+            "y_position": 0.85,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W019",
@@ -602,21 +1080,81 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#A0306B",
-          "ratio": 0.35
+          "color": "#3d3b3a",
+          "ratio": 0.57
         },
         {
-          "color": "#1A1A1A",
-          "ratio": 0.2
+          "color": "#cdb188",
+          "ratio": 0.17
         },
         {
-          "color": "#3A8B3A",
-          "ratio": 0.25
+          "color": "#637c44",
+          "ratio": 0.17
+        },
+        {
+          "color": "#c74413",
+          "ratio": 0.09
         }
       ],
-      "background": "#D08030",
-      "emotion_y": 0.7,
-      "image": "/images/rothko/W019_1949_no-3no-13-magenta-black-green-on-orange.jpg"
+      "background": "#a64c3d",
+      "emotion_y": 0.65,
+      "image": "/images/rothko/W019_1949_no-3no-13-magenta-black-green-on-orange.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#a64c3d",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#3d3b3a",
+            "ratio": 0.57,
+            "y_start": 0.14,
+            "y_end": 0.52
+          },
+          {
+            "color": "#cdb188",
+            "ratio": 0.17,
+            "y_start": 0.56,
+            "y_end": 0.68
+          },
+          {
+            "color": "#637c44",
+            "ratio": 0.17,
+            "y_start": 0.72,
+            "y_end": 0.83
+          },
+          {
+            "color": "#c74413",
+            "ratio": 0.09,
+            "y_start": 0.87,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#9c8170",
+            "y_position": 0.12,
+            "width": 0.04
+          },
+          {
+            "color": "#8a655a",
+            "y_position": 0.54,
+            "width": 0.04
+          },
+          {
+            "color": "#96613c",
+            "y_position": 0.7,
+            "width": 0.04
+          },
+          {
+            "color": "#9e5a38",
+            "y_position": 0.85,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W020",
@@ -632,17 +1170,91 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#D4A040",
-          "ratio": 0.45
+          "color": "#df6230",
+          "ratio": 0.42
         },
         {
-          "color": "#C85050",
-          "ratio": 0.45
+          "color": "#bc5541",
+          "ratio": 0.14
+        },
+        {
+          "color": "#c44c3f",
+          "ratio": 0.14
+        },
+        {
+          "color": "#ab6962",
+          "ratio": 0.09
+        },
+        {
+          "color": "#c53312",
+          "ratio": 0.21
         }
       ],
-      "background": "#B88040",
-      "emotion_y": 0.7,
-      "image": "/images/rothko/W020_1949_no-1-no-18-1949.jpg"
+      "background": "#d44015",
+      "emotion_y": 0.65,
+      "image": "/images/rothko/W020_1949_no-1-no-18-1949.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#d44015",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#df6230",
+            "ratio": 0.42,
+            "y_start": 0.07,
+            "y_end": 0.36
+          },
+          {
+            "color": "#bc5541",
+            "ratio": 0.14,
+            "y_start": 0.4,
+            "y_end": 0.5
+          },
+          {
+            "color": "#c44c3f",
+            "ratio": 0.14,
+            "y_start": 0.54,
+            "y_end": 0.64
+          },
+          {
+            "color": "#ab6962",
+            "ratio": 0.09,
+            "y_start": 0.68,
+            "y_end": 0.74
+          },
+          {
+            "color": "#c53312",
+            "ratio": 0.21,
+            "y_start": 0.78,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#b94a17",
+            "y_position": 0.38,
+            "width": 0.04
+          },
+          {
+            "color": "#c54f27",
+            "y_position": 0.52,
+            "width": 0.04
+          },
+          {
+            "color": "#cc4421",
+            "y_position": 0.66,
+            "width": 0.04
+          },
+          {
+            "color": "#c35c41",
+            "y_position": 0.76,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W021",
@@ -659,21 +1271,61 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#C83030",
-          "ratio": 0.4
+          "color": "#eda900",
+          "ratio": 0.56
         },
         {
-          "color": "#E8C830",
-          "ratio": 0.35
+          "color": "#c60705",
+          "ratio": 0.1
         },
         {
-          "color": "#C84040",
-          "ratio": 0.25
+          "color": "#e37300",
+          "ratio": 0.34
         }
       ],
-      "background": "#D07040",
+      "background": "#e6a100",
       "emotion_y": 0.8,
-      "image": "/images/rothko/W021_1950_no-5no-22.jpg"
+      "image": "/images/rothko/W021_1950_no-5no-22.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#e6a100",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#eda900",
+            "ratio": 0.56,
+            "y_start": 0.07,
+            "y_end": 0.5
+          },
+          {
+            "color": "#c60705",
+            "ratio": 0.1,
+            "y_start": 0.54,
+            "y_end": 0.62
+          },
+          {
+            "color": "#e37300",
+            "ratio": 0.34,
+            "y_start": 0.66,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#d65c00",
+            "y_position": 0.52,
+            "width": 0.04
+          },
+          {
+            "color": "#df5d00",
+            "y_position": 0.64,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W022",
@@ -690,17 +1342,61 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#D8D040",
-          "ratio": 0.45
+          "color": "#184e99",
+          "ratio": 0.15
         },
         {
-          "color": "#4A6B4A",
-          "ratio": 0.45
+          "color": "#c2a200",
+          "ratio": 0.49
+        },
+        {
+          "color": "#a6b698",
+          "ratio": 0.35
         }
       ],
-      "background": "#A0B060",
+      "background": "#959481",
       "emotion_y": 0.8,
-      "image": "/images/rothko/W022_1950_no-10.jpg"
+      "image": "/images/rothko/W022_1950_no-10.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#959481",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#184e99",
+            "ratio": 0.15,
+            "y_start": 0.07,
+            "y_end": 0.19
+          },
+          {
+            "color": "#c2a200",
+            "ratio": 0.49,
+            "y_start": 0.23,
+            "y_end": 0.62
+          },
+          {
+            "color": "#a6b698",
+            "ratio": 0.35,
+            "y_start": 0.66,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#ae983f",
+            "y_position": 0.21,
+            "width": 0.04
+          },
+          {
+            "color": "#ae9543",
+            "y_position": 0.64,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W023",
@@ -721,43 +1417,61 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#5A2040",
-          "ratio": 0.45
+          "color": "#d89ca6",
+          "ratio": 0.18
         },
         {
-          "color": "#D08040",
-          "ratio": 0.45
-        }
-      ],
-      "background": "#804030",
-      "emotion_y": 0.83,
-      "image": "/images/rothko/W023_1951_no-7.jpg"
-    },
-    {
-      "id": "W024",
-      "year": 1951,
-      "title": "No. 14",
-      "period": "CLASSIC_B",
-      "medium": "oil on canvas",
-      "collection": "Kate Rothko Prizel Collection",
-      "collection_type": "private",
-      "exhibition_note": "2023 Fondation Louis Vuitton. Phillips Collection 대여 이력",
-      "auction_record": null,
-      "significance": "밝은 시기 대표작",
-      "composition_type": "classic",
-      "color_blocks": [
-        {
-          "color": "#E0A040",
-          "ratio": 0.45
+          "color": "#cda700",
+          "ratio": 0.57
         },
         {
-          "color": "#E07060",
-          "ratio": 0.45
+          "color": "#e35e00",
+          "ratio": 0.25
         }
       ],
-      "background": "#D09050",
-      "emotion_y": 0.83,
-      "image": null
+      "background": "#cda88e",
+      "emotion_y": 0.8,
+      "image": "/images/rothko/W023_1951_no-7.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#cda88e",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#d89ca6",
+            "ratio": 0.18,
+            "y_start": 0.07,
+            "y_end": 0.21
+          },
+          {
+            "color": "#cda700",
+            "ratio": 0.57,
+            "y_start": 0.25,
+            "y_end": 0.69
+          },
+          {
+            "color": "#e35e00",
+            "ratio": 0.25,
+            "y_start": 0.73,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#d79a36",
+            "y_position": 0.23,
+            "width": 0.04
+          },
+          {
+            "color": "#e68800",
+            "y_position": 0.71,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W025",
@@ -773,21 +1487,61 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#E8D040",
-          "ratio": 0.35
+          "color": "#e89b00",
+          "ratio": 0.33
         },
         {
-          "color": "#C84040",
-          "ratio": 0.3
+          "color": "#bd4000",
+          "ratio": 0.13
         },
         {
-          "color": "#3060A0",
-          "ratio": 0.35
+          "color": "#5b81a8",
+          "ratio": 0.53
         }
       ],
-      "background": "#B08040",
+      "background": "#d4be97",
       "emotion_y": 0.85,
-      "image": "/images/rothko/W025_1952_untitled-yellow-red-and-blue.jpg"
+      "image": "/images/rothko/W025_1952_untitled-yellow-red-and-blue.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#d4be97",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#e89b00",
+            "ratio": 0.33,
+            "y_start": 0.07,
+            "y_end": 0.33
+          },
+          {
+            "color": "#bd4000",
+            "ratio": 0.13,
+            "y_start": 0.37,
+            "y_end": 0.47
+          },
+          {
+            "color": "#5b81a8",
+            "ratio": 0.53,
+            "y_start": 0.51,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#d76e00",
+            "y_position": 0.35,
+            "width": 0.04
+          },
+          {
+            "color": "#deb253",
+            "y_position": 0.49,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W026",
@@ -803,17 +1557,61 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#B86030",
-          "ratio": 0.5
+          "color": "#49180f",
+          "ratio": 0.46
         },
         {
-          "color": "#305080",
-          "ratio": 0.5
+          "color": "#2e4169",
+          "ratio": 0.2
+        },
+        {
+          "color": "#2a2429",
+          "ratio": 0.34
         }
       ],
-      "background": "#906040",
+      "background": "#dac5a7",
       "emotion_y": 0.85,
-      "image": "/images/rothko/W026_1953_no-61-rust-and-blue.jpg"
+      "image": "/images/rothko/W026_1953_no-61-rust-and-blue.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#dac5a7",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#49180f",
+            "ratio": 0.46,
+            "y_start": 0.07,
+            "y_end": 0.43
+          },
+          {
+            "color": "#2e4169",
+            "ratio": 0.2,
+            "y_start": 0.47,
+            "y_end": 0.62
+          },
+          {
+            "color": "#2a2429",
+            "ratio": 0.34,
+            "y_start": 0.67,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#1b1f3a",
+            "y_position": 0.45,
+            "width": 0.04
+          },
+          {
+            "color": "#2c3044",
+            "y_position": 0.65,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W027",
@@ -834,17 +1632,61 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#B82020",
-          "ratio": 0.5
+          "color": "#c72e08",
+          "ratio": 0.56
         },
         {
-          "color": "#203080",
-          "ratio": 0.5
+          "color": "#b62842",
+          "ratio": 0.16
+        },
+        {
+          "color": "#235893",
+          "ratio": 0.27
         }
       ],
-      "background": "#703040",
+      "background": "#bc5d49",
       "emotion_y": 0.85,
-      "image": "/images/rothko/W027_1954_no-1-royal-red-and-blue.jpg"
+      "image": "/images/rothko/W027_1954_no-1-royal-red-and-blue.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#bc5d49",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#c72e08",
+            "ratio": 0.56,
+            "y_start": 0.07,
+            "y_end": 0.51
+          },
+          {
+            "color": "#b62842",
+            "ratio": 0.16,
+            "y_start": 0.55,
+            "y_end": 0.68
+          },
+          {
+            "color": "#235893",
+            "ratio": 0.27,
+            "y_start": 0.72,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#c43a38",
+            "y_position": 0.53,
+            "width": 0.04
+          },
+          {
+            "color": "#824e4b",
+            "y_position": 0.7,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W028",
@@ -865,17 +1707,46 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#E8D050",
-          "ratio": 0.5
+          "color": "#e19d00",
+          "ratio": 0.67
         },
         {
-          "color": "#4070B0",
-          "ratio": 0.5
+          "color": "#416f8f",
+          "ratio": 0.33
         }
       ],
-      "background": "#A0A060",
+      "background": "#cb8a1c",
       "emotion_y": 0.85,
-      "image": "/images/rothko/W028_1954_untitled-yellow-and-blue.jpg"
+      "image": "/images/rothko/W028_1954_untitled-yellow-and-blue.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#cb8a1c",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#e19d00",
+            "ratio": 0.67,
+            "y_start": 0.07,
+            "y_end": 0.62
+          },
+          {
+            "color": "#416f8f",
+            "ratio": 0.33,
+            "y_start": 0.66,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#948742",
+            "y_position": 0.64,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W029",
@@ -891,17 +1762,46 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#C8A030",
-          "ratio": 0.4
+          "color": "#d28d00",
+          "ratio": 0.71
         },
         {
-          "color": "#B83030",
-          "ratio": 0.35
+          "color": "#da2900",
+          "ratio": 0.29
         }
       ],
-      "background": "#A03020",
+      "background": "#da3e12",
       "emotion_y": 0.85,
-      "image": "/images/rothko/W029_1954_ochre-and-red-on-red.jpg"
+      "image": "/images/rothko/W029_1954_ochre-and-red-on-red.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#da3e12",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#d28d00",
+            "ratio": 0.71,
+            "y_start": 0.07,
+            "y_end": 0.65
+          },
+          {
+            "color": "#da2900",
+            "ratio": 0.29,
+            "y_start": 0.69,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#d25800",
+            "y_position": 0.67,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W030",
@@ -917,21 +1817,61 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#E8D860",
-          "ratio": 0.35
+          "color": "#ebac00",
+          "ratio": 0.59
         },
         {
-          "color": "#E8A0B0",
-          "ratio": 0.3
+          "color": "#bf8952",
+          "ratio": 0.15
         },
         {
-          "color": "#E8D860",
-          "ratio": 0.35
+          "color": "#ce9200",
+          "ratio": 0.25
         }
       ],
-      "background": "#F0D8D0",
-      "emotion_y": 0.75,
-      "image": "/images/rothko/W030_1955_untitled-yellow-pink-yellow-on-light-pink.jpg"
+      "background": "#cc9100",
+      "emotion_y": 0.3,
+      "image": "/images/rothko/W030_1955_untitled-yellow-pink-yellow-on-light-pink.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#cc9100",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#ebac00",
+            "ratio": 0.59,
+            "y_start": 0.07,
+            "y_end": 0.54
+          },
+          {
+            "color": "#bf8952",
+            "ratio": 0.15,
+            "y_start": 0.57,
+            "y_end": 0.69
+          },
+          {
+            "color": "#ce9200",
+            "ratio": 0.25,
+            "y_start": 0.73,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#daa200",
+            "y_position": 0.55,
+            "width": 0.04
+          },
+          {
+            "color": "#cd9330",
+            "y_position": 0.71,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W031",
@@ -947,17 +1887,46 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#408040",
+          "color": "#343634",
           "ratio": 0.45
         },
         {
-          "color": "#E89040",
-          "ratio": 0.45
+          "color": "#e74500",
+          "ratio": 0.55
         }
       ],
-      "background": "#B03020",
+      "background": "#b67d3f",
       "emotion_y": 0.95,
-      "image": "/images/rothko/W031_1956_green-and-tangerine-on-red.jpg"
+      "image": "/images/rothko/W031_1956_green-and-tangerine-on-red.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#b67d3f",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#343634",
+            "ratio": 0.45,
+            "y_start": 0.07,
+            "y_end": 0.44
+          },
+          {
+            "color": "#e74500",
+            "ratio": 0.55,
+            "y_start": 0.48,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#8a5b2c",
+            "y_position": 0.46,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W032",
@@ -973,17 +1942,51 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#6B7B30",
-          "ratio": 0.5
+          "color": "#ab5200",
+          "ratio": 0.8
         },
         {
-          "color": "#B03020",
-          "ratio": 0.5
+          "color": "#8c1c03",
+          "ratio": 0.2
         }
       ],
-      "background": "#804020",
+      "background": "#e46a06",
       "emotion_y": 0.95,
-      "image": "/images/rothko/W032_1956_olive-over-red.jpg"
+      "image": "/images/rothko/W032_1956_olive-over-red.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#e46a06",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#ab5200",
+            "ratio": 0.8,
+            "y_start": 0.07,
+            "y_end": 0.67
+          },
+          {
+            "color": "#8c1c03",
+            "ratio": 0.2,
+            "y_start": 0.71,
+            "y_end": 0.86
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#c14900",
+            "y_position": 0.69,
+            "width": 0.04
+          },
+          {
+            "color": "#781605",
+            "y_position": 0.88,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W033",
@@ -999,17 +2002,51 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#E88030",
-          "ratio": 0.45
+          "color": "#e2551a",
+          "ratio": 0.7
         },
         {
-          "color": "#C83020",
-          "ratio": 0.45
+          "color": "#d51f1d",
+          "ratio": 0.3
         }
       ],
-      "background": "#A02818",
+      "background": "#d02b2f",
       "emotion_y": 0.8,
-      "image": "/images/rothko/W033_1957_orange-and-red-on-red.jpg"
+      "image": "/images/rothko/W033_1957_orange-and-red-on-red.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#d02b2f",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#e2551a",
+            "ratio": 0.7,
+            "y_start": 0.12,
+            "y_end": 0.66
+          },
+          {
+            "color": "#d51f1d",
+            "ratio": 0.3,
+            "y_start": 0.69,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#d6492d",
+            "y_position": 0.1,
+            "width": 0.04
+          },
+          {
+            "color": "#d7301c",
+            "y_position": 0.67,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W034",
@@ -1030,21 +2067,61 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#E8D050",
-          "ratio": 0.3
+          "color": "#eb9f00",
+          "ratio": 0.32
         },
         {
-          "color": "#F0E8E0",
-          "ratio": 0.25
+          "color": "#f9e9c1",
+          "ratio": 0.18
         },
         {
-          "color": "#B890C0",
-          "ratio": 0.3
+          "color": "#de7591",
+          "ratio": 0.5
         }
       ],
-      "background": "#D8A0A0",
+      "background": "#e67f5e",
       "emotion_y": 0.8,
-      "image": "/images/rothko/W034_1957_white-center-yellow-pink-and-lavender-on-rose.jpg"
+      "image": "/images/rothko/W034_1957_white-center-yellow-pink-and-lavender-on-rose.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#e67f5e",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#eb9f00",
+            "ratio": 0.32,
+            "y_start": 0.07,
+            "y_end": 0.32
+          },
+          {
+            "color": "#f9e9c1",
+            "ratio": 0.18,
+            "y_start": 0.36,
+            "y_end": 0.5
+          },
+          {
+            "color": "#de7591",
+            "ratio": 0.5,
+            "y_start": 0.54,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#a36738",
+            "y_position": 0.34,
+            "width": 0.04
+          },
+          {
+            "color": "#c78d8e",
+            "y_position": 0.52,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W035",
@@ -1060,17 +2137,51 @@
       "composition_type": "seagram",
       "color_blocks": [
         {
-          "color": "#1A1010",
-          "ratio": 0.45
+          "color": "#2b282b",
+          "ratio": 0.13
         },
         {
-          "color": "#501818",
-          "ratio": 0.45
+          "color": "#2f282a",
+          "ratio": 0.87
         }
       ],
-      "background": "#3A1515",
-      "emotion_y": 0.1,
-      "image": "/images/rothko/W035_1958_black-on-maroon.jpg"
+      "background": "#352b2d",
+      "emotion_y": -0.15,
+      "image": "/images/rothko/W035_1958_black-on-maroon.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#352b2d",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#2b282b",
+            "ratio": 0.13,
+            "y_start": 0.07,
+            "y_end": 0.17
+          },
+          {
+            "color": "#2f282a",
+            "ratio": 0.87,
+            "y_start": 0.21,
+            "y_end": 0.85
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#31292c",
+            "y_position": 0.19,
+            "width": 0.04
+          },
+          {
+            "color": "#2d2728",
+            "y_position": 0.87,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W036",
@@ -1086,17 +2197,56 @@
       "composition_type": "seagram",
       "color_blocks": [
         {
-          "color": "#802020",
-          "ratio": 0.45
+          "color": "#4b1d23",
+          "ratio": 0.75
         },
         {
-          "color": "#401515",
-          "ratio": 0.45
+          "color": "#4b1c22",
+          "ratio": 0.25
         }
       ],
-      "background": "#3A1212",
-      "emotion_y": -0.3,
-      "image": "/images/rothko/W036_1959_red-on-maroon.jpg"
+      "background": "#4a2a2f",
+      "emotion_y": -0.4,
+      "image": "/images/rothko/W036_1959_red-on-maroon.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#4a2a2f",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#4b1d23",
+            "ratio": 0.75,
+            "y_start": 0.14,
+            "y_end": 0.64
+          },
+          {
+            "color": "#4b1c22",
+            "ratio": 0.25,
+            "y_start": 0.68,
+            "y_end": 0.86
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#471d22",
+            "y_position": 0.12,
+            "width": 0.04
+          },
+          {
+            "color": "#4c2228",
+            "y_position": 0.66,
+            "width": 0.04
+          },
+          {
+            "color": "#491920",
+            "y_position": 0.88,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W037",
@@ -1112,25 +2262,71 @@
       "composition_type": "seagram",
       "color_blocks": [
         {
-          "color": "#2A0808",
-          "ratio": 0.25
+          "color": "#1c1414",
+          "ratio": 0.49
         },
         {
-          "color": "#3A1010",
-          "ratio": 0.25
+          "color": "#6c2e2c",
+          "ratio": 0.34
         },
         {
-          "color": "#2A0808",
-          "ratio": 0.25
-        },
-        {
-          "color": "#3A1010",
-          "ratio": 0.25
+          "color": "#75262a",
+          "ratio": 0.18
         }
       ],
-      "background": "#801818",
-      "emotion_y": 0.1,
-      "image": "/images/rothko/W037_1958_four-darks-in-red.jpg"
+      "background": "#752e2e",
+      "emotion_y": -0.15,
+      "image": "/images/rothko/W037_1958_four-darks-in-red.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#752e2e",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#1c1414",
+            "ratio": 0.49,
+            "y_start": 0.13,
+            "y_end": 0.43
+          },
+          {
+            "color": "#6c2e2c",
+            "ratio": 0.34,
+            "y_start": 0.47,
+            "y_end": 0.69
+          },
+          {
+            "color": "#75262a",
+            "ratio": 0.18,
+            "y_start": 0.81,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#241a1c",
+            "y_position": 0.11,
+            "width": 0.04
+          },
+          {
+            "color": "#612626",
+            "y_position": 0.45,
+            "width": 0.04
+          },
+          {
+            "color": "#7e2d2c",
+            "y_position": 0.71,
+            "width": 0.04
+          },
+          {
+            "color": "#89292b",
+            "y_position": 0.79,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W038",
@@ -1151,17 +2347,50 @@
       "composition_type": "seagram",
       "color_blocks": [
         {
-          "color": "#501818",
-          "ratio": 0.45
+          "color": "#fffbee",
+          "ratio": 0.6
         },
         {
-          "color": "#1A0808",
-          "ratio": 0.45
+          "color": "#b05233",
+          "ratio": 0.26
+        },
+        {
+          "color": "#3d302c",
+          "ratio": 0.14
         }
       ],
-      "background": "#381010",
-      "emotion_y": 0.1,
-      "image": "/images/rothko/W038_1958_no-10.jpg"
+      "background": "#fffbee",
+      "emotion_y": -0.15,
+      "image": "/images/rothko/W038_1958_no-10.jpg",
+      "color_extraction": {
+        "method": "band_fallback_kmeans",
+        "confidence": "medium",
+        "background": {
+          "color": "#fffbee",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#fffbee",
+            "ratio": 0.6,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#b05233",
+            "ratio": 0.26,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#3d302c",
+            "ratio": 0.14,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W039",
@@ -1177,17 +2406,40 @@
       "composition_type": "seagram",
       "color_blocks": [
         {
-          "color": "#3A1010",
-          "ratio": 0.45
+          "color": "#3b1e20",
+          "ratio": 0.69
         },
         {
-          "color": "#501515",
-          "ratio": 0.45
+          "color": "#522d2e",
+          "ratio": 0.31
         }
       ],
-      "background": "#2A0A0A",
-      "emotion_y": -0.3,
-      "image": "/images/rothko/W039_1959_untitled-seagram-mural-section-3.jpg"
+      "background": "#3a1c1c",
+      "emotion_y": -0.4,
+      "image": "/images/rothko/W039_1959_untitled-seagram-mural-section-3.jpg",
+      "color_extraction": {
+        "method": "band_fallback_kmeans",
+        "confidence": "medium",
+        "background": {
+          "color": "#3a1c1c",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#3b1e20",
+            "ratio": 0.69,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#522d2e",
+            "ratio": 0.31,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W040",
@@ -1203,17 +2455,66 @@
       "composition_type": "seagram",
       "color_blocks": [
         {
-          "color": "#401212",
-          "ratio": 0.45
+          "color": "#512f34",
+          "ratio": 0.67
         },
         {
-          "color": "#2A0808",
-          "ratio": 0.45
+          "color": "#46262b",
+          "ratio": 0.09
+        },
+        {
+          "color": "#422024",
+          "ratio": 0.24
         }
       ],
-      "background": "#300E0E",
-      "emotion_y": -0.3,
-      "image": "/images/rothko/W040_1959_untitled-seagram-mural-section-6.jpg"
+      "background": "#473134",
+      "emotion_y": -0.4,
+      "image": "/images/rothko/W040_1959_untitled-seagram-mural-section-6.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#473134",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#512f34",
+            "ratio": 0.67,
+            "y_start": 0.07,
+            "y_end": 0.54
+          },
+          {
+            "color": "#46262b",
+            "ratio": 0.09,
+            "y_start": 0.58,
+            "y_end": 0.64
+          },
+          {
+            "color": "#422024",
+            "ratio": 0.24,
+            "y_start": 0.68,
+            "y_end": 0.86
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#48272b",
+            "y_position": 0.56,
+            "width": 0.04
+          },
+          {
+            "color": "#45292d",
+            "y_position": 0.66,
+            "width": 0.04
+          },
+          {
+            "color": "#411e22",
+            "y_position": 0.88,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W041",
@@ -1234,21 +2535,61 @@
       "composition_type": "classic",
       "color_blocks": [
         {
-          "color": "#E88030",
-          "ratio": 0.35
+          "color": "#9b562c",
+          "ratio": 0.08
         },
         {
-          "color": "#C83020",
-          "ratio": 0.3
+          "color": "#da631c",
+          "ratio": 0.24
         },
         {
-          "color": "#E8C830",
-          "ratio": 0.35
+          "color": "#e95f23",
+          "ratio": 0.68
         }
       ],
-      "background": "#D07030",
+      "background": "#b14739",
       "emotion_y": 0.3,
-      "image": "/images/rothko/W041_1961_orange-red-yellow.jpg"
+      "image": "/images/rothko/W041_1961_orange-red-yellow.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#b14739",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#9b562c",
+            "ratio": 0.08,
+            "y_start": 0.07,
+            "y_end": 0.13
+          },
+          {
+            "color": "#da631c",
+            "ratio": 0.24,
+            "y_start": 0.17,
+            "y_end": 0.35
+          },
+          {
+            "color": "#e95f23",
+            "ratio": 0.68,
+            "y_start": 0.39,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#b54525",
+            "y_position": 0.15,
+            "width": 0.04
+          },
+          {
+            "color": "#ba4620",
+            "y_position": 0.37,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W042",
@@ -1264,21 +2605,66 @@
       "composition_type": "dark",
       "color_blocks": [
         {
-          "color": "#A02020",
-          "ratio": 0.35
+          "color": "#fcf1d4",
+          "ratio": 0.44
         },
         {
-          "color": "#5A3020",
-          "ratio": 0.3
+          "color": "#df7b00",
+          "ratio": 0.17
         },
         {
-          "color": "#1A1010",
-          "ratio": 0.35
+          "color": "#030305",
+          "ratio": 0.38
         }
       ],
-      "background": "#402020",
-      "emotion_y": 0.3,
-      "image": "/images/rothko/W042_1961_no-16-red-brown-and-black.jpg"
+      "background": "#1c369d",
+      "emotion_y": 0.2,
+      "image": "/images/rothko/W042_1961_no-16-red-brown-and-black.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#1c369d",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#fcf1d4",
+            "ratio": 0.44,
+            "y_start": 0.15,
+            "y_end": 0.46
+          },
+          {
+            "color": "#df7b00",
+            "ratio": 0.17,
+            "y_start": 0.5,
+            "y_end": 0.62
+          },
+          {
+            "color": "#030305",
+            "ratio": 0.38,
+            "y_start": 0.66,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#798cc0",
+            "y_position": 0.13,
+            "width": 0.04
+          },
+          {
+            "color": "#7c3b41",
+            "y_position": 0.48,
+            "width": 0.04
+          },
+          {
+            "color": "#74393a",
+            "y_position": 0.64,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W043",
@@ -1294,17 +2680,61 @@
       "composition_type": "dark",
       "color_blocks": [
         {
-          "color": "#8B2020",
-          "ratio": 0.5
+          "color": "#7b3c3f",
+          "ratio": 0.9
         },
         {
-          "color": "#601818",
-          "ratio": 0.5
+          "color": "#913230",
+          "ratio": 0.1
         }
       ],
-      "background": "#501515",
-      "emotion_y": -0.35,
-      "image": "/images/rothko/W043_1962_harvard-mural-panel-1-triptych.jpg"
+      "background": "#763f42",
+      "emotion_y": -0.4,
+      "image": "/images/rothko/W043_1962_harvard-mural-panel-1-triptych.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#763f42",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#7b3c3f",
+            "ratio": 0.9,
+            "y_start": 0.28,
+            "y_end": 0.83
+          },
+          {
+            "color": "#913230",
+            "ratio": 0.1,
+            "y_start": 0.87,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#884343",
+            "y_position": 0.12,
+            "width": 0.04
+          },
+          {
+            "color": "#874040",
+            "y_position": 0.19,
+            "width": 0.04
+          },
+          {
+            "color": "#813f40",
+            "y_position": 0.26,
+            "width": 0.04
+          },
+          {
+            "color": "#7f3639",
+            "y_position": 0.85,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W044",
@@ -1325,21 +2755,30 @@
       "composition_type": "dark",
       "color_blocks": [
         {
-          "color": "#5A2060",
-          "ratio": 0.35
-        },
-        {
-          "color": "#2A6030",
-          "ratio": 0.3
-        },
-        {
-          "color": "#A02020",
-          "ratio": 0.35
+          "color": "#fffef2",
+          "ratio": 1
         }
       ],
-      "background": "#503040",
+      "background": "#fffef2",
       "emotion_y": -0.35,
-      "image": "/images/rothko/W044_1951_no-6-violet-green-and-red.jpg"
+      "image": "/images/rothko/W044_1951_no-6-violet-green-and-red.jpg",
+      "color_extraction": {
+        "method": "band_fallback_kmeans",
+        "confidence": "medium",
+        "background": {
+          "color": "#fffef2",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#fffef2",
+            "ratio": 1,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W045",
@@ -1355,17 +2794,66 @@
       "composition_type": "dark",
       "color_blocks": [
         {
-          "color": "#2A3A60",
-          "ratio": 0.5
+          "color": "#a79a88",
+          "ratio": 0.81
         },
         {
-          "color": "#8B8B8B",
-          "ratio": 0.5
+          "color": "#130e25",
+          "ratio": 0.19
         }
       ],
-      "background": "#4A5060",
-      "emotion_y": -0.35,
-      "image": "/images/rothko/W045_1962_blue-and-grey.jpg"
+      "background": "#312b2f",
+      "emotion_y": -0.4,
+      "image": "/images/rothko/W045_1962_blue-and-grey.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#312b2f",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#a79a88",
+            "ratio": 0.81,
+            "y_start": 0.07,
+            "y_end": 0.52
+          },
+          {
+            "color": "#130e25",
+            "ratio": 0.19,
+            "y_start": 0.83,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#a29586",
+            "y_position": 0.54,
+            "width": 0.04
+          },
+          {
+            "color": "#524e52",
+            "y_position": 0.61,
+            "width": 0.04
+          },
+          {
+            "color": "#151227",
+            "y_position": 0.67,
+            "width": 0.04
+          },
+          {
+            "color": "#15122b",
+            "y_position": 0.75,
+            "width": 0.04
+          },
+          {
+            "color": "#14112a",
+            "y_position": 0.81,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W046",
@@ -1382,17 +2870,46 @@
       "composition_type": "dark",
       "color_blocks": [
         {
-          "color": "#0A0A0A",
-          "ratio": 0.6
+          "color": "#39322f",
+          "ratio": 0.93
         },
         {
-          "color": "#1A1A1A",
-          "ratio": 0.4
+          "color": "#37302d",
+          "ratio": 0.07
         }
       ],
-      "background": "#0F0F0F",
-      "emotion_y": -0.2,
-      "image": "/images/rothko/W046_1964_no-8-black-form-series.jpg"
+      "background": "#3f3430",
+      "emotion_y": -0.3,
+      "image": "/images/rothko/W046_1964_no-8-black-form-series.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#3f3430",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#39322f",
+            "ratio": 0.93,
+            "y_start": 0.07,
+            "y_end": 0.83
+          },
+          {
+            "color": "#37302d",
+            "ratio": 0.07,
+            "y_start": 0.87,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#3b312c",
+            "y_position": 0.85,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W047",
@@ -1418,8 +2935,31 @@
         }
       ],
       "background": "#100810",
-      "emotion_y": -0.09,
-      "image": "/images/rothko/W047_1964_rothko-chapel-paintings.jpg"
+      "emotion_y": -0.3,
+      "image": "/images/rothko/W047_1964_rothko-chapel-paintings.jpg",
+      "color_extraction": {
+        "method": "manual_override",
+        "confidence": "manual",
+        "background": {
+          "color": "#100810",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#1A0A1A",
+            "ratio": 0.5,
+            "y_start": 0.1,
+            "y_end": 0.5
+          },
+          {
+            "color": "#0A0A0A",
+            "ratio": 0.5,
+            "y_start": 0.5,
+            "y_end": 0.9
+          }
+        ],
+        "edge_colors": []
+      }
     },
     {
       "id": "W048",
@@ -1435,17 +2975,46 @@
       "composition_type": "final",
       "color_blocks": [
         {
-          "color": "#4A3020",
-          "ratio": 0.5
+          "color": "#130803",
+          "ratio": 0.43
         },
         {
-          "color": "#8B8B8B",
-          "ratio": 0.5
+          "color": "#3e3c33",
+          "ratio": 0.57
         }
       ],
-      "background": "#605040",
+      "background": "#403a31",
       "emotion_y": -0.7,
-      "image": "/images/rothko/W048_1968_untitled-brown-and-gray.jpg"
+      "image": "/images/rothko/W048_1968_untitled-brown-and-gray.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#403a31",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#130803",
+            "ratio": 0.43,
+            "y_start": 0.07,
+            "y_end": 0.42
+          },
+          {
+            "color": "#3e3c33",
+            "ratio": 0.57,
+            "y_start": 0.46,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#1f1815",
+            "y_position": 0.44,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W049",
@@ -1462,17 +3031,61 @@
       "composition_type": "final",
       "color_blocks": [
         {
-          "color": "#0A0A0A",
-          "ratio": 0.5
+          "color": "#010302",
+          "ratio": 0.36
         },
         {
-          "color": "#7B7B7B",
-          "ratio": 0.5
+          "color": "#040404",
+          "ratio": 0.51
+        },
+        {
+          "color": "#010302",
+          "ratio": 0.13
         }
       ],
-      "background": "#3A3A3A",
+      "background": "#231718",
       "emotion_y": -0.85,
-      "image": "/images/rothko/W049_1969_untitled-black-on-gray.jpg"
+      "image": "/images/rothko/W049_1969_untitled-black-on-gray.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#231718",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#010302",
+            "ratio": 0.36,
+            "y_start": 0.07,
+            "y_end": 0.36
+          },
+          {
+            "color": "#040404",
+            "ratio": 0.51,
+            "y_start": 0.4,
+            "y_end": 0.79
+          },
+          {
+            "color": "#010302",
+            "ratio": 0.13,
+            "y_start": 0.83,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#040404",
+            "y_position": 0.38,
+            "width": 0.04
+          },
+          {
+            "color": "#070505",
+            "y_position": 0.81,
+            "width": 0.04
+          }
+        ]
+      }
     },
     {
       "id": "W050",
@@ -1489,17 +3102,46 @@
       "composition_type": "final",
       "color_blocks": [
         {
-          "color": "#0A0A0A",
-          "ratio": 0.5
+          "color": "#d7060a",
+          "ratio": 0.38
         },
         {
-          "color": "#3A3A3A",
-          "ratio": 0.5
+          "color": "#c50103",
+          "ratio": 0.62
         }
       ],
-      "background": "#1A1A1A",
-      "emotion_y": -1,
-      "image": "/images/rothko/W050_1970_untitled.jpg"
+      "background": "#e3282b",
+      "emotion_y": -1.0,
+      "image": "/images/rothko/W050_1970_untitled.jpg",
+      "color_extraction": {
+        "method": "horizontal_band",
+        "confidence": "high",
+        "background": {
+          "color": "#e3282b",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#d7060a",
+            "ratio": 0.38,
+            "y_start": 0.07,
+            "y_end": 0.38
+          },
+          {
+            "color": "#c50103",
+            "ratio": 0.62,
+            "y_start": 0.42,
+            "y_end": 0.93
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#d10d0d",
+            "y_position": 0.4,
+            "width": 0.04
+          }
+        ]
+      }
     }
   ],
   "auction_records_top7": [
