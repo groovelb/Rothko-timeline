@@ -1,5 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { useMotionValue, useTransform } from 'framer-motion';
+import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import { HorizontalScrollContainer } from '../content-transition/HorizontalScrollContainer.jsx';
 import { TimelineCanvas } from './TimelineCanvas.jsx';
 import { useTimelineLayout } from './useTimelineLayout.js';
@@ -34,6 +36,16 @@ function RothkoTimeline({
   );
   const [activeId, setActiveId] = useState(null);
 
+  /** 반응형 값 계산 */
+  const theme = useTheme();
+  const isBelowSm = useMediaQuery(theme.breakpoints.down('sm'));
+  const isBelowMd = useMediaQuery(theme.breakpoints.down('md'));
+  const isBelowLg = useMediaQuery(theme.breakpoints.down('lg'));
+
+  const responsivePxPerYear = isBelowSm ? 120 : isBelowMd ? 160 : isBelowLg ? 200 : pxPerYear;
+  const axisRatio = isBelowSm ? 0.6 : 0.5;
+  const nodeScale = isBelowSm ? 0.53 : isBelowMd ? 0.67 : isBelowLg ? 0.83 : 1.0;
+
   useEffect(() => {
     const handleResize = () => {
       setViewportWidth(window.innerWidth);
@@ -46,9 +58,10 @@ function RothkoTimeline({
   const layout = useTimelineLayout({
     worksData,
     eventsData,
-    pxPerYear,
+    pxPerYear: responsivePxPerYear,
     viewportWidth,
     viewportHeight,
+    axisRatio,
   });
 
   /** 스크롤 진행도 → Y축 라벨 고정용 counter-offset */
@@ -90,6 +103,7 @@ function RothkoTimeline({
         onItemHover={ handleItemHover }
         onItemLeave={ handleItemLeave }
         scrollOffset={ scrollOffset }
+        nodeScale={ nodeScale }
       />
     </HorizontalScrollContainer>
   );

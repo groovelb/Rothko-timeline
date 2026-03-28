@@ -51,11 +51,11 @@ const BAND_ORDER = ['EXPAND', 'RADIATE', 'EQUIL', 'CONTRACT', 'VOID'];
 
 /** 밴드별 일대기 설명 */
 const BAND_DESC = {
-  EXPAND: '1949년 클래식 색면 양식을 확립한 로스코는 1950년대 초 창작의 정점에 도달한다. 유럽 여행(1950)에서 마티스와 르네상스 프레스코에 깊은 영감을 받고, 딸 케이트의 탄생(1950)과 함께 개인적 행복도 절정에 이른다. 베티 파슨스 갤러리에서의 연이은 개인전, MoMA 「15인의 미국인」전(1952) 참여로 미술계의 핵심 인물로 부상한다. 이 시기의 작품들은 오렌지, 레드, 옐로우의 발광하는 색면으로 가득 차 있으며, 캔버스 자체가 빛을 내뿜는 듯한 강렬한 에너지를 품고 있다.',
-  RADIATE: '1930~40년대의 구상화와 신화적 초현실주의를 거쳐, 로스코는 1947년 멀티폼(Multiform) 양식으로의 전환기를 맞는다. 첫 아내 에디스와의 이혼(1944) 후 삽화가 멜 바이슬러와 재혼(1945)하며 새로운 출발을 한다. 뉴욕 예술학교(Subjects of the Artist) 공동 설립(1948), 아트 오브 디스 센추리 갤러리에서의 첫 개인전(1945) 등 예술적 정체성을 확립해가는 시기다. 구상의 잔재가 서서히 녹아 색면으로 발산되며, 형태는 부유하고 색채는 점차 자율적으로 진동하기 시작한다.',
-  EQUIL: '확장과 수축 사이의 전환점에 놓인 작품들이다. 초기 지하철 연작(1938)에서 도시적 고독을 탐구하던 로스코가 신화적 주제로 이행하고, 다시 순수 추상으로 나아가는 과도기의 균형 상태를 반영한다. 시그램 벽화 초기작(1958)처럼 팽창의 에너지와 수축의 긴장이 공존하는 작품들로, 로스코가 하나의 양식을 떠나 다음 단계로 이행하기 직전의 명상적 평형 상태를 담고 있다.',
-  CONTRACT: '1958년 시그램 벽화 프로젝트는 로스코 예술의 전환점이 된다. 고급 레스토랑에 걸릴 작품에 실존적 위기감을 담으려 했으나, 결국 계약을 파기하고 작품을 회수한다(1959). 어머니 케이트의 사망(1948)과 팝 아트의 부상으로 인한 고립감이 깊어지며, 색조는 짙은 적갈색, 검은색, 마룬으로 응축된다. 하버드 벽화(1962), 로스코 채플 의뢰(1964) 등 기념비적 프로젝트를 수행하지만, 건강 악화와 과도한 음주, 우울증이 심화된다. 에너지는 외부로 발산되지 못하고 캔버스 안쪽으로 깊이 침잠한다.',
-  VOID: '1968년 대동맥류 진단 후 로스코의 세계는 급격히 축소된다. 아내 멜과 별거하고, 스튜디오에서 홀로 작업한다. 이 시기의 「Black on Gray」 연작은 검은색과 회색의 두 수평면만으로 구성되며, 이전 작품들에 있던 색채의 에너지가 완전히 소멸된 상태다. 1970년 2월 25일, 뉴욕 스튜디오에서 스스로 생을 마감한다. 마지막 작품들은 형태의 해체이자 색의 환원—존재가 정적으로 귀결되는 과정 그 자체다.',
+  EXPAND: '1949–54. 색면 양식 확립기. 오렌지·레드·옐로우의 발광하는 색면으로 창작 에너지가 정점에 도달.',
+  RADIATE: '1945–48. 구상에서 멀티폼으로의 전환기. 형태가 녹아 색면으로 발산되며, 색채가 자율적으로 진동하기 시작.',
+  EQUIL: '1938–44. 양식 전환의 과도기. 팽창과 수축의 에너지가 공존하는 명상적 평형 상태.',
+  CONTRACT: '1958–67. 시그램 벽화 파기 이후 색조가 적갈색·마룬·검정으로 응축. 고립과 건강 악화 속 채플 프로젝트 수행.',
+  VOID: '1968–70. 대동맥류 진단 후 「Black on Gray」 연작. 색채가 소멸하고 검정과 회색만 남는다.',
 };
 
 /** 이벤트 스트립 높이 — 축 바로 아래, 하단 패널 위 */
@@ -80,6 +80,7 @@ const EVENT_STRIP_H = 48;
  * @param {function} onItemHover - 호버 콜백 [Optional]
  * @param {function} onItemLeave - 호버 해제 콜백 [Optional]
  * @param {Object} scrollOffset - 화면 고정용 framer-motion MotionValue [Optional]
+ * @param {number} nodeScale - 작품 노드 크기 스케일 (0~1) [Optional, 기본값: 1]
  *
  * Example usage:
  * <TimelineCanvas {...layoutData} viewportHeight={800} />
@@ -97,6 +98,7 @@ function TimelineCanvas({
   onItemHover,
   onItemLeave,
   scrollOffset,
+  nodeScale = 1,
 }) {
   const activeWork = activeId
     ? positionedWorks.find((w) => w.id === activeId)
@@ -158,18 +160,20 @@ function TimelineCanvas({
         } }
       >
         <Typography
-          variant="h6"
+          variant="h4"
           sx={ {
             display: 'block',
-            fontSize: '0.85rem',
-            color: 'text.secondary',
+            fontSize: '1.8rem',
+            fontWeight: 700,
+            color: 'text.primary',
+            letterSpacing: '0.04em',
           } }
         >
           Mark Rothko
         </Typography>
         <Typography
           variant="caption"
-          sx={ { color: 'text.disabled', mt: 0.25 } }
+          sx={ { color: 'text.disabled', mt: 0.5 } }
         >
           1903 — 1970
         </Typography>
@@ -193,8 +197,10 @@ function TimelineCanvas({
           work={ work }
           axisY={ axisY }
           isActive={ activeId === work.id }
+          nodeScale={ nodeScale }
           onMouseEnter={ () => onItemHover?.(work.id) }
           onMouseLeave={ () => onItemLeave?.() }
+          onClick={ () => onItemHover?.(work.id) }
         />
       )) }
 
@@ -216,6 +222,7 @@ function TimelineCanvas({
           width: '100vw',
           height: panelHeight,
           display: 'flex',
+          paddingTop: 24,
           pointerEvents: 'none',
           zIndex: 4,
           x: scrollOffset,
@@ -224,24 +231,33 @@ function TimelineCanvas({
         {/* ── Col 1 — Entropy Distribution ── */}
         <Box
           sx={ {
-            width: '25%',
+            width: { xs: '100%', lg: '25%' },
             height: '100%',
             display: 'flex',
             flexDirection: 'column',
-            px: 9,
-            py: 7.5,
+            px: { xs: 3, sm: 4, md: 5, lg: 6, xl: 9 },
+            py: { xs: 2, sm: 3, md: 4, lg: 5, xl: 7.5 },
             overflow: 'hidden',
           } }
         >
           <Typography
             variant="h4"
-            sx={ { color: 'text.primary', mb: 0.5, flexShrink: 0 } }
+            sx={ {
+              color: 'text.primary',
+              mb: 0.5,
+              flexShrink: 0,
+              fontSize: { lg: '1.25rem', xl: '1.5rem' },
+            } }
           >
             Entropy Distribution
           </Typography>
           <Typography
             variant="body2"
-            sx={ { color: 'text.disabled', mb: 4, flexShrink: 0 } }
+            sx={ {
+              color: 'text.disabled',
+              mb: { lg: 3, xl: 4 },
+              flexShrink: 0,
+            } }
           >
             감정 엔트로피 축에 따른 색상 사용 분포
           </Typography>
@@ -301,30 +317,32 @@ function TimelineCanvas({
         {/* ── Col 2 — Color Analysis ── */}
         <Box
           sx={ {
-            width: '25%',
+            width: { md: '33%', lg: '25%' },
             height: '100%',
-            display: 'flex',
+            display: { xs: 'none', md: 'flex' },
             flexDirection: 'column',
-            borderLeft: '1px solid',
+            borderLeft: { md: '1px solid' },
             borderColor: 'grey.200',
             overflow: 'hidden',
             pointerEvents: 'auto',
           } }
         >
-          <Box sx={ { px: 7.5, pt: 7.5, pb: 2, flexShrink: 0 } }>
+          <Box sx={ { px: { md: 3, lg: 5, xl: 7.5 }, pt: { md: 3, lg: 5, xl: 7.5 }, pb: { md: 1, lg: 1.5, xl: 2 }, flexShrink: 0 } }>
             <Typography
               variant="h4"
-              sx={ { color: 'text.primary' } }
+              sx={ {
+                color: 'text.primary',
+                fontSize: { md: '1.125rem', lg: '1.25rem', xl: '1.5rem' },
+              } }
             >
               Color Analysis
             </Typography>
           </Box>
 
-          {/* 밴드 탭 */}
           <Box
             sx={ {
               display: 'flex',
-              px: 3,
+              px: { md: 1.5, lg: 2, xl: 3 },
               gap: '2px',
               flexShrink: 0,
             } }
@@ -357,115 +375,119 @@ function TimelineCanvas({
             )) }
           </Box>
 
-          {/* 밴드 설명 */}
-          <Box sx={ { px: 7.5, py: 3, backgroundColor: 'grey.50', flexShrink: 0 } }>
-            <Typography
-              variant="caption"
-              sx={ { color: 'text.secondary', lineHeight: 1.6 } }
-            >
-              { BAND_DESC[selectedBand] }
-            </Typography>
-          </Box>
-
-          {/* 스크롤 작품 리포트 */}
+          {/* 스크롤 영역 — 설명 + 작품 리스트 전체 */}
           <Box
             sx={ {
               flex: 1,
               overflowY: 'auto',
-              px: 6,
-              py: 3,
               '&::-webkit-scrollbar': { width: 3 },
               '&::-webkit-scrollbar-thumb': { backgroundColor: 'grey.300', borderRadius: 2 },
             } }
           >
-            { bandWorksReport.length > 0 ? bandWorksReport.map((work) => (
-              <Box
-                key={ work.id }
-                sx={ {
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: 1.5,
-                  py: 1,
-                  borderBottom: '1px solid',
-                  borderColor: 'grey.100',
-                  '&:last-child': { borderBottom: 'none' },
-                } }
-              >
-                <Box
-                  component="img"
-                  src={ work.image }
-                  alt={ work.title }
-                  sx={ {
-                    width: 40,
-                    height: 40,
-                    objectFit: 'cover',
-                    borderRadius: '2px',
-                    flexShrink: 0,
-                  } }
-                />
-                <Box sx={ { flex: 1, minWidth: 0 } }>
-                  <Typography
-                    variant="body2"
-                    sx={ {
-                      fontWeight: 500,
-                      overflow: 'hidden',
-                      textOverflow: 'ellipsis',
-                      whiteSpace: 'nowrap',
-                    } }
-                  >
-                    { work.title }
-                  </Typography>
-                  <Box sx={ { display: 'flex', gap: '3px', mt: 0.5 } }>
-                    { work.color_blocks?.map((block, i) => (
-                      <Box
-                        key={ i }
-                        sx={ {
-                          width: 14,
-                          height: 14,
-                          backgroundColor: block.color,
-                          borderRadius: '2px',
-                          flexShrink: 0,
-                        } }
-                      />
-                    )) }
-                  </Box>
-                </Box>
-                <Typography
-                  variant="caption"
-                  sx={ { color: 'text.disabled', flexShrink: 0 } }
-                >
-                  { work.year }
-                </Typography>
-              </Box>
-            )) : (
+            {/* 밴드 설명 */}
+            <Box sx={ { px: { md: 3, lg: 5, xl: 7.5 }, py: { md: 1.5, lg: 2, xl: 2 }, backgroundColor: 'grey.50' } }>
               <Typography
-                variant="body2"
-                sx={ { color: 'text.disabled', fontStyle: 'italic', pt: 2 } }
+                variant="caption"
+                sx={ { color: 'text.secondary', lineHeight: 1.6 } }
               >
-                해당 밴드에 작품 없음
+                { BAND_DESC[selectedBand] }
               </Typography>
-            ) }
+            </Box>
+
+            {/* 작품 리포트 */}
+            <Box sx={ { px: { md: 3, lg: 4, xl: 6 }, py: { md: 2, lg: 2.5, xl: 3 } } }>
+              { bandWorksReport.length > 0 ? bandWorksReport.map((work) => (
+                <Box
+                  key={ work.id }
+                  sx={ {
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 1.5,
+                    py: 1,
+                    borderBottom: '1px solid',
+                    borderColor: 'grey.100',
+                    '&:last-child': { borderBottom: 'none' },
+                  } }
+                >
+                  <Box
+                    component="img"
+                    src={ work.image }
+                    alt={ work.title }
+                    sx={ {
+                      width: 40,
+                      height: 40,
+                      objectFit: 'cover',
+                      borderRadius: '2px',
+                      flexShrink: 0,
+                    } }
+                  />
+                  <Box sx={ { flex: 1, minWidth: 0 } }>
+                    <Typography
+                      variant="body2"
+                      sx={ {
+                        fontWeight: 500,
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        whiteSpace: 'nowrap',
+                      } }
+                    >
+                      { work.title }
+                    </Typography>
+                    <Box sx={ { display: 'flex', gap: '3px', mt: 0.5 } }>
+                      { work.color_blocks?.map((block, i) => (
+                        <Box
+                          key={ i }
+                          sx={ {
+                            width: 14,
+                            height: 14,
+                            backgroundColor: block.color,
+                            borderRadius: '2px',
+                            flexShrink: 0,
+                          } }
+                        />
+                      )) }
+                    </Box>
+                  </Box>
+                  <Typography
+                    variant="caption"
+                    sx={ { color: 'text.disabled', flexShrink: 0 } }
+                  >
+                    { work.year }
+                  </Typography>
+                </Box>
+              )) : (
+                <Typography
+                  variant="body2"
+                  sx={ { color: 'text.disabled', fontStyle: 'italic', pt: 2 } }
+                >
+                  해당 밴드에 작품 없음
+                </Typography>
+              ) }
+            </Box>
           </Box>
         </Box>
 
         {/* ── Col 3 — Selected Work ── */}
         <Box
           sx={ {
-            width: '25%',
+            width: { md: '33%', lg: '25%' },
             height: '100%',
-            display: 'flex',
+            display: { xs: 'none', md: 'flex' },
             flexDirection: 'column',
-            borderLeft: '1px solid',
+            borderLeft: { md: '1px solid' },
             borderColor: 'grey.200',
             overflow: 'hidden',
           } }
         >
-          <Box sx={ { px: 7.5, pt: 7.5, pb: 2, flexShrink: 0 } }>
+          <Box sx={ { px: { md: 4, lg: 5, xl: 7.5 }, pt: { md: 3, lg: 5, xl: 7.5 }, pb: { md: 1, lg: 1.5, xl: 2 }, flexShrink: 0 } }>
             <Typography
               variant="h4"
-              sx={ { color: 'text.primary' } }
+              sx={ {
+                color: 'text.primary',
+                fontSize: { md: '1.125rem', lg: '1.25rem', xl: '1.5rem' },
+              } }
             >
-              Selected Work
+              { activeWork ? 'Selected Work' : 'Portrait' }
             </Typography>
           </Box>
           <Box
@@ -476,43 +498,49 @@ function TimelineCanvas({
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              p: 6,
+              p: activeWork
+                ? { md: 3, lg: 4, xl: 6 }
+                : { md: 2, lg: 3, xl: 4 },
             } }
           >
-            { activeWork && (
-              <Box
-                component="img"
-                src={ activeWork.image }
-                alt={ activeWork.title }
-                sx={ {
-                  maxWidth: '100%',
-                  maxHeight: '100%',
-                  objectFit: 'contain',
-                } }
-              />
-            ) }
+            <Box
+              component="img"
+              src={ activeWork ? activeWork.image : '/images/rothko/rothko-portrait-1949.jpg' }
+              alt={ activeWork ? activeWork.title : 'Mark Rothko, photographed by Consuelo Kanaga, c. 1949' }
+              sx={ {
+                maxWidth: '100%',
+                maxHeight: '100%',
+                objectFit: 'contain',
+                opacity: activeWork ? 1 : 0.7,
+              } }
+            />
           </Box>
         </Box>
 
         {/* ── Col 4 — Details ── */}
         <Box
           sx={ {
-            width: '25%',
+            width: { md: '34%', lg: '25%' },
             height: '100%',
-            display: 'flex',
+            display: { xs: 'none', md: 'flex' },
             flexDirection: 'column',
-            px: 9,
-            py: 7.5,
-            borderLeft: '1px solid',
+            px: { md: 4, lg: 6, xl: 9 },
+            py: { md: 3, lg: 5, xl: 7.5 },
+            borderLeft: { md: '1px solid' },
             borderColor: 'grey.200',
             overflow: 'hidden',
           } }
         >
           <Typography
             variant="h4"
-            sx={ { color: 'text.primary', mb: 4, flexShrink: 0 } }
+            sx={ {
+              color: 'text.primary',
+              mb: { md: 2, lg: 3, xl: 4 },
+              flexShrink: 0,
+              fontSize: { md: '1.125rem', lg: '1.25rem', xl: '1.5rem' },
+            } }
           >
-            Details
+            { activeWork ? 'Details' : 'About' }
           </Typography>
 
           { activeWork ? (
@@ -570,12 +598,30 @@ function TimelineCanvas({
               ) }
             </Box>
           ) : (
-            <Box sx={ { flex: 1, display: 'flex', alignItems: 'center' } }>
+            <Box sx={ { flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center' } }>
+              <Typography
+                variant="h5"
+                sx={ { color: 'text.primary', mb: 2 } }
+              >
+                Mark Rothko
+              </Typography>
+              <Typography
+                variant="subtitle2"
+                sx={ { color: 'text.secondary', mb: 2 } }
+              >
+                1903, Daugavpils — 1970, New York
+              </Typography>
               <Typography
                 variant="body2"
-                sx={ { color: 'text.disabled', fontStyle: 'italic' } }
+                sx={ { color: 'text.secondary', lineHeight: 1.7, mb: 2 } }
               >
-                작품 위에 마우스를 올려보세요
+                라트비아 태생의 미국 화가. 색면 추상(Color Field Painting)의 선구자로, 거대한 캔버스 위에 부유하는 색채의 직사각형들을 통해 인간의 근원적 감정 — 비극, 황홀, 운명 — 을 직접 전달하고자 했다.
+              </Typography>
+              <Typography
+                variant="body2"
+                sx={ { color: 'text.disabled', lineHeight: 1.7 } }
+              >
+                작품 위에 마우스를 올려 상세 정보를 확인하세요.
               </Typography>
             </Box>
           ) }

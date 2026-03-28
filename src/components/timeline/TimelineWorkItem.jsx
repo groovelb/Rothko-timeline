@@ -16,8 +16,10 @@ const YEAR_LABEL_HEIGHT = 18;
  * @param {Object} work - 배치 계산된 작품 데이터 {x, y, band, title, year, image, color_blocks, ...} [Required]
  * @param {number} axisY - 축 Y 위치 (px) [Required]
  * @param {boolean} isActive - 호버/선택 상태 [Optional, 기본값: false]
+ * @param {number} nodeScale - 노드 크기 스케일 (0~1) [Optional, 기본값: 1]
  * @param {function} onMouseEnter - 마우스 진입 콜백 [Optional]
  * @param {function} onMouseLeave - 마우스 이탈 콜백 [Optional]
+ * @param {function} onClick - 클릭 콜백 (터치 디바이스용) [Optional]
  *
  * Example usage:
  * <TimelineWorkItem work={positionedWork} axisY={400} isActive={false} />
@@ -26,22 +28,27 @@ function TimelineWorkItem({
   work,
   axisY,
   isActive = false,
+  nodeScale = 1,
   onMouseEnter,
   onMouseLeave,
+  onClick,
 }) {
   const dotColor = '#000';
-  const connectorHeight = axisY - work.y - YEAR_LABEL_HEIGHT - IMAGE_HEIGHT - 2;
+  const scaledW = Math.round(IMAGE_WIDTH * nodeScale);
+  const scaledH = Math.round(IMAGE_HEIGHT * nodeScale);
+  const connectorHeight = axisY - work.y - YEAR_LABEL_HEIGHT - scaledH - 2;
   const isFlipped = work.y < 140;
 
   return (
     <Box
       onMouseEnter={ onMouseEnter }
       onMouseLeave={ onMouseLeave }
+      onClick={ onClick }
       sx={ {
         position: 'absolute',
         left: work.x,
         top: work.y,
-        width: IMAGE_WIDTH,
+        width: scaledW,
         cursor: 'pointer',
         zIndex: isActive ? 10 : 1,
         '&:hover .work-tooltip': {
@@ -74,8 +81,8 @@ function TimelineWorkItem({
         loading="lazy"
         sx={ {
           display: 'block',
-          width: IMAGE_WIDTH,
-          maxHeight: IMAGE_HEIGHT,
+          width: scaledW,
+          maxHeight: scaledH,
           objectFit: 'contain',
         } }
       />
@@ -111,7 +118,7 @@ function TimelineWorkItem({
           position: 'absolute',
           left: '50%',
           ...(isFlipped
-            ? { top: YEAR_LABEL_HEIGHT + IMAGE_HEIGHT + 8, transform: 'translateX(-50%)' }
+            ? { top: YEAR_LABEL_HEIGHT + scaledH + 8, transform: 'translateX(-50%)' }
             : { top: -8, transform: 'translateX(-50%) translateY(-100%)' }
           ),
           opacity: 0,

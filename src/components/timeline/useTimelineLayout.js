@@ -54,6 +54,7 @@ function toBand(emotionY) {
  * @param {number} pxPerYear - 연도당 픽셀 수 [Optional, 기본값: 250]
  * @param {number} viewportWidth - 뷰포트 너비 [Optional, 기본값: 1920]
  * @param {number} viewportHeight - 뷰포트 높이 [Optional, 기본값: 800]
+ * @param {number} axisRatio - 축 Y 위치 비율 (0~1) [Optional, 기본값: 0.5]
  */
 function useTimelineLayout({
   worksData,
@@ -61,6 +62,7 @@ function useTimelineLayout({
   pxPerYear = 250,
   viewportWidth = 1920,
   viewportHeight = 800,
+  axisRatio = 0.5,
 }) {
   return useMemo(() => {
     const works = worksData?.works || [];
@@ -78,7 +80,7 @@ function useTimelineLayout({
 
     const totalWidth = yearToX(END_YEAR) + leftPad;
     const TOP_PADDING = 40;
-    const axisY = viewportHeight * 0.5;
+    const axisY = viewportHeight * axisRatio;
     const upperHeight = axisY - TOP_PADDING;
     const Y_SCALE_MARGIN = 0.15;
     const scaleHeight = upperHeight * (1 - 2 * Y_SCALE_MARGIN);
@@ -108,15 +110,21 @@ function useTimelineLayout({
       yearWorkGroups[key].push(w);
     });
 
+    /** 작품 노드 높이 — 연도라벨(18) + 이미지(80) + 도트(6) + 여백(2) */
+    const NODE_TOTAL_H = 106;
+    const minNodeY = TOP_PADDING;
+    const maxNodeY = axisY - NODE_TOTAL_H;
+
     const positionedWorks = works.map((work) => {
       const group = yearWorkGroups[work.year];
       const indexInYear = group.indexOf(work);
-      const subOffset = indexInYear * 140;
+      const subOffset = indexInYear * Math.round(140 * (pxPerYear / 250));
 
       const band = toBand(work.emotion_y);
       const bandRatio = BAND_POSITIONS[band];
       const jitter = seededJitter(work.id);
-      const y = scaleTop + scaleHeight * (1 - bandRatio) + jitter;
+      const rawY = scaleTop + scaleHeight * (1 - bandRatio) + jitter;
+      const y = Math.max(minNodeY, Math.min(maxNodeY, rawY));
       const x = yearToX(work.year) + subOffset;
 
       return { ...work, x, y, band };
@@ -171,7 +179,7 @@ function useTimelineLayout({
       axisY,
       yearToX,
     };
-  }, [worksData, eventsData, pxPerYear, viewportWidth, viewportHeight]);
+  }, [worksData, eventsData, pxPerYear, viewportWidth, viewportHeight, axisRatio]);
 }
 
 export { useTimelineLayout };
