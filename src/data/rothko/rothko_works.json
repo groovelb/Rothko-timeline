@@ -1,0 +1,1528 @@
+{
+  "meta": {
+    "title": "Mark Rothko — Major Works (50 Selected)",
+    "artist": {
+      "name": "Mark Rothko",
+      "birth_name": "Markus Yakovlevich Rothkowitz",
+      "birth": "1903-09-25",
+      "death": "1970-02-25",
+      "birth_place": "Dvinsk, Russian Empire (now Daugavpils, Latvia)",
+      "death_place": "New York City, USA"
+    },
+    "periods": [
+      {
+        "id": "FIG",
+        "label": "구상기 (Figurative)",
+        "range": "1924–1940",
+        "color_tendency": "탁한 갈색, 회색, 어두운 도시 팔레트"
+      },
+      {
+        "id": "MYTH",
+        "label": "신화/초현실기 (Mythomorphic)",
+        "range": "1940–1946",
+        "color_tendency": "회갈색, 적갈색, 몽환적 톤"
+      },
+      {
+        "id": "MULTI",
+        "label": "멀티폼 전환기 (Multiforms)",
+        "range": "1946–1949",
+        "color_tendency": "색이 밝아지기 시작, 다색 덩어리"
+      },
+      {
+        "id": "CLASSIC_B",
+        "label": "클래식 밝은 시기 (Classic Bright)",
+        "range": "1949–1957",
+        "color_tendency": "오렌지, 옐로우, 레드, 핑크 — 따뜻하고 발광하는 색"
+      },
+      {
+        "id": "SEAGRAM",
+        "label": "시그램 벽화 (Seagram Murals)",
+        "range": "1958–1959",
+        "color_tendency": "마룬, 다크 레드, 블랙 — 급격한 어두움 전환"
+      },
+      {
+        "id": "DARK",
+        "label": "후기 어두운 시기 (Dark Period)",
+        "range": "1960–1967",
+        "color_tendency": "다크 퍼플, 블랙, 브라운, 짙은 블루"
+      },
+      {
+        "id": "FINAL",
+        "label": "최후기 (Final Works)",
+        "range": "1968–1970",
+        "color_tendency": "블랙, 그레이, 브라운 — 색의 극단적 환원"
+      }
+    ],
+    "total_known_works": {
+      "canvas": 843,
+      "works_on_paper": 2600,
+      "source": "David Anfam, Catalogue Raisonné (1998) & NGA Works on Paper project"
+    }
+  },
+  "works": [
+    {
+      "id": "W001",
+      "year": 1932,
+      "year_end": 1933,
+      "title": "The Road",
+      "period": "FIG",
+      "medium": "oil on canvas",
+      "collection": "Christopher Rothko Collection",
+      "collection_type": "private",
+      "exhibition_note": "2023 Fondation Louis Vuitton retrospective",
+      "auction_record": null,
+      "significance": "초기 풍경화",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#6B4226",
+          "ratio": 0.4
+        },
+        {
+          "color": "#8B7D5B",
+          "ratio": 0.3
+        },
+        {
+          "color": "#A09070",
+          "ratio": 0.3
+        }
+      ],
+      "emotion_y": 0.45
+    },
+    {
+      "id": "W002",
+      "year": 1933,
+      "title": "Untitled (Portland, Oregon)",
+      "period": "FIG",
+      "medium": "watercolor on paper",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "포틀랜드 첫 개인전(1933) 출품작",
+      "auction_record": null,
+      "significance": "초기 수채 풍경",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#7BA0B5",
+          "ratio": 0.4
+        },
+        {
+          "color": "#A8C4A0",
+          "ratio": 0.3
+        },
+        {
+          "color": "#D4C9A8",
+          "ratio": 0.3
+        }
+      ],
+      "emotion_y": 0.5
+    },
+    {
+      "id": "W003",
+      "year": 1935,
+      "title": "Crucifixion",
+      "period": "FIG",
+      "medium": "oil on canvas",
+      "collection": "Private collection",
+      "collection_type": "private",
+      "exhibition_note": "1936 Paris Galerie Bonaparte",
+      "auction_record": null,
+      "significance": "종교적 주제의 초기 탐구",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#3C2415",
+          "ratio": 0.5
+        },
+        {
+          "color": "#8B4513",
+          "ratio": 0.3
+        },
+        {
+          "color": "#C4A882",
+          "ratio": 0.2
+        }
+      ],
+      "emotion_y": 0.45
+    },
+    {
+      "id": "W004",
+      "year": 1936,
+      "title": "Self-Portrait",
+      "period": "FIG",
+      "medium": "oil on canvas",
+      "collection": "Christopher Rothko Collection",
+      "collection_type": "private",
+      "exhibition_note": "2023 Fondation Louis Vuitton retrospective",
+      "auction_record": null,
+      "significance": "로스코의 드문 자화상",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#2C2C2C",
+          "ratio": 0.4
+        },
+        {
+          "color": "#8B6F5E",
+          "ratio": 0.35
+        },
+        {
+          "color": "#C4A882",
+          "ratio": 0.25
+        }
+      ],
+      "emotion_y": 0.35
+    },
+    {
+      "id": "W005",
+      "year": 1936,
+      "year_end": 1937,
+      "title": "Street Scene",
+      "period": "FIG",
+      "medium": "oil on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "2023 Fondation Louis Vuitton retrospective",
+      "auction_record": null,
+      "significance": "뉴욕 도시 장면. 'The Ten' 시기",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#5C5C5C",
+          "ratio": 0.35
+        },
+        {
+          "color": "#8B7D6B",
+          "ratio": 0.35
+        },
+        {
+          "color": "#A09070",
+          "ratio": 0.3
+        }
+      ],
+      "emotion_y": 0.3
+    },
+    {
+      "id": "W006",
+      "year": 1937,
+      "title": "Untitled (Subway)",
+      "period": "FIG",
+      "medium": "oil on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA 상설",
+      "auction_record": null,
+      "significance": "지하철 시리즈 대표작. 도시적 소외 표현",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#4A4A3A",
+          "ratio": 0.4
+        },
+        {
+          "color": "#8B7B5E",
+          "ratio": 0.3
+        },
+        {
+          "color": "#C8B88A",
+          "ratio": 0.3
+        }
+      ],
+      "emotion_y": 0.25
+    },
+    {
+      "id": "W007",
+      "year": 1938,
+      "title": "Entrance to Subway",
+      "period": "FIG",
+      "medium": "oil on canvas",
+      "collection": "Private collection",
+      "collection_type": "private",
+      "exhibition_note": "Brooklyn Museum 등 다수 전시",
+      "auction_record": null,
+      "significance": "지하철 시리즈 중 가장 유명한 작품",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#3A3A2A",
+          "ratio": 0.45
+        },
+        {
+          "color": "#7B6B4E",
+          "ratio": 0.3
+        },
+        {
+          "color": "#B8A87A",
+          "ratio": 0.25
+        }
+      ],
+      "emotion_y": 0.35
+    },
+    {
+      "id": "W008",
+      "year": 1940,
+      "title": "Underground Fantasy",
+      "period": "FIG",
+      "medium": "oil on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA 상설",
+      "auction_record": null,
+      "significance": "지하철 시리즈→초현실 과도기",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#4A3A4A",
+          "ratio": 0.4
+        },
+        {
+          "color": "#8B6B5E",
+          "ratio": 0.3
+        },
+        {
+          "color": "#C8A8B0",
+          "ratio": 0.3
+        }
+      ],
+      "emotion_y": 0.15
+    },
+    {
+      "id": "W009",
+      "year": 1941,
+      "title": "Antigone",
+      "period": "MYTH",
+      "medium": "oil on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA 상설",
+      "auction_record": null,
+      "significance": "그리스 비극 주제. 신화기 초기 대표작",
+      "composition_type": "mythomorphic",
+      "color_blocks": [
+        {
+          "color": "#5A6B5A",
+          "ratio": 0.35
+        },
+        {
+          "color": "#8B6B7B",
+          "ratio": 0.35
+        },
+        {
+          "color": "#B8A090",
+          "ratio": 0.3
+        }
+      ],
+      "emotion_y": 0.2
+    },
+    {
+      "id": "W010",
+      "year": 1942,
+      "title": "The Omen of the Eagle",
+      "period": "MYTH",
+      "medium": "oil and graphite on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA 상설. 1943 NYT 서한 맥락 작품",
+      "auction_record": null,
+      "significance": "전쟁기 비극의식",
+      "composition_type": "mythomorphic",
+      "color_blocks": [
+        {
+          "color": "#5C4A3A",
+          "ratio": 0.4
+        },
+        {
+          "color": "#8B7B5E",
+          "ratio": 0.35
+        },
+        {
+          "color": "#A09070",
+          "ratio": 0.25
+        }
+      ],
+      "emotion_y": 0.25
+    },
+    {
+      "id": "W011",
+      "year": 1943,
+      "title": "The Syrian Bull",
+      "period": "MYTH",
+      "medium": "oil on canvas",
+      "collection": "Private collection",
+      "collection_type": "private",
+      "exhibition_note": "1945 Guggenheim Art of This Century",
+      "auction_record": null,
+      "significance": "고대 신화 참조",
+      "composition_type": "mythomorphic",
+      "color_blocks": [
+        {
+          "color": "#6B5A3A",
+          "ratio": 0.4
+        },
+        {
+          "color": "#A08B5E",
+          "ratio": 0.35
+        },
+        {
+          "color": "#C4A878",
+          "ratio": 0.25
+        }
+      ],
+      "emotion_y": 0.3
+    },
+    {
+      "id": "W012",
+      "year": 1944,
+      "title": "Slow Swirl at the Edge of the Sea",
+      "period": "MYTH",
+      "medium": "oil on canvas",
+      "collection": "Museum of Modern Art, New York",
+      "collection_type": "museum",
+      "exhibition_note": "MoMA 상설. 멜 사후 기증",
+      "auction_record": null,
+      "significance": "멜과의 만남을 암시. 보티첼리 반영. 구상→추상 전환의 상징적 작품",
+      "composition_type": "mythomorphic",
+      "color_blocks": [
+        {
+          "color": "#4A7BA0",
+          "ratio": 0.35
+        },
+        {
+          "color": "#C48BAB",
+          "ratio": 0.35
+        },
+        {
+          "color": "#90B890",
+          "ratio": 0.3
+        }
+      ],
+      "emotion_y": 0.25
+    },
+    {
+      "id": "W013",
+      "year": 1945,
+      "title": "Baptismal Scene",
+      "period": "MYTH",
+      "medium": "watercolor",
+      "collection": "Whitney Museum of American Art, New York",
+      "collection_type": "museum",
+      "exhibition_note": "1946 Whitney 구입 — 로스코 작품 최초 미술관 소장",
+      "auction_record": null,
+      "significance": "최초의 미술관 소장 작품",
+      "composition_type": "mythomorphic",
+      "color_blocks": [
+        {
+          "color": "#A0B8C4",
+          "ratio": 0.4
+        },
+        {
+          "color": "#C4A8B8",
+          "ratio": 0.3
+        },
+        {
+          "color": "#E0D0C0",
+          "ratio": 0.3
+        }
+      ],
+      "emotion_y": 0.45
+    },
+    {
+      "id": "W014",
+      "year": 1946,
+      "title": "Sacrifice",
+      "period": "MULTI",
+      "medium": "oil on canvas",
+      "collection": "Guggenheim (purchase history)",
+      "collection_type": "museum",
+      "exhibition_note": "페기 구겐하임 직접 구매",
+      "auction_record": null,
+      "significance": "신화기 후기→멀티폼 과도기",
+      "composition_type": "multiform",
+      "color_blocks": [
+        {
+          "color": "#8B3A3A",
+          "ratio": 0.4
+        },
+        {
+          "color": "#6B4A2A",
+          "ratio": 0.35
+        },
+        {
+          "color": "#C4A060",
+          "ratio": 0.25
+        }
+      ],
+      "emotion_y": 0.5
+    },
+    {
+      "id": "W015",
+      "year": 1947,
+      "title": "No. 9",
+      "period": "MULTI",
+      "medium": "oil and mixed media on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA 상설",
+      "auction_record": null,
+      "significance": "멀티폼 초기. 자동기술법 잔재와 색 덩어리 공존",
+      "composition_type": "multiform",
+      "color_blocks": [
+        {
+          "color": "#D4C450",
+          "ratio": 0.3
+        },
+        {
+          "color": "#6B9B5A",
+          "ratio": 0.3
+        },
+        {
+          "color": "#E8E0C0",
+          "ratio": 0.4
+        }
+      ],
+      "emotion_y": 0.5
+    },
+    {
+      "id": "W016",
+      "year": 1948,
+      "title": "No. 9 (White and Black on Wine)",
+      "period": "MULTI",
+      "medium": "oil and mixed media on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA 상설",
+      "auction_record": null,
+      "significance": "멀티폼→클래식 과도기",
+      "composition_type": "multiform",
+      "color_blocks": [
+        {
+          "color": "#E8E0D0",
+          "ratio": 0.35
+        },
+        {
+          "color": "#1C1C1C",
+          "ratio": 0.3
+        },
+        {
+          "color": "#6B2030",
+          "ratio": 0.35
+        }
+      ],
+      "emotion_y": 0.15
+    },
+    {
+      "id": "W017",
+      "year": 1948,
+      "title": "No. 10",
+      "period": "MULTI",
+      "medium": "oil on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA 상설",
+      "auction_record": null,
+      "significance": "어머니 사망(1948)과 같은 해",
+      "composition_type": "multiform",
+      "color_blocks": [
+        {
+          "color": "#D4A850",
+          "ratio": 0.3
+        },
+        {
+          "color": "#5A8B6B",
+          "ratio": 0.35
+        },
+        {
+          "color": "#C47050",
+          "ratio": 0.35
+        }
+      ],
+      "emotion_y": 0.15
+    },
+    {
+      "id": "W018",
+      "year": 1948,
+      "title": "Multiform",
+      "period": "MULTI",
+      "medium": "oil on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA 상설",
+      "auction_record": null,
+      "significance": "'멀티폼' 명칭의 대표적 참조 작품",
+      "composition_type": "multiform",
+      "color_blocks": [
+        {
+          "color": "#E8903A",
+          "ratio": 0.25
+        },
+        {
+          "color": "#D4C450",
+          "ratio": 0.25
+        },
+        {
+          "color": "#E07080",
+          "ratio": 0.25
+        },
+        {
+          "color": "#C84040",
+          "ratio": 0.25
+        }
+      ],
+      "emotion_y": 0.15
+    },
+    {
+      "id": "W019",
+      "year": 1949,
+      "title": "No. 3/No. 13 (Magenta, Black, Green on Orange)",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Museum of Modern Art, New York",
+      "collection_type": "museum",
+      "exhibition_note": "MoMA 상설. 클래식 양식 도달의 상징",
+      "auction_record": null,
+      "significance": "클래식 양식의 출발점",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#A0306B",
+          "ratio": 0.35
+        },
+        {
+          "color": "#1A1A1A",
+          "ratio": 0.2
+        },
+        {
+          "color": "#3A8B3A",
+          "ratio": 0.25
+        }
+      ],
+      "background": "#D08030",
+      "emotion_y": 0.7
+    },
+    {
+      "id": "W020",
+      "year": 1949,
+      "title": "No. 1 (No. 18, 1949)",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Private collection (Rockefeller purchase history)",
+      "collection_type": "private",
+      "exhibition_note": "블랑쉬 록펠러가 $1,000에 구입",
+      "auction_record": null,
+      "significance": "로스코 첫 고액 판매",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#D4A040",
+          "ratio": 0.45
+        },
+        {
+          "color": "#C85050",
+          "ratio": 0.45
+        }
+      ],
+      "background": "#B88040",
+      "emotion_y": 0.7
+    },
+    {
+      "id": "W021",
+      "year": 1950,
+      "title": "No. 5/No. 22",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "dimensions": "297 × 272 cm",
+      "collection": "Museum of Modern Art, New York",
+      "collection_type": "museum",
+      "exhibition_note": "MoMA 상설. 초기 클래식의 기념비적 스케일",
+      "auction_record": null,
+      "significance": "9'9\"×8'11\" 대형 캔버스",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#C83030",
+          "ratio": 0.4
+        },
+        {
+          "color": "#E8C830",
+          "ratio": 0.35
+        },
+        {
+          "color": "#C84040",
+          "ratio": 0.25
+        }
+      ],
+      "background": "#D07040",
+      "emotion_y": 0.8
+    },
+    {
+      "id": "W022",
+      "year": 1950,
+      "title": "No. 10",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "dimensions": "229.6 × 145.1 cm",
+      "collection": "Museum of Modern Art, New York",
+      "collection_type": "museum",
+      "exhibition_note": "필립 존슨 구입. MoMA 'Fifteen Americans'(1952)",
+      "auction_record": null,
+      "significance": "MoMA 핵심 소장품",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#D8D040",
+          "ratio": 0.45
+        },
+        {
+          "color": "#4A6B4A",
+          "ratio": 0.45
+        }
+      ],
+      "background": "#A0B060",
+      "emotion_y": 0.8
+    },
+    {
+      "id": "W023",
+      "year": 1951,
+      "title": "No. 7",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Private collection (Macklowe Collection)",
+      "collection_type": "private",
+      "exhibition_note": "Macklowe Collection sale",
+      "auction_record": {
+        "price_usd": 82500000,
+        "house": "Sotheby's",
+        "date": "2021-11",
+        "note": "Macklowe Collection"
+      },
+      "significance": "경매 3위. 초기 클래식의 깊은 팔레트",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#5A2040",
+          "ratio": 0.45
+        },
+        {
+          "color": "#D08040",
+          "ratio": 0.45
+        }
+      ],
+      "background": "#804030",
+      "emotion_y": 0.83
+    },
+    {
+      "id": "W024",
+      "year": 1951,
+      "title": "No. 14",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Kate Rothko Prizel Collection",
+      "collection_type": "private",
+      "exhibition_note": "2023 Fondation Louis Vuitton. Phillips Collection 대여 이력",
+      "auction_record": null,
+      "significance": "밝은 시기 대표작",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#E0A040",
+          "ratio": 0.45
+        },
+        {
+          "color": "#E07060",
+          "ratio": 0.45
+        }
+      ],
+      "background": "#D09050",
+      "emotion_y": 0.83
+    },
+    {
+      "id": "W025",
+      "year": 1952,
+      "title": "Untitled (Yellow, Red and Blue)",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Private collection",
+      "collection_type": "private",
+      "exhibition_note": "다수 주요 전시 순회",
+      "auction_record": null,
+      "significance": "밝은 시기 전성기",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#E8D040",
+          "ratio": 0.35
+        },
+        {
+          "color": "#C84040",
+          "ratio": 0.3
+        },
+        {
+          "color": "#3060A0",
+          "ratio": 0.35
+        }
+      ],
+      "background": "#B08040",
+      "emotion_y": 0.85
+    },
+    {
+      "id": "W026",
+      "year": 1953,
+      "title": "No. 61 (Rust and Blue)",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Museum of Contemporary Art, Los Angeles",
+      "collection_type": "museum",
+      "exhibition_note": "MOCA 상설",
+      "auction_record": null,
+      "significance": "색면화의 교과서적 작품",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#B86030",
+          "ratio": 0.5
+        },
+        {
+          "color": "#305080",
+          "ratio": 0.5
+        }
+      ],
+      "background": "#906040",
+      "emotion_y": 0.85
+    },
+    {
+      "id": "W027",
+      "year": 1954,
+      "title": "No. 1 (Royal Red and Blue)",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Private collection",
+      "collection_type": "private",
+      "exhibition_note": "주요 미술관 순회 전시",
+      "auction_record": {
+        "price_usd": 75100000,
+        "house": "Sotheby's",
+        "date": "2012-11",
+        "note": ""
+      },
+      "significance": "경매 5위",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#B82020",
+          "ratio": 0.5
+        },
+        {
+          "color": "#203080",
+          "ratio": 0.5
+        }
+      ],
+      "background": "#703040",
+      "emotion_y": 0.85
+    },
+    {
+      "id": "W028",
+      "year": 1954,
+      "title": "Untitled (Yellow and Blue)",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Private collection",
+      "collection_type": "private",
+      "exhibition_note": "아시아 최초 로스코 유화 경매",
+      "auction_record": {
+        "price_usd": 32500000,
+        "house": "Sotheby's Hong Kong",
+        "date": "2024-11",
+        "note": "아시아 최초 유화 경매"
+      },
+      "significance": "2024 소더비 홍콩",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#E8D050",
+          "ratio": 0.5
+        },
+        {
+          "color": "#4070B0",
+          "ratio": 0.5
+        }
+      ],
+      "background": "#A0A060",
+      "emotion_y": 0.85
+    },
+    {
+      "id": "W029",
+      "year": 1954,
+      "title": "Ochre and Red on Red",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Phillips Collection, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "Phillips Collection Rothko Room 상설. 2023 FLV 대여",
+      "auction_record": null,
+      "significance": "필립스 컬렉션 로스코 룸",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#C8A030",
+          "ratio": 0.4
+        },
+        {
+          "color": "#B83030",
+          "ratio": 0.35
+        }
+      ],
+      "background": "#A03020",
+      "emotion_y": 0.85
+    },
+    {
+      "id": "W030",
+      "year": 1955,
+      "title": "Untitled (Yellow, Pink, Yellow on Light Pink)",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Kate Rothko Prizel Collection",
+      "collection_type": "private",
+      "exhibition_note": "2023 Fondation Louis Vuitton 대여",
+      "auction_record": null,
+      "significance": "밝은 시기 절정의 따뜻한 팔레트",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#E8D860",
+          "ratio": 0.35
+        },
+        {
+          "color": "#E8A0B0",
+          "ratio": 0.3
+        },
+        {
+          "color": "#E8D860",
+          "ratio": 0.35
+        }
+      ],
+      "background": "#F0D8D0",
+      "emotion_y": 0.75
+    },
+    {
+      "id": "W031",
+      "year": 1956,
+      "title": "Green and Tangerine on Red",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Phillips Collection, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "Phillips Collection Rothko Room 상설",
+      "auction_record": null,
+      "significance": "밝은 시기 말기의 정수",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#408040",
+          "ratio": 0.45
+        },
+        {
+          "color": "#E89040",
+          "ratio": 0.45
+        }
+      ],
+      "background": "#B03020",
+      "emotion_y": 0.95
+    },
+    {
+      "id": "W032",
+      "year": 1956,
+      "title": "Olive over Red",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Private collection",
+      "collection_type": "private",
+      "exhibition_note": "2023 Paris+ par Art Basel, Pace Gallery $40M 제시",
+      "auction_record": null,
+      "significance": "Pace 갤러리 주요 딜",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#6B7B30",
+          "ratio": 0.5
+        },
+        {
+          "color": "#B03020",
+          "ratio": 0.5
+        }
+      ],
+      "background": "#804020",
+      "emotion_y": 0.95
+    },
+    {
+      "id": "W033",
+      "year": 1957,
+      "title": "Orange and Red on Red",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Phillips Collection, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "Phillips Collection Rothko Room 상설. 2023 FLV 대여",
+      "auction_record": null,
+      "significance": "필립스 컬렉션 로스코 룸",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#E88030",
+          "ratio": 0.45
+        },
+        {
+          "color": "#C83020",
+          "ratio": 0.45
+        }
+      ],
+      "background": "#A02818",
+      "emotion_y": 0.8
+    },
+    {
+      "id": "W034",
+      "year": 1957,
+      "title": "White Center (Yellow, Pink and Lavender on Rose)",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Private collection (Qatar Royal Family)",
+      "collection_type": "private",
+      "exhibition_note": "데이비드 록펠러 소장→2007 소더비",
+      "auction_record": {
+        "price_usd": 72800000,
+        "house": "Sotheby's",
+        "date": "2007-05",
+        "note": "Rockefeller Collection. 카타르 왕실 구입"
+      },
+      "significance": "경매 6위. 록펠러 컬렉션 출처",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#E8D050",
+          "ratio": 0.3
+        },
+        {
+          "color": "#F0E8E0",
+          "ratio": 0.25
+        },
+        {
+          "color": "#B890C0",
+          "ratio": 0.3
+        }
+      ],
+      "background": "#D8A0A0",
+      "emotion_y": 0.8
+    },
+    {
+      "id": "W035",
+      "year": 1958,
+      "title": "Black on Maroon",
+      "period": "SEAGRAM",
+      "medium": "oil on canvas",
+      "collection": "Tate, London",
+      "collection_type": "museum",
+      "exhibition_note": "Tate 전용 Rothko Room 상설",
+      "auction_record": null,
+      "significance": "시그램 벽화. 테이트 로스코 룸",
+      "composition_type": "seagram",
+      "color_blocks": [
+        {
+          "color": "#1A1010",
+          "ratio": 0.45
+        },
+        {
+          "color": "#501818",
+          "ratio": 0.45
+        }
+      ],
+      "background": "#3A1515",
+      "emotion_y": 0.1
+    },
+    {
+      "id": "W036",
+      "year": 1959,
+      "title": "Red on Maroon",
+      "period": "SEAGRAM",
+      "medium": "oil on canvas",
+      "collection": "Tate, London",
+      "collection_type": "museum",
+      "exhibition_note": "Tate Rothko Room 상설. 2012 반달리즘 피해 후 복원",
+      "auction_record": null,
+      "significance": "시그램 벽화. 반달리즘 복원 이력",
+      "composition_type": "seagram",
+      "color_blocks": [
+        {
+          "color": "#802020",
+          "ratio": 0.45
+        },
+        {
+          "color": "#401515",
+          "ratio": 0.45
+        }
+      ],
+      "background": "#3A1212",
+      "emotion_y": -0.3
+    },
+    {
+      "id": "W037",
+      "year": 1958,
+      "title": "Four Darks in Red",
+      "period": "SEAGRAM",
+      "medium": "oil on canvas",
+      "collection": "Whitney Museum of American Art, New York",
+      "collection_type": "museum",
+      "exhibition_note": "Whitney 상설",
+      "auction_record": null,
+      "significance": "어두운 전환의 대표작",
+      "composition_type": "seagram",
+      "color_blocks": [
+        {
+          "color": "#2A0808",
+          "ratio": 0.25
+        },
+        {
+          "color": "#3A1010",
+          "ratio": 0.25
+        },
+        {
+          "color": "#2A0808",
+          "ratio": 0.25
+        },
+        {
+          "color": "#3A1010",
+          "ratio": 0.25
+        }
+      ],
+      "background": "#801818",
+      "emotion_y": 0.1
+    },
+    {
+      "id": "W038",
+      "year": 1958,
+      "title": "No. 10",
+      "period": "SEAGRAM",
+      "medium": "oil on canvas",
+      "collection": "Private collection",
+      "collection_type": "private",
+      "exhibition_note": "2015 Christie's",
+      "auction_record": {
+        "price_usd": 81925000,
+        "house": "Christie's",
+        "date": "2015-05",
+        "note": ""
+      },
+      "significance": "경매 4위. 후기 어두운 작품의 시장 가치 입증",
+      "composition_type": "seagram",
+      "color_blocks": [
+        {
+          "color": "#501818",
+          "ratio": 0.45
+        },
+        {
+          "color": "#1A0808",
+          "ratio": 0.45
+        }
+      ],
+      "background": "#381010",
+      "emotion_y": 0.1
+    },
+    {
+      "id": "W039",
+      "year": 1959,
+      "title": "Untitled (Seagram Mural, Section 3)",
+      "period": "SEAGRAM",
+      "medium": "oil on canvas",
+      "collection": "Tate, London",
+      "collection_type": "museum",
+      "exhibition_note": "Tate Rothko Room. 1969 로스코 직접 기증 9점 중 하나",
+      "auction_record": null,
+      "significance": "시그램 벽화 기증작",
+      "composition_type": "seagram",
+      "color_blocks": [
+        {
+          "color": "#3A1010",
+          "ratio": 0.45
+        },
+        {
+          "color": "#501515",
+          "ratio": 0.45
+        }
+      ],
+      "background": "#2A0A0A",
+      "emotion_y": -0.3
+    },
+    {
+      "id": "W040",
+      "year": 1959,
+      "title": "Untitled (Seagram Mural, Section 6)",
+      "period": "SEAGRAM",
+      "medium": "oil on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA Rothko Room",
+      "auction_record": null,
+      "significance": "시그램 벽화. NGA 로스코 룸",
+      "composition_type": "seagram",
+      "color_blocks": [
+        {
+          "color": "#401212",
+          "ratio": 0.45
+        },
+        {
+          "color": "#2A0808",
+          "ratio": 0.45
+        }
+      ],
+      "background": "#300E0E",
+      "emotion_y": -0.3
+    },
+    {
+      "id": "W041",
+      "year": 1961,
+      "title": "Orange, Red, Yellow",
+      "period": "DARK",
+      "medium": "oil on canvas",
+      "collection": "Private collection",
+      "collection_type": "private",
+      "exhibition_note": "MoMA 회고전(1961) 시기 제작",
+      "auction_record": {
+        "price_usd": 86882500,
+        "house": "Christie's",
+        "date": "2012-05",
+        "note": "로스코 공개 경매 최고가"
+      },
+      "significance": "경매 2위 (공개 최고가)",
+      "composition_type": "classic",
+      "color_blocks": [
+        {
+          "color": "#E88030",
+          "ratio": 0.35
+        },
+        {
+          "color": "#C83020",
+          "ratio": 0.3
+        },
+        {
+          "color": "#E8C830",
+          "ratio": 0.35
+        }
+      ],
+      "background": "#D07030",
+      "emotion_y": 0.3
+    },
+    {
+      "id": "W042",
+      "year": 1961,
+      "title": "No. 16 (Red, Brown, and Black)",
+      "period": "DARK",
+      "medium": "oil on canvas",
+      "collection": "Museum of Modern Art, New York",
+      "collection_type": "museum",
+      "exhibition_note": "MoMA 상설",
+      "auction_record": null,
+      "significance": "밝은 색→어두운 색 전환기",
+      "composition_type": "dark",
+      "color_blocks": [
+        {
+          "color": "#A02020",
+          "ratio": 0.35
+        },
+        {
+          "color": "#5A3020",
+          "ratio": 0.3
+        },
+        {
+          "color": "#1A1010",
+          "ratio": 0.35
+        }
+      ],
+      "background": "#402020",
+      "emotion_y": 0.3
+    },
+    {
+      "id": "W043",
+      "year": 1962,
+      "title": "Harvard Mural Panel 1 (Triptych)",
+      "period": "DARK",
+      "medium": "oil on canvas",
+      "collection": "Harvard Art Museums",
+      "collection_type": "museum",
+      "exhibition_note": "리솔 레드 퇴색으로 유명. 2014 특수 조명 복원",
+      "auction_record": null,
+      "significance": "하버드 벽화 5점 중 하나. 보존 과학의 사례",
+      "composition_type": "dark",
+      "color_blocks": [
+        {
+          "color": "#8B2020",
+          "ratio": 0.5
+        },
+        {
+          "color": "#601818",
+          "ratio": 0.5
+        }
+      ],
+      "background": "#501515",
+      "emotion_y": -0.35
+    },
+    {
+      "id": "W044",
+      "year": 1962,
+      "title": "No. 6 (Violet, Green and Red)",
+      "period": "DARK",
+      "medium": "oil on canvas",
+      "collection": "Private collection",
+      "collection_type": "private",
+      "exhibition_note": "사적 거래",
+      "auction_record": {
+        "price_usd": 186000000,
+        "house": "Private sale",
+        "date": "2014",
+        "note": "로스코 전체 최고 거래가. Rybolovlev 구입"
+      },
+      "significance": "경매 1위 (최고 거래가 $186M)",
+      "composition_type": "dark",
+      "color_blocks": [
+        {
+          "color": "#5A2060",
+          "ratio": 0.35
+        },
+        {
+          "color": "#2A6030",
+          "ratio": 0.3
+        },
+        {
+          "color": "#A02020",
+          "ratio": 0.35
+        }
+      ],
+      "background": "#503040",
+      "emotion_y": -0.35
+    },
+    {
+      "id": "W045",
+      "year": 1962,
+      "title": "Blue and Grey",
+      "period": "DARK",
+      "medium": "oil on canvas",
+      "collection": "Fondation Beyeler, Basel",
+      "collection_type": "museum",
+      "exhibition_note": "Beyeler 상설",
+      "auction_record": null,
+      "significance": "차갑고 절제된 후기 전환",
+      "composition_type": "dark",
+      "color_blocks": [
+        {
+          "color": "#2A3A60",
+          "ratio": 0.5
+        },
+        {
+          "color": "#8B8B8B",
+          "ratio": 0.5
+        }
+      ],
+      "background": "#4A5060",
+      "emotion_y": -0.35
+    },
+    {
+      "id": "W046",
+      "year": 1964,
+      "title": "No. 8 (Black Form series)",
+      "period": "DARK",
+      "medium": "oil, acrylic and mixed media on canvas",
+      "dimensions": "267.3 × 203.8 cm",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA. 2010-11 'In the Tower: Mark Rothko'. 2014-15 Gemeentemuseum/Seoul 순회",
+      "auction_record": null,
+      "significance": "블랙 폼 17점 시리즈. 겉보기 전면 블랙, 미세한 톤 차이",
+      "composition_type": "dark",
+      "color_blocks": [
+        {
+          "color": "#0A0A0A",
+          "ratio": 0.6
+        },
+        {
+          "color": "#1A1A1A",
+          "ratio": 0.4
+        }
+      ],
+      "background": "#0F0F0F",
+      "emotion_y": -0.2
+    },
+    {
+      "id": "W047",
+      "year": 1964,
+      "year_end": 1967,
+      "title": "Rothko Chapel Paintings (14점 세트)",
+      "period": "DARK",
+      "medium": "oil and acrylic on canvas",
+      "collection": "Rothko Chapel, Houston",
+      "collection_type": "permanent_installation",
+      "exhibition_note": "비종파 채플 상설. 1971 축성. 2000 National Register of Historic Places 등재",
+      "auction_record": null,
+      "significance": "드 메닐 부부 커미션. 거의 모노크롬 어두운 패널 14점",
+      "composition_type": "dark",
+      "color_blocks": [
+        {
+          "color": "#1A0A1A",
+          "ratio": 0.5
+        },
+        {
+          "color": "#0A0A0A",
+          "ratio": 0.5
+        }
+      ],
+      "background": "#100810",
+      "emotion_y": -0.09
+    },
+    {
+      "id": "W048",
+      "year": 1968,
+      "title": "Untitled (Brown and Gray)",
+      "period": "FINAL",
+      "medium": "acrylic on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA. 대동맥류 진단 이후 제작",
+      "auction_record": null,
+      "significance": "'브라운 앤 그레이' 시리즈. 3피트 이하 제한",
+      "composition_type": "final",
+      "color_blocks": [
+        {
+          "color": "#4A3020",
+          "ratio": 0.5
+        },
+        {
+          "color": "#8B8B8B",
+          "ratio": 0.5
+        }
+      ],
+      "background": "#605040",
+      "emotion_y": -0.7
+    },
+    {
+      "id": "W049",
+      "year": 1969,
+      "title": "Untitled (Black on Gray)",
+      "period": "FINAL",
+      "medium": "acrylic on canvas",
+      "dimensions": "229.6 × 175.9 cm",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "NGA. 1985 Pace 'Dark Paintings'. 2008 Tate 'Late Series'. 2014 Gemeentemuseum/Seoul",
+      "auction_record": null,
+      "significance": "블랙 온 그레이 25점 연작. 캔버스 수평 이분. 멜 별거 후 스튜디오 제작",
+      "composition_type": "final",
+      "color_blocks": [
+        {
+          "color": "#0A0A0A",
+          "ratio": 0.5
+        },
+        {
+          "color": "#7B7B7B",
+          "ratio": 0.5
+        }
+      ],
+      "background": "#3A3A3A",
+      "emotion_y": -0.85
+    },
+    {
+      "id": "W050",
+      "year": 1970,
+      "title": "Untitled",
+      "period": "FINAL",
+      "medium": "acrylic on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "accession_id": "1986.43.173",
+      "exhibition_note": "NGA. 사후 로스코 재단 기증",
+      "auction_record": null,
+      "significance": "로스코의 마지막 캔버스 작품 중 하나. 미완성 가능성",
+      "composition_type": "final",
+      "color_blocks": [
+        {
+          "color": "#0A0A0A",
+          "ratio": 0.5
+        },
+        {
+          "color": "#3A3A3A",
+          "ratio": 0.5
+        }
+      ],
+      "background": "#1A1A1A",
+      "emotion_y": -1
+    }
+  ],
+  "auction_records_top7": [
+    {
+      "rank": 1,
+      "work_id": "W044",
+      "title": "No. 6 (Violet, Green and Red)",
+      "year": 1962,
+      "price_usd": 186000000,
+      "sale_type": "private",
+      "date": "2014",
+      "buyer_note": "Dmitry Rybolovlev"
+    },
+    {
+      "rank": 2,
+      "work_id": "W041",
+      "title": "Orange, Red, Yellow",
+      "year": 1961,
+      "price_usd": 86882500,
+      "sale_type": "auction",
+      "house": "Christie's",
+      "date": "2012-05"
+    },
+    {
+      "rank": 3,
+      "work_id": "W023",
+      "title": "No. 7",
+      "year": 1951,
+      "price_usd": 82500000,
+      "sale_type": "auction",
+      "house": "Sotheby's",
+      "date": "2021-11",
+      "buyer_note": "Macklowe Collection"
+    },
+    {
+      "rank": 4,
+      "work_id": "W038",
+      "title": "No. 10",
+      "year": 1958,
+      "price_usd": 81925000,
+      "sale_type": "auction",
+      "house": "Christie's",
+      "date": "2015-05"
+    },
+    {
+      "rank": 5,
+      "work_id": "W027",
+      "title": "No. 1 (Royal Red and Blue)",
+      "year": 1954,
+      "price_usd": 75100000,
+      "sale_type": "auction",
+      "house": "Sotheby's",
+      "date": "2012-11"
+    },
+    {
+      "rank": 6,
+      "work_id": "W034",
+      "title": "White Center (Yellow, Pink and Lavender on Rose)",
+      "year": 1957,
+      "price_usd": 72800000,
+      "sale_type": "auction",
+      "house": "Sotheby's",
+      "date": "2007-05"
+    },
+    {
+      "rank": 7,
+      "work_id": null,
+      "title": "Untitled (1962, violet/orange/burgundy)",
+      "year": 1962,
+      "price_usd": 66200000,
+      "sale_type": "auction",
+      "house": "Christie's",
+      "date": "2014-05"
+    }
+  ]
+}

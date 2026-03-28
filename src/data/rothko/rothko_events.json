@@ -1,0 +1,669 @@
+{
+  "meta": {
+    "title": "Mark Rothko Timeline — Life Events",
+    "artist": {
+      "name": "Mark Rothko",
+      "birth_name": "Markus Yakovlevich Rothkowitz",
+      "birth": "1903-09-25",
+      "death": "1970-02-25",
+      "birth_place": "Dvinsk, Russian Empire (now Daugavpils, Latvia)",
+      "death_place": "New York City, USA"
+    },
+    "periods": [
+      {
+        "id": "FIG",
+        "label": "구상기 (Figurative)",
+        "range": "1924–1940",
+        "color_tendency": "탁한 갈색, 회색, 어두운 도시 팔레트"
+      },
+      {
+        "id": "MYTH",
+        "label": "신화/초현실기 (Mythomorphic)",
+        "range": "1940–1946",
+        "color_tendency": "회갈색, 적갈색, 몽환적 톤"
+      },
+      {
+        "id": "MULTI",
+        "label": "멀티폼 전환기 (Multiforms)",
+        "range": "1946–1949",
+        "color_tendency": "색이 밝아지기 시작, 다색 덩어리"
+      },
+      {
+        "id": "CLASSIC_B",
+        "label": "클래식 밝은 시기 (Classic Bright)",
+        "range": "1949–1957",
+        "color_tendency": "오렌지, 옐로우, 레드, 핑크 — 따뜻하고 발광하는 색"
+      },
+      {
+        "id": "SEAGRAM",
+        "label": "시그램 벽화 (Seagram Murals)",
+        "range": "1958–1959",
+        "color_tendency": "마룬, 다크 레드, 블랙 — 급격한 어두움 전환"
+      },
+      {
+        "id": "DARK",
+        "label": "후기 어두운 시기 (Dark Period)",
+        "range": "1960–1967",
+        "color_tendency": "다크 퍼플, 블랙, 브라운, 짙은 블루"
+      },
+      {
+        "id": "FINAL",
+        "label": "최후기 (Final Works)",
+        "range": "1968–1970",
+        "color_tendency": "블랙, 그레이, 브라운 — 색의 극단적 환원"
+      }
+    ],
+    "biographical_periods": [
+      {
+        "id": "BIO_CHILD",
+        "label": "유년·이민",
+        "range": [1903, 1918],
+        "keywords": ["불안", "이질감", "빈곤", "상실"],
+        "band_colors": ["#A0937D"],
+        "band_thickness": "thin",
+        "blur_intensity": 0.3
+      },
+      {
+        "id": "BIO_YALE",
+        "label": "예일·좌절·자립",
+        "range": [1919, 1924],
+        "keywords": ["소외감", "반항", "자립"],
+        "band_colors": ["#8B7D6B"],
+        "band_thickness": "thin",
+        "blur_intensity": 0.3
+      },
+      {
+        "id": "BIO_NY",
+        "label": "뉴욕·시작",
+        "range": [1925, 1932],
+        "keywords": ["열정", "탐색", "첫 결혼"],
+        "band_colors": ["#8B6914"],
+        "band_thickness": "medium",
+        "blur_intensity": 0.4
+      },
+      {
+        "id": "BIO_TEN",
+        "label": "The Ten·정체성",
+        "range": [1933, 1939],
+        "keywords": ["연대", "저항", "시민권"],
+        "band_colors": ["#8B6914", "#A07B3D"],
+        "band_thickness": "medium",
+        "blur_intensity": 0.4
+      },
+      {
+        "id": "BIO_DIVORCE",
+        "label": "이혼·전환",
+        "range": [1940, 1943],
+        "keywords": ["상실", "신화 탐구", "예술적 선언"],
+        "band_colors": ["#4A235A"],
+        "band_thickness": "thick",
+        "blur_intensity": 0.6
+      },
+      {
+        "id": "BIO_REBIRTH",
+        "label": "재혼·돌파",
+        "range": [1944, 1949],
+        "keywords": ["사랑", "멀티폼 탄생", "어머니 상실", "클래식 도달"],
+        "band_colors": ["#E67E22", "#D4AC0D"],
+        "band_thickness": "medium_thick",
+        "blur_intensity": 0.6
+      },
+      {
+        "id": "BIO_CLASSIC",
+        "label": "클래식기·정점",
+        "range": [1950, 1957],
+        "keywords": ["오렌지", "레드", "옐로", "인정", "정점", "불신 시작"],
+        "band_colors": ["#E74C3C", "#F39C12"],
+        "band_thickness": "thickest",
+        "blur_intensity": 0.8
+      },
+      {
+        "id": "BIO_MURAL",
+        "label": "벽화기·갈등",
+        "range": [1958, 1962],
+        "keywords": ["시그램", "분노", "순결", "팝아트 고립", "명성의 무게"],
+        "band_colors": ["#922B21", "#641E16"],
+        "band_thickness": "thick",
+        "blur_intensity": 0.7
+      },
+      {
+        "id": "BIO_DARK",
+        "label": "암흑기",
+        "range": [1963, 1968],
+        "keywords": ["채플", "건강 악화", "블랙 폼", "고독"],
+        "band_colors": ["#1C1C1C", "#2C2C2C"],
+        "band_thickness": "thinning",
+        "blur_intensity": 0.5
+      },
+      {
+        "id": "BIO_END",
+        "label": "종결",
+        "range": [1969, 1970],
+        "keywords": ["별거", "블랙 온 그레이", "테이트 기증", "사망"],
+        "band_colors": ["#000000"],
+        "band_thickness": "converging_line",
+        "blur_intensity": 0.2
+      }
+    ],
+    "emotion_curve": [
+      { "year": 1903,   "y":  0.0,  "label": "출생" },
+      { "year": 1910,   "y": -0.15, "label": "아버지 이민, 분리" },
+      { "year": 1913,   "y":  0.1,  "label": "가족 재결합" },
+      { "year": 1914,   "y": -0.5,  "label": "아버지 사망" },
+      { "year": 1918,   "y": -0.15, "label": "학교, 회복" },
+      { "year": 1921,   "y":  0.2,  "label": "예일 입학" },
+      { "year": 1923,   "y":  0.0,  "label": "중퇴, 방황" },
+      { "year": 1925,   "y":  0.25, "label": "미술 시작" },
+      { "year": 1929,   "y":  0.3,  "label": "교사, 안정" },
+      { "year": 1932,   "y":  0.4,  "label": "결혼" },
+      { "year": 1933,   "y":  0.5,  "label": "첫 개인전" },
+      { "year": 1935,   "y":  0.45, "label": "The Ten 연대" },
+      { "year": 1937,   "y":  0.25, "label": "결혼 위기" },
+      { "year": 1938,   "y":  0.35, "label": "시민권, 정체성" },
+      { "year": 1940,   "y":  0.15, "label": "이혼 직전, 연맹 창립" },
+      { "year": 1941,   "y":  0.2,  "label": "신화적 추상 시작" },
+      { "year": 1943,   "y":  0.3,  "label": "NYT 선언" },
+      { "year": 1944,   "y": -0.05, "label": "이혼" },
+      { "year": 1944.5, "y":  0.25, "label": "멜과의 만남" },
+      { "year": 1945,   "y":  0.45, "label": "재혼, 구겐하임 개인전" },
+      { "year": 1946,   "y":  0.5,  "label": "멀티폼, 최초 미술관 소장" },
+      { "year": 1947,   "y":  0.5,  "label": "완전한 추상" },
+      { "year": 1948,   "y":  0.15, "label": "어머니 사망" },
+      { "year": 1949,   "y":  0.7,  "label": "클래식 양식 돌파" },
+      { "year": 1950,   "y":  0.8,  "label": "유럽 여행, 딸 출생" },
+      { "year": 1952,   "y":  0.85, "label": "MoMA 전시" },
+      { "year": 1954,   "y":  0.85, "label": "시카고 개인전" },
+      { "year": 1955,   "y":  0.75, "label": "판매 증가, 불신 시작" },
+      { "year": 1956,   "y":  0.95, "label": "밝은 시기 절정" },
+      { "year": 1957,   "y":  0.8,  "label": "종교적 경험 발언" },
+      { "year": 1958,   "y":  0.1,  "label": "시그램 수락, 급격한 어두움" },
+      { "year": 1959,   "y": -0.3,  "label": "포시즌스 식사, 시그램 거부" },
+      { "year": 1960,   "y": -0.2,  "label": "커미션 공식 철회" },
+      { "year": 1961,   "y":  0.3,  "label": "MoMA 회고전" },
+      { "year": 1962,   "y": -0.35, "label": "팝아트 부상, 고립감" },
+      { "year": 1963,   "y": -0.1,  "label": "아들 출생" },
+      { "year": 1964,   "y": -0.2,  "label": "채플 커미션, 블랙 폼" },
+      { "year": 1966,   "y": -0.05, "label": "유럽 여행" },
+      { "year": 1968,   "y": -0.7,  "label": "대동맥류 진단" },
+      { "year": 1969,   "y": -0.85, "label": "별거, 고독" },
+      { "year": 1969.3, "y": -0.6,  "label": "예일 명예박사, 테이트 기증" },
+      { "year": 1969.7, "y": -0.9,  "label": "블랙 온 그레이 시리즈" },
+      { "year": 1970,   "y": -1.0,  "label": "사망" }
+    ]
+  },
+  "events": [
+    {
+      "id": "E001",
+      "year": 1903,
+      "date": "1903-09-25",
+      "category": "life",
+      "period": "FIG",
+      "title": "출생",
+      "description": "러시아 제국 드빈스크(현 라트비아 다우가프필스)에서 유대인 가정의 넷째(막내)로 출생. 본명 마르쿠스 야코블레비치 로스코비츠.",
+      "emotional_valence": "neutral",
+      "significance": "high"
+    },
+    {
+      "id": "E002",
+      "year": 1910,
+      "category": "life",
+      "period": "FIG",
+      "title": "아버지 미국 이주",
+      "description": "아버지 야콥, 징병 우려와 포그롬을 피해 단독으로 미국 포틀랜드 이주.",
+      "emotional_valence": "negative",
+      "significance": "medium"
+    },
+    {
+      "id": "E003",
+      "year": 1913,
+      "category": "life",
+      "period": "FIG",
+      "title": "미국 도착",
+      "description": "마르쿠스, 어머니, 누나 소니아가 엘리스 섬 경유 미국 도착. 포틀랜드에서 가족 재결합.",
+      "emotional_valence": "positive",
+      "significance": "high"
+    },
+    {
+      "id": "E004",
+      "year": 1914,
+      "date": "1914-03",
+      "category": "life",
+      "period": "FIG",
+      "title": "아버지 사망",
+      "description": "아버지 야콥 대장암으로 사망. 가족 재결합 7개월 만. 약 1년간 시나고그에서 애도 후 종교와 단절 선언.",
+      "emotional_valence": "very_negative",
+      "significance": "critical"
+    },
+    {
+      "id": "E005",
+      "year": 1921,
+      "category": "life",
+      "period": "FIG",
+      "title": "예일대 입학",
+      "description": "예일대학교 전액 장학금 입학.",
+      "emotional_valence": "positive",
+      "significance": "medium"
+    },
+    {
+      "id": "E006",
+      "year": 1923,
+      "category": "life",
+      "period": "FIG",
+      "title": "예일 중퇴, 뉴욕 이주",
+      "description": "예일 중퇴, 뉴욕으로 이주. '떠돌고, 어슬렁거리고, 좀 굶으려고' 왔다고 후일 발언.",
+      "emotional_valence": "neutral",
+      "significance": "high"
+    },
+    {
+      "id": "E007",
+      "year": 1924,
+      "category": "art",
+      "period": "FIG",
+      "title": "아트 스튜던츠 리그 등록",
+      "description": "아트 스튜던츠 리그(Art Students League) 등록. 조지 브리지먼, 막스 베버에게 수학.",
+      "emotional_valence": "positive",
+      "significance": "medium"
+    },
+    {
+      "id": "E008",
+      "year": 1928,
+      "category": "career",
+      "period": "FIG",
+      "title": "첫 그룹전 & 삽화 분쟁",
+      "description": "첫 그룹전 참가 (Opportunity Galleries, 뉴욕). 루이스 브라운 'The Graphic Bible' 삽화 크레딧·보수 분쟁 소송 패소.",
+      "emotional_valence": "mixed",
+      "significance": "medium"
+    },
+    {
+      "id": "E009",
+      "year": 1929,
+      "category": "career",
+      "period": "FIG",
+      "title": "아동 미술 교사 시작",
+      "description": "브루클린 유대인 센터(Center Academy) 아동 미술 교사 시작. 이후 20년 이상 지속.",
+      "emotional_valence": "positive",
+      "significance": "medium"
+    },
+    {
+      "id": "E010",
+      "year": 1932,
+      "category": "life",
+      "period": "FIG",
+      "title": "에디스 새커와 결혼",
+      "description": "에디스 새커(Edith Sachar)와 만남, 같은 해 11월 결혼.",
+      "emotional_valence": "positive",
+      "significance": "medium"
+    },
+    {
+      "id": "E011",
+      "year": 1933,
+      "category": "career",
+      "period": "FIG",
+      "title": "첫 개인전",
+      "description": "포틀랜드 미술관에서 첫 개인전. 뉴욕 Contemporary Arts Gallery에서도 개인전.",
+      "emotional_valence": "positive",
+      "significance": "high"
+    },
+    {
+      "id": "E012",
+      "year": 1935,
+      "category": "career",
+      "period": "FIG",
+      "title": "'더 텐' 결성",
+      "description": "아돌프 고틀리브, 일리야 볼로토프스키 등과 함께 'The Ten' 결성 (1935–1939, 8회 전시).",
+      "emotional_valence": "positive",
+      "significance": "medium"
+    },
+    {
+      "id": "E013",
+      "year": 1936,
+      "category": "art",
+      "period": "FIG",
+      "title": "WPA 참여 & 색채 선언",
+      "description": "'우리는 색으로 시작한다'고 선언. WPA Federal Art Project 이젤부 참여 (1936–37).",
+      "emotional_valence": "neutral",
+      "significance": "medium"
+    },
+    {
+      "id": "E014",
+      "year": 1937,
+      "category": "life",
+      "period": "FIG",
+      "title": "에디스와 별거·재결합",
+      "description": "에디스와 일시 별거 후 재결합. 관계는 계속 불안정.",
+      "emotional_valence": "negative",
+      "significance": "low"
+    },
+    {
+      "id": "E015",
+      "year": 1938,
+      "category": "life",
+      "period": "FIG",
+      "title": "미국 시민권 & 개명",
+      "description": "미국 시민권 취득. 반유대주의를 의식해 이름을 'Mark Rothko'로 공식 변경.",
+      "emotional_valence": "mixed",
+      "significance": "medium"
+    },
+    {
+      "id": "E016",
+      "year": 1940,
+      "category": "career",
+      "period": "MYTH",
+      "title": "현대 화가·조각가 연맹 창립",
+      "description": "Federation of Modern Painters and Sculptors 공동 창립.",
+      "emotional_valence": "neutral",
+      "significance": "low"
+    },
+    {
+      "id": "E017",
+      "year": 1941,
+      "category": "art",
+      "period": "MYTH",
+      "title": "신화적 추상 시작",
+      "description": "그리스 신화, 초현실주의에 영향받은 'Mythomorphic Abstractionism' 시기 시작. 니체, 그리스 비극에 심취.",
+      "emotional_valence": "neutral",
+      "significance": "high"
+    },
+    {
+      "id": "E018",
+      "year": 1943,
+      "category": "career",
+      "period": "MYTH",
+      "title": "뉴욕 타임즈 서한",
+      "description": "고틀리브, 바넷 뉴먼과 함께 뉴욕 타임즈에 현대 회화에 대한 입장 서한 발표. 휘트니 미술관 연례전 참가 시작.",
+      "emotional_valence": "positive",
+      "significance": "high"
+    },
+    {
+      "id": "E019",
+      "year": 1944,
+      "category": "life",
+      "period": "MYTH",
+      "title": "이혼 & 멜과의 만남",
+      "description": "에디스와 이혼. 메리 앨리스 'Mell' 바이슬(Mary Alice Beistle)과 만남.",
+      "emotional_valence": "mixed",
+      "significance": "high"
+    },
+    {
+      "id": "E020",
+      "year": 1945,
+      "date": "1945-03",
+      "category": "life",
+      "period": "MYTH",
+      "title": "멜과 결혼",
+      "description": "멜과 결혼 (만남 수개월 만). 페기 구겐하임 Art of This Century 갤러리 개인전.",
+      "emotional_valence": "positive",
+      "significance": "high"
+    },
+    {
+      "id": "E021",
+      "year": 1946,
+      "category": "art",
+      "period": "MULTI",
+      "title": "멀티폼 시작",
+      "description": "'멀티폼(Multiform)' 회화 시작. 휘트니 미술관이 'Baptismal Scene'(1945) 구입 — 로스코 작품 최초 미술관 소장.",
+      "emotional_valence": "positive",
+      "significance": "high"
+    },
+    {
+      "id": "E022",
+      "year": 1947,
+      "category": "art",
+      "period": "MULTI",
+      "title": "완전한 추상 전환",
+      "description": "작품이 완전한 추상으로 전환. 멀티폼이 더 정제됨.",
+      "emotional_valence": "neutral",
+      "significance": "medium"
+    },
+    {
+      "id": "E023",
+      "year": 1948,
+      "date": "1948-10",
+      "category": "life",
+      "period": "MULTI",
+      "title": "어머니 사망",
+      "description": "어머니 케이트 사망 (78세, 오랜 투병 끝). 아버지의 죽음, 이민자로서의 차별, 첫 결혼 실패 등 초기 상실감이 되살아남.",
+      "emotional_valence": "very_negative",
+      "significance": "high"
+    },
+    {
+      "id": "E024",
+      "year": 1949,
+      "category": "art",
+      "period": "CLASSIC_B",
+      "title": "클래식 양식 도달",
+      "description": "2~3개의 발광하는 색면 직사각형이 수직 배열된 '클래식 양식' 도달. 본인이 '나의 큰 양식에 도달했다'고 발언. 클리포드 스틸과의 교류가 결정적 영향.",
+      "emotional_valence": "positive",
+      "significance": "critical"
+    },
+    {
+      "id": "E025",
+      "year": 1950,
+      "category": "life",
+      "period": "CLASSIC_B",
+      "title": "유럽 여행 & 딸 출생",
+      "description": "멜과 유럽 여행 (이탈리아, 프랑스, 영국). 피렌체에서 프라 안젤리코, 미켈란젤로 라우렌치아나 도서관 방문. 12월 30일, 딸 캐시 린(Kate) 출생.",
+      "emotional_valence": "positive",
+      "significance": "high"
+    },
+    {
+      "id": "E026",
+      "year": 1951,
+      "category": "career",
+      "period": "CLASSIC_B",
+      "title": "브루클린 칼리지 조교수",
+      "description": "브루클린 칼리지 조교수직 (3년 계약). 베티 파슨스 갤러리 연례 개인전. 1950년 판매 수입 $3,279에 불과.",
+      "emotional_valence": "mixed",
+      "significance": "medium"
+    },
+    {
+      "id": "E027",
+      "year": 1952,
+      "category": "career",
+      "period": "CLASSIC_B",
+      "title": "MoMA 'Fifteen Americans'전",
+      "description": "MoMA에서 8점 전용 갤러리 부여. 필립 존슨이 록펠러 가문 위해 No.10(1950) 구입 — 기록적 $1,000.",
+      "emotional_valence": "positive",
+      "significance": "high"
+    },
+    {
+      "id": "E028",
+      "year": 1954,
+      "category": "career",
+      "period": "CLASSIC_B",
+      "title": "시카고 아트 인스티튜트 개인전",
+      "description": "시카고 아트 인스티튜트 개인전. 딜러 시드니 재니스(Sidney Janis)와 관계 시작.",
+      "emotional_valence": "positive",
+      "significance": "medium"
+    },
+    {
+      "id": "E029",
+      "year": 1955,
+      "category": "career",
+      "period": "CLASSIC_B",
+      "title": "판매 증가 & 불신",
+      "description": "포춘 매거진 소개 이후 판매 본격 증가. 그러나 수집가들이 진정한 이해 없이 유행으로 작품을 산다고 점점 불신.",
+      "emotional_valence": "mixed",
+      "significance": "medium"
+    },
+    {
+      "id": "E030",
+      "year": 1957,
+      "category": "emotional",
+      "period": "CLASSIC_B",
+      "title": "'종교적 경험' 발언",
+      "description": "'내 그림 앞에서 우는 사람은 내가 그릴 때와 같은 종교적 경험을 하고 있는 것.' 작품이 '아름답다'는 평가에 강한 거부감 표명.",
+      "emotional_valence": "mixed",
+      "significance": "medium"
+    },
+    {
+      "id": "E031",
+      "year": 1958,
+      "date": "1958-06",
+      "category": "career",
+      "period": "SEAGRAM",
+      "title": "시그램 커미션 수락 — 전환점",
+      "description": "시그램 빌딩 포시즌스 레스토랑 벽화 커미션 수락 ($35,000). 바워리 222번지 구 YMCA 체육관을 스튜디오로 임대. 색이 급격히 어두워짐. '미켈란젤로처럼 보는 사람을 가두고 싶다'고 발언. 총 30점 제작.",
+      "emotional_valence": "mixed",
+      "significance": "critical"
+    },
+    {
+      "id": "E032",
+      "year": 1959,
+      "date": "1959-06",
+      "category": "life",
+      "period": "SEAGRAM",
+      "title": "유럽 재방문 & 포시즌스 식사",
+      "description": "가족과 유럽 여행. 피렌체 재방문. 귀국 후 멜과 포시즌스에서 식사 — 극도의 혐오감. 커미션 반납 결정. '이런 음식에 이런 가격을 내는 사람은 내 그림을 절대 보지 않을 것.'",
+      "emotional_valence": "very_negative",
+      "significance": "critical"
+    },
+    {
+      "id": "E033",
+      "year": 1960,
+      "category": "career",
+      "period": "DARK",
+      "title": "시그램 커미션 공식 철회",
+      "description": "시그램 커미션 공식 철회, $35,000 전액 반환. 작품은 보관. 상업 미술계와의 관계가 결정적으로 틀어짐.",
+      "emotional_valence": "negative",
+      "significance": "high"
+    },
+    {
+      "id": "E034",
+      "year": 1961,
+      "date": "1961-01",
+      "category": "career",
+      "period": "DARK",
+      "title": "MoMA 회고전 & 하버드 커미션",
+      "description": "MoMA 대규모 회고전 — 상업적·비평적 성공. JFK 취임 무도회에서 조셉 케네디 옆자리. 하버드 대학교 홀리오크 센터 벽화 커미션 수락.",
+      "emotional_valence": "positive",
+      "significance": "high"
+    },
+    {
+      "id": "E035",
+      "year": 1962,
+      "category": "emotional",
+      "period": "DARK",
+      "title": "팝아트 부상 & 고립감",
+      "description": "팝아트 부상. 워홀 등에 대해 '사기꾼과 젊은 기회주의자들'이라 비판. 재스퍼 존스의 깃발 그림을 보고 '우리가 이것을 없애려고 수년간 작업했다'고 발언. 고립감 심화.",
+      "emotional_valence": "very_negative",
+      "significance": "high"
+    },
+    {
+      "id": "E036",
+      "year": 1963,
+      "date": "1963-08-31",
+      "category": "life",
+      "period": "DARK",
+      "title": "아들 크리스토퍼 출생",
+      "description": "아들 크리스토퍼 출생.",
+      "emotional_valence": "positive",
+      "significance": "medium"
+    },
+    {
+      "id": "E037",
+      "year": 1964,
+      "date": "1964-04",
+      "category": "career",
+      "period": "DARK",
+      "title": "로스코 채플 커미션 & 블랙 폼 시리즈",
+      "description": "드 메닐 부부로부터 휴스턴 비종파 채플 벽화 커미션. 이후 3년간 전념. '블랙 폼(Black-Form)' 시리즈 17점 제작. 이스트 69번가 새 스튜디오로 이동, 도르래 시스템으로 조명 조절.",
+      "emotional_valence": "mixed",
+      "significance": "high"
+    },
+    {
+      "id": "E038",
+      "year": 1966,
+      "category": "life",
+      "period": "DARK",
+      "title": "두 번째 유럽 여행",
+      "description": "유럽 여행 — 이탈리아, 포르투갈, 스페인, 프랑스, 네덜란드, 벨기에, 런던. 아시시 지오토, 피렌체 프라 안젤리코, 파리 모네 수련 방문.",
+      "emotional_valence": "positive",
+      "significance": "medium"
+    },
+    {
+      "id": "E039",
+      "year": 1968,
+      "category": "life",
+      "period": "FINAL",
+      "title": "대동맥류 진단",
+      "description": "초봄, 대동맥류 진단. 3주간 입원. 의사의 금주·금연·운동 권고 무시. 3피트 이상 높이의 그림 금지 → 종이 위 아크릴 소품으로 전환. 건강 악화, 발기부전, 멜과의 관계 급격 악화.",
+      "emotional_valence": "very_negative",
+      "significance": "critical"
+    },
+    {
+      "id": "E040",
+      "year": 1968,
+      "category": "career",
+      "period": "FINAL",
+      "title": "국립예술문학원 선출",
+      "description": "미국 국립예술문학원(National Institute of Arts and Letters) 선출.",
+      "emotional_valence": "positive",
+      "significance": "low"
+    },
+    {
+      "id": "E041",
+      "year": 1969,
+      "date": "1969-01-01",
+      "category": "life",
+      "period": "FINAL",
+      "title": "멜과 별거",
+      "description": "1월 1일, 멜과 공식 별거. 스튜디오로 이사. 고독, 우울증, 과음 심화.",
+      "emotional_valence": "very_negative",
+      "significance": "high"
+    },
+    {
+      "id": "E042",
+      "year": 1969,
+      "category": "career",
+      "period": "FINAL",
+      "title": "예일 명예박사 & 테이트 기증",
+      "description": "예일대학교 명예 미술학박사 수여. 시그램 벽화 9점을 런던 테이트 갤러리에 기증 (전용 전시실 조건).",
+      "emotional_valence": "mixed",
+      "significance": "high"
+    },
+    {
+      "id": "E043",
+      "year": 1969,
+      "category": "art",
+      "period": "FINAL",
+      "title": "블랙 온 그레이 시리즈",
+      "description": "'Black on Gray' 시리즈 25점 제작. 캔버스를 수평 이분 — 위는 블랙, 아래는 그레이. 색의 진동·내부 발광이 거의 사라짐. 모든 특징이 극도로 환원된 최종 양식.",
+      "emotional_valence": "very_negative",
+      "significance": "critical"
+    },
+    {
+      "id": "E044",
+      "year": 1970,
+      "date": "1970-02-25",
+      "category": "life",
+      "period": "FINAL",
+      "title": "사망",
+      "description": "이스트 69번가 스튜디오에서 사망 (66세). 조수 올리버 슈타인데커가 발견. 같은 날 시그램 벽화가 런던 테이트 갤러리에 도착.",
+      "emotional_valence": "very_negative",
+      "significance": "critical"
+    },
+    {
+      "id": "E045",
+      "year": 1970,
+      "date": "1970-02-26",
+      "category": "career",
+      "period": "FINAL",
+      "title": "로스코 채플 축성",
+      "description": "로스코 채플 축성식 (사망 다음 날).",
+      "emotional_valence": "mixed",
+      "significance": "high"
+    },
+    {
+      "id": "E046",
+      "year": 1970,
+      "date": "1970-03-26",
+      "category": "career",
+      "period": "FINAL",
+      "title": "MoMA 사후 회고전",
+      "description": "MoMA 회고전 'Mark Rothko 1903–1970' 개막 (3.26–5.31).",
+      "emotional_valence": "neutral",
+      "significance": "high"
+    }
+  ]
+}
