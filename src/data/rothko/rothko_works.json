@@ -61,6 +61,116 @@
   },
   "works": [
     {
+      "id": "W001",
+      "year": 1929,
+      "title": "Untitled (Reclining Nude)",
+      "period": "FIG",
+      "medium": "oil on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "로스코 재단 기증(1986). 현존 최초기 유화 중 하나",
+      "auction_record": null,
+      "significance": "최초기 유화, 막스 베버 영향, 탁하고 어두운 색감",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#C4A882",
+          "ratio": 0.45
+        },
+        {
+          "color": "#6B7B4A",
+          "ratio": 0.3
+        },
+        {
+          "color": "#5A4A3A",
+          "ratio": 0.25
+        }
+      ],
+      "emotion_y": 0.3,
+      "image": "/images/rothko/W001_1929_untitled-reclining-nude.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#C4A882",
+            "ratio": 0.45,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#6B7B4A",
+            "ratio": 0.3,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#5A4A3A",
+            "ratio": 0.25,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
+    },
+    {
+      "id": "W003",
+      "year": 1932,
+      "title": "Untitled (Street Scene / The Road)",
+      "period": "FIG",
+      "medium": "oil on canvas",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "로스코 재단 기증(1986). 에디스 결혼 즈음 제작",
+      "auction_record": null,
+      "significance": "결혼기 대공황 풍경, 밀턴 에이버리 영향",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#B8A070",
+          "ratio": 0.4
+        },
+        {
+          "color": "#7A8088",
+          "ratio": 0.35
+        },
+        {
+          "color": "#6B7B5A",
+          "ratio": 0.25
+        }
+      ],
+      "emotion_y": 0.5,
+      "image": "/images/rothko/W003_1932_untitled-street-scene.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#B8A070",
+            "ratio": 0.4,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#7A8088",
+            "ratio": 0.35,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#6B7B5A",
+            "ratio": 0.25,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
+    },
+    {
       "id": "W002",
       "year": 1933,
       "title": "Untitled (Portland, Oregon)",
@@ -108,6 +218,61 @@
           {
             "color": "#5d574d",
             "ratio": 0.13,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
+    },
+    {
+      "id": "W003b",
+      "year": 1934,
+      "title": "Untitled (Bathers / Beach Scene)",
+      "period": "FIG",
+      "medium": "watercolor on construction paper",
+      "collection": "National Gallery of Art, Washington",
+      "collection_type": "museum",
+      "exhibition_note": "글로스터 여름 작업. 에이버리 직접 영향",
+      "auction_record": null,
+      "significance": "해변 주제의 희귀한 자연 풍경. 밝은 주제에도 탁한 팔레트",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#5A8B8B",
+          "ratio": 0.35
+        },
+        {
+          "color": "#9A9A90",
+          "ratio": 0.35
+        },
+        {
+          "color": "#D4C8A8",
+          "ratio": 0.3
+        }
+      ],
+      "emotion_y": 0.4,
+      "image": "/images/rothko/W003b_1934_untitled-bathers.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#5A8B8B",
+            "ratio": 0.35,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#9A9A90",
+            "ratio": 0.35,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#D4C8A8",
+            "ratio": 0.3,
             "y_start": null,
             "y_end": null
           }
@@ -329,6 +494,61 @@
           {
             "color": "#755c4e",
             "ratio": 0.25,
+            "y_start": null,
+            "y_end": null
+          }
+        ],
+        "edge_colors": []
+      }
+    },
+    {
+      "id": "W007b",
+      "year": 1939,
+      "title": "Portrait of Mary",
+      "period": "FIG",
+      "medium": "oil on canvas",
+      "collection": "Private",
+      "collection_type": "private",
+      "exhibition_note": "빈 미술사박물관(2019), 루이비통 재단(2023) 전시. 베르메르 '화가의 아틀리에' 참조",
+      "auction_record": null,
+      "significance": "마지막 주요 구상화. FIG→MYTH 전환점. The Ten 해체 해",
+      "composition_type": "figurative",
+      "color_blocks": [
+        {
+          "color": "#3A5A8A",
+          "ratio": 0.35
+        },
+        {
+          "color": "#C4A07A",
+          "ratio": 0.35
+        },
+        {
+          "color": "#3A3A3A",
+          "ratio": 0.3
+        }
+      ],
+      "emotion_y": -0.15,
+      "image": "/images/rothko/W007b_1939_portrait-of-mary.jpg",
+      "color_extraction": {
+        "method": "dominant_color",
+        "confidence": "medium",
+        "background": null,
+        "blocks": [
+          {
+            "color": "#3A5A8A",
+            "ratio": 0.35,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#C4A07A",
+            "ratio": 0.35,
+            "y_start": null,
+            "y_end": null
+          },
+          {
+            "color": "#3A3A3A",
+            "ratio": 0.3,
             "y_start": null,
             "y_end": null
           }
@@ -826,7 +1046,7 @@
           "ratio": 0.35
         }
       ],
-      "emotion_y": -0.45,
+      "emotion_y": -0.35,
       "image": "/images/rothko/W016_1948_no-9-white-and-black-on-wine.jpg",
       "color_extraction": {
         "method": "hybrid_band",
@@ -907,7 +1127,7 @@
           "ratio": 0.32
         }
       ],
-      "emotion_y": -0.45,
+      "emotion_y": -0.35,
       "image": "/images/rothko/W017_1948_no-10.jpg",
       "color_extraction": {
         "method": "hybrid_band",
@@ -989,7 +1209,7 @@
           "ratio": 0.09
         }
       ],
-      "emotion_y": -0.45,
+      "emotion_y": -0.35,
       "image": "/images/rothko/W018_1948_multiform.jpg",
       "background": "#e1ba7d",
       "color_extraction": {
@@ -1097,7 +1317,7 @@
         }
       ],
       "background": "#a64c3d",
-      "emotion_y": 0.65,
+      "emotion_y": 0.5,
       "image": "/images/rothko/W019_1949_no-3no-13-magenta-black-green-on-orange.jpg",
       "color_extraction": {
         "method": "horizontal_band",
@@ -1191,7 +1411,7 @@
         }
       ],
       "background": "#d44015",
-      "emotion_y": 0.65,
+      "emotion_y": 0.5,
       "image": "/images/rothko/W020_1949_no-1-no-18-1949.jpg",
       "color_extraction": {
         "method": "horizontal_band",
@@ -1469,6 +1689,71 @@
             "color": "#e68800",
             "y_position": 0.71,
             "width": 0.04
+          }
+        ]
+      }
+    },
+    {
+      "id": "W024",
+      "year": 1951,
+      "title": "No. 6 (Violet, Green and Red)",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Private (Kenneth Griffin)",
+      "collection_type": "private",
+      "exhibition_note": "2024년 크리스티 프라이빗 세일 $195M — 로스코 역대 최고가",
+      "auction_record": "$195,000,000 (2024, Christie's private sale)",
+      "significance": "성숙기 유일한 그린 사용. 역대 최고가. 3색만으로 극단적 색채 긴장",
+      "composition_type": "classic_stack",
+      "color_blocks": [
+        {
+          "color": "#7B4A8A",
+          "ratio": 0.35
+        },
+        {
+          "color": "#4A7A4A",
+          "ratio": 0.3
+        },
+        {
+          "color": "#C44A3A",
+          "ratio": 0.35
+        }
+      ],
+      "emotion_y": 0.75,
+      "image": "/images/rothko/W024_1951_no6-violet-green-red.jpg",
+      "background": "#6A3A5A",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#6A3A5A",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#7B4A8A",
+            "ratio": 0.35,
+            "y_start": 0.05,
+            "y_end": 0.35
+          },
+          {
+            "color": "#4A7A4A",
+            "ratio": 0.3,
+            "y_start": 0.38,
+            "y_end": 0.65
+          },
+          {
+            "color": "#C44A3A",
+            "ratio": 0.35,
+            "y_start": 0.68,
+            "y_end": 0.95
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#5A3A6A",
+            "y_position": 0.36,
+            "width": 0.03
           }
         ]
       }
@@ -1830,7 +2115,7 @@
         }
       ],
       "background": "#cc9100",
-      "emotion_y": 0.3,
+      "emotion_y": -0.4,
       "image": "/images/rothko/W030_1955_untitled-yellow-pink-yellow-on-light-pink.jpg",
       "color_extraction": {
         "method": "horizontal_band",
@@ -1874,6 +2159,71 @@
       }
     },
     {
+      "id": "W030b",
+      "year": 1955,
+      "title": "Untitled (Yellow, Orange, Yellow, Light Orange)",
+      "period": "CLASSIC_B",
+      "medium": "oil on canvas",
+      "collection": "Private (ex-Bunny Mellon)",
+      "collection_type": "private",
+      "exhibition_note": "소더비 2014 $36.5M. 버니 멜론 유산",
+      "auction_record": "$36,500,000 (2014, Sotheby's)",
+      "significance": "올웜 팔레트. 뉴먼·스틸 배신과 같은 해 — 밝은 색 vs 우울한 감정의 극적 대조",
+      "composition_type": "classic_stack",
+      "color_blocks": [
+        {
+          "color": "#E8C840",
+          "ratio": 0.3
+        },
+        {
+          "color": "#E88030",
+          "ratio": 0.4
+        },
+        {
+          "color": "#F0B060",
+          "ratio": 0.3
+        }
+      ],
+      "emotion_y": -0.4,
+      "image": "/images/rothko/W030b_1955_untitled-yellow-orange.jpg",
+      "background": "#E8A040",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#E8A040",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#E8C840",
+            "ratio": 0.3,
+            "y_start": 0.05,
+            "y_end": 0.3
+          },
+          {
+            "color": "#E88030",
+            "ratio": 0.4,
+            "y_start": 0.33,
+            "y_end": 0.65
+          },
+          {
+            "color": "#F0B060",
+            "ratio": 0.3,
+            "y_start": 0.68,
+            "y_end": 0.95
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#E8A840",
+            "y_position": 0.31,
+            "width": 0.03
+          }
+        ]
+      }
+    },
+    {
       "id": "W031",
       "year": 1956,
       "title": "Green and Tangerine on Red",
@@ -1896,7 +2246,7 @@
         }
       ],
       "background": "#b67d3f",
-      "emotion_y": 0.95,
+      "emotion_y": 0.2,
       "image": "/images/rothko/W031_1956_green-and-tangerine-on-red.jpg",
       "color_extraction": {
         "method": "horizontal_band",
@@ -1951,7 +2301,7 @@
         }
       ],
       "background": "#e46a06",
-      "emotion_y": 0.95,
+      "emotion_y": 0.15,
       "image": "/images/rothko/W032_1956_olive-over-red.jpg",
       "color_extraction": {
         "method": "horizontal_band",
@@ -2011,7 +2361,7 @@
         }
       ],
       "background": "#d02b2f",
-      "emotion_y": 0.8,
+      "emotion_y": 0.05,
       "image": "/images/rothko/W033_1957_orange-and-red-on-red.jpg",
       "color_extraction": {
         "method": "horizontal_band",
@@ -2080,7 +2430,7 @@
         }
       ],
       "background": "#e67f5e",
-      "emotion_y": 0.8,
+      "emotion_y": 0.05,
       "image": "/images/rothko/W034_1957_white-center-yellow-pink-and-lavender-on-rose.jpg",
       "color_extraction": {
         "method": "horizontal_band",
@@ -2517,6 +2867,124 @@
       }
     },
     {
+      "id": "W033b",
+      "year": 1960,
+      "title": "No. 14, 1960",
+      "period": "DARK",
+      "medium": "oil on canvas",
+      "collection": "SFMOMA, San Francisco",
+      "collection_type": "museum",
+      "exhibition_note": "1997 취득. 시그램 위기 해에 밝은 오렌지가 남아있는 과도기 작품",
+      "auction_record": null,
+      "significance": "1960년 19점 중 하나. 밝은 오렌지가 남아있으나 가지색 그라운드가 다가올 어둠 예고",
+      "composition_type": "classic_stack",
+      "color_blocks": [
+        {
+          "color": "#E8782A",
+          "ratio": 0.55
+        },
+        {
+          "color": "#2A4A8A",
+          "ratio": 0.3
+        },
+        {
+          "color": "#5A2A3A",
+          "ratio": 0.15
+        }
+      ],
+      "emotion_y": -0.35,
+      "image": "/images/rothko/W033b_1960_no14.jpg",
+      "background": "#5A2A3A",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#5A2A3A",
+          "ratio": 0.15
+        },
+        "blocks": [
+          {
+            "color": "#E8782A",
+            "ratio": 0.55,
+            "y_start": 0.05,
+            "y_end": 0.6
+          },
+          {
+            "color": "#2A4A8A",
+            "ratio": 0.3,
+            "y_start": 0.65,
+            "y_end": 0.95
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#8A4A2A",
+            "y_position": 0.62,
+            "width": 0.04
+          }
+        ]
+      }
+    },
+    {
+      "id": "W033c",
+      "year": 1960,
+      "title": "Untitled, 1960",
+      "period": "DARK",
+      "medium": "oil on canvas",
+      "collection": "Private (ex-SFMOMA)",
+      "collection_type": "private",
+      "exhibition_note": "소더비 2019.5 $50.1M. 은회색 밴드가 로스코 전체 작품에서 극히 이례적",
+      "auction_record": "$50,100,000 (2019, Sotheby's)",
+      "significance": "로스코가 직접 SFMOMA를 위해 선택. 은회색 밴드는 전 작품 중 거의 유일",
+      "composition_type": "classic_stack",
+      "color_blocks": [
+        {
+          "color": "#6A2228",
+          "ratio": 0.4
+        },
+        {
+          "color": "#4A1A1A",
+          "ratio": 0.35
+        },
+        {
+          "color": "#A0A0A8",
+          "ratio": 0.25
+        }
+      ],
+      "emotion_y": -0.35,
+      "image": "/images/rothko/W033c_1960_untitled.jpg",
+      "background": "#4A1A1A",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#4A1A1A",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#6A2228",
+            "ratio": 0.4,
+            "y_start": 0.05,
+            "y_end": 0.4
+          },
+          {
+            "color": "#A0A0A8",
+            "ratio": 0.25,
+            "y_start": 0.42,
+            "y_end": 0.58
+          },
+          {
+            "color": "#4A1A1A",
+            "ratio": 0.35,
+            "y_start": 0.6,
+            "y_end": 0.95
+          }
+        ],
+        "edge_colors": []
+      }
+    },
+    {
       "id": "W041",
       "year": 1961,
       "title": "Orange, Red, Yellow",
@@ -2548,7 +3016,7 @@
         }
       ],
       "background": "#b14739",
-      "emotion_y": 0.3,
+      "emotion_y": 0.15,
       "image": "/images/rothko/W041_1961_orange-red-yellow.jpg",
       "color_extraction": {
         "method": "horizontal_band",
@@ -2618,7 +3086,7 @@
         }
       ],
       "background": "#1c369d",
-      "emotion_y": 0.2,
+      "emotion_y": 0.1,
       "image": "/images/rothko/W042_1961_no-16-red-brown-and-black.jpg",
       "color_extraction": {
         "method": "horizontal_band",
@@ -2856,6 +3324,65 @@
       }
     },
     {
+      "id": "W036b",
+      "year": 1963,
+      "title": "Untitled, 1963",
+      "period": "DARK",
+      "medium": "oil on canvas",
+      "collection": "Seattle Art Museum",
+      "collection_type": "museum",
+      "exhibition_note": "2020 기증. 수평 포맷 — 로스코에게 이례적",
+      "auction_record": null,
+      "significance": "수평 포맷. 상단 흰 밴드가 어두운 팔레트를 강화. 채플 벽화 예고",
+      "composition_type": "horizontal_bands",
+      "color_blocks": [
+        {
+          "color": "#2A1A2A",
+          "ratio": 0.45
+        },
+        {
+          "color": "#F0F0E8",
+          "ratio": 0.15
+        },
+        {
+          "color": "#3A2A1A",
+          "ratio": 0.4
+        }
+      ],
+      "emotion_y": -0.2,
+      "image": "/images/rothko/W036b_1963_untitled.jpg",
+      "background": "#2A1A1A",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#2A1A1A",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#F0F0E8",
+            "ratio": 0.15,
+            "y_start": 0.02,
+            "y_end": 0.12
+          },
+          {
+            "color": "#2A1A2A",
+            "ratio": 0.45,
+            "y_start": 0.15,
+            "y_end": 0.55
+          },
+          {
+            "color": "#3A2A1A",
+            "ratio": 0.4,
+            "y_start": 0.58,
+            "y_end": 0.98
+          }
+        ],
+        "edge_colors": []
+      }
+    },
+    {
       "id": "W046",
       "year": 1964,
       "title": "No. 8 (Black Form series)",
@@ -2956,6 +3483,242 @@
             "ratio": 0.5,
             "y_start": 0.5,
             "y_end": 0.9
+          }
+        ],
+        "edge_colors": []
+      }
+    },
+    {
+      "id": "W046b",
+      "year": 1965,
+      "title": "Untitled, 1965",
+      "period": "DARK",
+      "medium": "oil on canvas",
+      "collection": "Private",
+      "collection_type": "private",
+      "exhibition_note": "채플 몰입기 독립작. 채플과 팔레트 공유하나 소형",
+      "auction_record": null,
+      "significance": "채플 몰입기의 희귀 독립작. 1965년 작품 극소수",
+      "composition_type": "classic_stack",
+      "color_blocks": [
+        {
+          "color": "#3A1A2A",
+          "ratio": 0.45
+        },
+        {
+          "color": "#1A0A1A",
+          "ratio": 0.35
+        },
+        {
+          "color": "#2A1A0A",
+          "ratio": 0.2
+        }
+      ],
+      "emotion_y": -0.35,
+      "image": "/images/rothko/W046b_1965_untitled.jpg",
+      "background": "#2A1A1A",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#2A1A1A",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#3A1A2A",
+            "ratio": 0.45,
+            "y_start": 0.05,
+            "y_end": 0.48
+          },
+          {
+            "color": "#1A0A1A",
+            "ratio": 0.35,
+            "y_start": 0.52,
+            "y_end": 0.85
+          },
+          {
+            "color": "#2A1A0A",
+            "ratio": 0.2,
+            "y_start": 0.87,
+            "y_end": 0.95
+          }
+        ],
+        "edge_colors": []
+      }
+    },
+    {
+      "id": "W046c",
+      "year": 1966,
+      "title": "Untitled (Chapel Alternate, First of Pair C)",
+      "period": "DARK",
+      "medium": "dry pigment, rabbitskin glue, egg/oil emulsion, synthetic polymer on canvas",
+      "collection": "The Menil Collection, Houston",
+      "collection_type": "museum",
+      "exhibition_note": "로스코 재단 기증(1986). 빛을 반사하지 않고 흡수하도록 의도된 특수 매체",
+      "auction_record": null,
+      "significance": "채플 대안작. 빛을 흡수하는 특수 매체. 약 15피트 크기",
+      "composition_type": "classic_stack",
+      "color_blocks": [
+        {
+          "color": "#0A0A0A",
+          "ratio": 0.5
+        },
+        {
+          "color": "#3A1A2A",
+          "ratio": 0.35
+        },
+        {
+          "color": "#2A1A0A",
+          "ratio": 0.15
+        }
+      ],
+      "emotion_y": -0.25,
+      "image": "/images/rothko/W046c_1966_chapel-alternate-c.jpg",
+      "background": "#2A1A1A",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#2A1A1A",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#0A0A0A",
+            "ratio": 0.5,
+            "y_start": 0.1,
+            "y_end": 0.55
+          },
+          {
+            "color": "#3A1A2A",
+            "ratio": 0.35,
+            "y_start": 0.0,
+            "y_end": 0.1
+          },
+          {
+            "color": "#2A1A0A",
+            "ratio": 0.15,
+            "y_start": 0.55,
+            "y_end": 0.95
+          }
+        ],
+        "edge_colors": []
+      }
+    },
+    {
+      "id": "W046d",
+      "year": 1967,
+      "title": "No. 3, 1967",
+      "period": "DARK",
+      "medium": "oil on canvas",
+      "collection": "The Metropolitan Museum of Art, New York",
+      "collection_type": "museum",
+      "exhibition_note": "뮤리엘 칼리스 스타인버그 뉴먼 컬렉션",
+      "auction_record": null,
+      "significance": "최후기에 드문 따뜻한 색 잔존. 적등색+마젠타. 어둠 속 순간적 온기",
+      "composition_type": "classic_stack",
+      "color_blocks": [
+        {
+          "color": "#C85030",
+          "ratio": 0.45
+        },
+        {
+          "color": "#8A2050",
+          "ratio": 0.4
+        },
+        {
+          "color": "#2A1A1A",
+          "ratio": 0.15
+        }
+      ],
+      "emotion_y": -0.35,
+      "image": "/images/rothko/W046d_1967_no3.jpg",
+      "background": "#2A1A1A",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#2A1A1A",
+          "ratio": 0.15
+        },
+        "blocks": [
+          {
+            "color": "#C85030",
+            "ratio": 0.45,
+            "y_start": 0.05,
+            "y_end": 0.48
+          },
+          {
+            "color": "#8A2050",
+            "ratio": 0.4,
+            "y_start": 0.52,
+            "y_end": 0.92
+          }
+        ],
+        "edge_colors": [
+          {
+            "color": "#A03840",
+            "y_position": 0.5,
+            "width": 0.04
+          }
+        ]
+      }
+    },
+    {
+      "id": "W046e",
+      "year": 1967,
+      "title": "Untitled, 1967",
+      "period": "DARK",
+      "medium": "oil on canvas",
+      "collection": "Empire State Plaza Art Collection, Albany",
+      "collection_type": "museum",
+      "exhibition_note": "1967년 완성작 5점 중 하나",
+      "auction_record": null,
+      "significance": "채플 후 이젤 작업 복귀. 근단색 어둠. 최종기 전조",
+      "composition_type": "classic_stack",
+      "color_blocks": [
+        {
+          "color": "#1A0A0A",
+          "ratio": 0.5
+        },
+        {
+          "color": "#3A2A1A",
+          "ratio": 0.3
+        },
+        {
+          "color": "#2A0A0A",
+          "ratio": 0.2
+        }
+      ],
+      "emotion_y": -0.35,
+      "image": "/images/rothko/W046e_1967_untitled.jpg",
+      "background": "#1A0A0A",
+      "color_extraction": {
+        "method": "hybrid_band",
+        "confidence": "high",
+        "background": {
+          "color": "#1A0A0A",
+          "ratio": 0.1
+        },
+        "blocks": [
+          {
+            "color": "#1A0A0A",
+            "ratio": 0.5,
+            "y_start": 0.05,
+            "y_end": 0.5
+          },
+          {
+            "color": "#3A2A1A",
+            "ratio": 0.3,
+            "y_start": 0.53,
+            "y_end": 0.8
+          },
+          {
+            "color": "#2A0A0A",
+            "ratio": 0.2,
+            "y_start": 0.82,
+            "y_end": 0.95
           }
         ],
         "edge_colors": []

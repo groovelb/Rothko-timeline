@@ -28,9 +28,6 @@ function TimelineEventItem({
   onMouseLeave,
 }) {
   const isHigh = event.significance === 'high' || event.significance === 'critical';
-  const isDeepLane = event.lane > 0;
-  const connectorHeight = event.y - axisY;
-  const INDICATOR_HEIGHT = 16;
 
   return (
     <Box
@@ -39,62 +36,35 @@ function TimelineEventItem({
       sx={ {
         position: 'absolute',
         left: event.x,
-        top: isDeepLane ? event.y : axisY,
+        top: axisY,
         transform: 'translateX(-3px)',
         cursor: 'default',
         zIndex: isActive ? 10 : 1,
       } }
     >
-      {/* 축 도트 — lane 0만 표시 */}
-      { !isDeepLane && (
-        <Box
-          sx={ {
-            width: 6,
-            height: 6,
-            borderRadius: '50%',
-            backgroundColor: DOT_COLOR,
-            transform: 'translate(-50%, -50%)',
-            ml: '3px',
-          } }
-        />
-      ) }
+      {/* 축 도트 */}
+      <Box
+        sx={ {
+          width: 5,
+          height: 5,
+          borderRadius: '50%',
+          backgroundColor: DOT_COLOR,
+          transform: 'translate(-50%, -50%)',
+          ml: '3px',
+        } }
+      />
 
-      {/* 커넥터 라인 — lane 0: 축→카드, lane 1+: 짧은 인디케이터 */}
-      { !isDeepLane && connectorHeight > 0 && (
-        <Box
-          sx={ {
-            width: '1px',
-            height: Math.max(0, connectorHeight - 4),
-            backgroundColor: 'grey.300',
-            ml: '2.5px',
-          } }
-        />
-      ) }
-      { isDeepLane && (
-        <Box
-          sx={ {
-            position: 'absolute',
-            bottom: '100%',
-            left: '2.5px',
-            width: '1px',
-            height: INDICATOR_HEIGHT,
-            backgroundColor: 'grey.300',
-          } }
-        />
-      ) }
-
-      {/* 이벤트 타이틀 */}
+      {/* 이벤트 타이틀 — 연도 라벨(top:14 + ~14px) 아래에 배치 */}
       <Typography
         variant="caption"
         sx={ {
           display: 'block',
-          width: 160,
+          width: 140,
           transform: 'translateX(-8px)',
-          pt: 0.5,
+          mt: '28px',
           fontWeight: isHigh ? 600 : 400,
           lineHeight: 1.3,
-          fontSize: '0.7rem',
-          color: 'text.secondary',
+          color: 'text.disabled',
         } }
       >
         { event.title }

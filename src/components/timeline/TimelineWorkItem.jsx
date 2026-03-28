@@ -75,8 +75,8 @@ function TimelineWorkItem({
         sx={ {
           display: 'block',
           width: IMAGE_WIDTH,
-          height: IMAGE_HEIGHT,
-          objectFit: 'cover',
+          maxHeight: IMAGE_HEIGHT,
+          objectFit: 'contain',
         } }
       />
 

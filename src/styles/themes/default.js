@@ -124,7 +124,7 @@ const typography = {
   ].join(','),
 
   // 헤딩 폰트 패밀리
-  headingFontFamily: '"Outfit", "Pretendard Variable", Pretendard, sans-serif',
+  headingFontFamily: '"Georgia", "Times New Roman", "Noto Serif KR", serif',
 
   // 폰트 크기 기준
   fontSize: 14,
@@ -138,42 +138,42 @@ const typography = {
 
   // 헤딩 스타일
   h1: {
-    fontFamily: '"Outfit", "Pretendard Variable", Pretendard, sans-serif',
+    fontFamily: '"Georgia", "Times New Roman", "Noto Serif KR", serif',
     fontWeight: 900,
     fontSize: '2.5rem',      // 40px
     lineHeight: 1.2,
     letterSpacing: '-0.02em',
   },
   h2: {
-    fontFamily: '"Outfit", "Pretendard Variable", Pretendard, sans-serif',
+    fontFamily: '"Georgia", "Times New Roman", "Noto Serif KR", serif',
     fontWeight: 900,
     fontSize: '2rem',        // 32px
     lineHeight: 1.2,
     letterSpacing: '-0.02em',
   },
   h3: {
-    fontFamily: '"Outfit", "Pretendard Variable", Pretendard, sans-serif',
+    fontFamily: '"Georgia", "Times New Roman", "Noto Serif KR", serif',
     fontWeight: 800,
     fontSize: '1.75rem',     // 28px
     lineHeight: 1.3,
     letterSpacing: '-0.01em',
   },
   h4: {
-    fontFamily: '"Outfit", "Pretendard Variable", Pretendard, sans-serif',
+    fontFamily: '"Georgia", "Times New Roman", "Noto Serif KR", serif',
     fontWeight: 700,
     fontSize: '1.5rem',      // 24px
     lineHeight: 1.3,
     letterSpacing: '-0.01em',
   },
   h5: {
-    fontFamily: '"Outfit", "Pretendard Variable", Pretendard, sans-serif',
+    fontFamily: '"Georgia", "Times New Roman", "Noto Serif KR", serif',
     fontWeight: 700,
     fontSize: '1.25rem',     // 20px
     lineHeight: 1.4,
     letterSpacing: '0',
   },
   h6: {
-    fontFamily: '"Outfit", "Pretendard Variable", Pretendard, sans-serif',
+    fontFamily: '"Georgia", "Times New Roman", "Noto Serif KR", serif',
     fontWeight: 600,
     fontSize: '1.125rem',    // 18px
     lineHeight: 1.4,

@@ -122,28 +122,22 @@ function useTimelineLayout({
       return { ...work, x, y, band };
     });
 
-    /** 이벤트 배치 (축 하단) — 그리디 레인 배정으로 충돌 방지 */
-    const CARD_WIDTH = 190;
-    const LANE_HEIGHT = 80;
-    const LANE_TOP_MARGIN = 20;
+    /** 이벤트 배치 (축 하단) — 연도별 1개만, 단일 레인 */
+    const EVENT_STRIP_HEIGHT = 40;
+    const sigOrder = { critical: 0, high: 1, medium: 2, low: 3 };
 
-    const sortedEvents = [...events]
-      .map((e) => ({ ...e, x: yearToX(e.year) }))
-      .sort((a, b) => a.x - b.x);
-
-    const laneEdges = [];
-
-    const positionedEvents = sortedEvents.map((event) => {
-      let lane = 0;
-      while (lane < laneEdges.length && laneEdges[lane] > event.x) {
-        lane++;
+    /** 같은 연도에 여러 이벤트가 있으면 significance 높은 것만 */
+    const yearBest = {};
+    events.forEach((e) => {
+      const rank = sigOrder[e.significance] ?? 9;
+      if (!yearBest[e.year] || rank < (sigOrder[yearBest[e.year].significance] ?? 9)) {
+        yearBest[e.year] = e;
       }
-      if (lane >= laneEdges.length) laneEdges.push(0);
-      laneEdges[lane] = event.x + CARD_WIDTH;
-
-      const y = axisY + LANE_TOP_MARGIN + lane * LANE_HEIGHT;
-      return { ...event, y, lane };
     });
+
+    const positionedEvents = Object.values(yearBest)
+      .map((e) => ({ ...e, x: yearToX(e.year), y: axisY + 12, lane: 0 }))
+      .sort((a, b) => a.x - b.x);
 
     /** Y축 감정 밴드 틱 데이터 */
     const emotionBands = BANDS.map((band) => {
