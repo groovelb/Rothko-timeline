@@ -34,10 +34,16 @@ function TimelineWorkItem({
   onClick,
 }) {
   const dotColor = '#000';
+  const dotSize = 6;
   const scaledW = Math.round(IMAGE_WIDTH * nodeScale);
   const scaledH = Math.round(IMAGE_HEIGHT * nodeScale);
-  const connectorHeight = axisY - work.y - YEAR_LABEL_HEIGHT - scaledH - 2;
+  /** 도트 중심이 axisY에 정확히 오도록 절대 좌표 계산 */
+  const dotTop = axisY - work.y - dotSize / 2;
+  const imageBottom = YEAR_LABEL_HEIGHT + scaledH;
+  const connectorTop = imageBottom;
+  const connectorHeight = dotTop - connectorTop;
   const isFlipped = work.y < 140;
+  const containerHeight = dotTop + dotSize;
 
   return (
     <Box
@@ -49,6 +55,7 @@ function TimelineWorkItem({
         left: work.x,
         top: work.y,
         width: scaledW,
+        height: containerHeight,
         cursor: 'pointer',
         zIndex: isActive ? 10 : 1,
         '&:hover .work-tooltip': {
@@ -65,7 +72,8 @@ function TimelineWorkItem({
           textAlign: 'center',
           color: 'text.disabled',
           fontSize: '0.6rem',
-          mb: 0.5,
+          lineHeight: `${YEAR_LABEL_HEIGHT}px`,
+          height: YEAR_LABEL_HEIGHT,
           userSelect: 'none',
         } }
       >
@@ -82,32 +90,37 @@ function TimelineWorkItem({
         sx={ {
           display: 'block',
           width: scaledW,
-          maxHeight: scaledH,
+          height: scaledH,
           objectFit: 'contain',
         } }
       />
 
-      {/* 커넥터 라인 (이미지 하단 → 축) */}
+      {/* 커넥터 라인 (이미지 하단 → 축 도트) */}
       { connectorHeight > 0 && (
         <Box
           sx={ {
+            position: 'absolute',
+            left: '50%',
+            top: connectorTop,
             width: '1px',
             height: connectorHeight,
-            mx: 'auto',
             borderLeft: '1px dashed',
             borderColor: 'grey.300',
           } }
         />
       ) }
 
-      {/* 축 도트 */}
+      {/* 축 도트 — axisY에 정확히 고정 */}
       <Box
         sx={ {
-          width: 6,
-          height: 6,
+          position: 'absolute',
+          left: '50%',
+          top: dotTop,
+          width: dotSize,
+          height: dotSize,
           borderRadius: '50%',
           backgroundColor: dotColor,
-          mx: 'auto',
+          transform: 'translateX(-50%)',
         } }
       />
 
