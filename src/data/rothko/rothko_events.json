@@ -12,202 +12,891 @@
     "periods": [
       {
         "id": "FIG",
-        "label": "구상기 (Figurative)",
+        "label": {
+          "ko": "구상기",
+          "en": "Figurative Period"
+        },
         "range": "1924–1940",
-        "color_tendency": "탁한 갈색, 회색, 어두운 도시 팔레트"
+        "color_tendency": {
+          "ko": "탁한 갈색, 회색, 어두운 도시 팔레트",
+          "en": "Dull brown, grey, dark urban palette"
+        }
       },
       {
         "id": "MYTH",
-        "label": "신화/초현실기 (Mythomorphic)",
+        "label": {
+          "ko": "신화/초현실기",
+          "en": "Mythomorphic Period"
+        },
         "range": "1940–1946",
-        "color_tendency": "회갈색, 적갈색, 몽환적 톤"
+        "color_tendency": {
+          "ko": "회갈색, 적갈색, 몽환적 톤",
+          "en": "Grey-brown, reddish-brown, dreamlike tones"
+        }
       },
       {
         "id": "MULTI",
-        "label": "멀티폼 전환기 (Multiforms)",
+        "label": {
+          "ko": "멀티폼 전환기",
+          "en": "Multiforms Transition"
+        },
         "range": "1946–1949",
-        "color_tendency": "색이 밝아지기 시작, 다색 덩어리"
+        "color_tendency": {
+          "ko": "색이 밝아지기 시작, 다색 덩어리",
+          "en": "Colors begin to brighten, multi-colored masses"
+        }
       },
       {
         "id": "CLASSIC_B",
-        "label": "클래식 밝은 시기 (Classic Bright)",
+        "label": {
+          "ko": "클래식 밝은 시기",
+          "en": "Classic Bright Period"
+        },
         "range": "1949–1957",
-        "color_tendency": "오렌지, 옐로우, 레드, 핑크 — 따뜻하고 발광하는 색"
+        "color_tendency": {
+          "ko": "오렌지, 옐로우, 레드, 핑크 — 따뜻하고 발광하는 색",
+          "en": "Orange, yellow, red, pink — warm, luminous colors"
+        }
       },
       {
         "id": "SEAGRAM",
-        "label": "시그램 벽화 (Seagram Murals)",
+        "label": {
+          "ko": "시그램 벽화",
+          "en": "Seagram Murals"
+        },
         "range": "1958–1959",
-        "color_tendency": "마룬, 다크 레드, 블랙 — 급격한 어두움 전환"
+        "color_tendency": {
+          "ko": "마룬, 다크 레드, 블랙 — 급격한 어두움 전환",
+          "en": "Maroon, dark red, black — abrupt shift to darkness"
+        }
       },
       {
         "id": "DARK",
-        "label": "후기 어두운 시기 (Dark Period)",
+        "label": {
+          "ko": "후기 어두운 시기",
+          "en": "Dark Period"
+        },
         "range": "1960–1967",
-        "color_tendency": "다크 퍼플, 블랙, 브라운, 짙은 블루"
+        "color_tendency": {
+          "ko": "다크 퍼플, 블랙, 브라운, 짙은 블루",
+          "en": "Dark purple, black, brown, deep blue"
+        }
       },
       {
         "id": "FINAL",
-        "label": "최후기 (Final Works)",
+        "label": {
+          "ko": "최후기",
+          "en": "Final Works"
+        },
         "range": "1968–1970",
-        "color_tendency": "블랙, 그레이, 브라운 — 색의 극단적 환원"
+        "color_tendency": {
+          "ko": "블랙, 그레이, 브라운 — 색의 극단적 환원",
+          "en": "Black, grey, brown — extreme reduction of color"
+        }
       }
     ],
     "biographical_periods": [
       {
         "id": "BIO_CHILD",
-        "label": "유년·이민",
-        "range": [1903, 1918],
-        "keywords": ["불안", "이질감", "빈곤", "상실"],
-        "band_colors": ["#A0937D"],
+        "label": {
+          "ko": "유년·이민",
+          "en": "Childhood & Immigration"
+        },
+        "range": [
+          1903,
+          1918
+        ],
+        "keywords": {
+          "ko": [
+            "불안",
+            "이질감",
+            "빈곤",
+            "상실"
+          ],
+          "en": [
+            "anxiety",
+            "alienation",
+            "poverty",
+            "loss"
+          ]
+        },
+        "band_colors": [
+          "#A0937D"
+        ],
         "band_thickness": "thin",
         "blur_intensity": 0.3
       },
       {
         "id": "BIO_YALE",
-        "label": "예일·좌절·자립",
-        "range": [1919, 1924],
-        "keywords": ["소외감", "반항", "자립"],
-        "band_colors": ["#8B7D6B"],
+        "label": {
+          "ko": "예일·좌절·자립",
+          "en": "Yale, Frustration & Independence"
+        },
+        "range": [
+          1919,
+          1924
+        ],
+        "keywords": {
+          "ko": [
+            "소외감",
+            "반항",
+            "자립"
+          ],
+          "en": [
+            "alienation",
+            "rebellion",
+            "independence"
+          ]
+        },
+        "band_colors": [
+          "#8B7D6B"
+        ],
         "band_thickness": "thin",
         "blur_intensity": 0.3
       },
       {
         "id": "BIO_NY",
-        "label": "뉴욕·시작",
-        "range": [1925, 1932],
-        "keywords": ["열정", "탐색", "첫 결혼"],
-        "band_colors": ["#8B6914"],
+        "label": {
+          "ko": "뉴욕·시작",
+          "en": "New York & Beginnings"
+        },
+        "range": [
+          1925,
+          1932
+        ],
+        "keywords": {
+          "ko": [
+            "열정",
+            "탐색",
+            "첫 결혼"
+          ],
+          "en": [
+            "passion",
+            "exploration",
+            "first marriage"
+          ]
+        },
+        "band_colors": [
+          "#8B6914"
+        ],
         "band_thickness": "medium",
         "blur_intensity": 0.4
       },
       {
         "id": "BIO_TEN",
-        "label": "The Ten·정체성",
-        "range": [1933, 1939],
-        "keywords": ["연대", "저항", "시민권"],
-        "band_colors": ["#8B6914", "#A07B3D"],
+        "label": {
+          "ko": "The Ten·정체성",
+          "en": "The Ten & Identity"
+        },
+        "range": [
+          1933,
+          1939
+        ],
+        "keywords": {
+          "ko": [
+            "연대",
+            "저항",
+            "시민권"
+          ],
+          "en": [
+            "solidarity",
+            "resistance",
+            "civil rights"
+          ]
+        },
+        "band_colors": [
+          "#8B6914",
+          "#A07B3D"
+        ],
         "band_thickness": "medium",
         "blur_intensity": 0.4
       },
       {
         "id": "BIO_DIVORCE",
-        "label": "이혼·전환",
-        "range": [1940, 1943],
-        "keywords": ["상실", "신화 탐구", "예술적 선언"],
-        "band_colors": ["#4A235A"],
+        "label": {
+          "ko": "이혼·전환",
+          "en": "Divorce & Transformation"
+        },
+        "range": [
+          1940,
+          1943
+        ],
+        "keywords": {
+          "ko": [
+            "상실",
+            "신화 탐구",
+            "예술적 선언"
+          ],
+          "en": [
+            "loss",
+            "mythological quest",
+            "artistic declaration"
+          ]
+        },
+        "band_colors": [
+          "#4A235A"
+        ],
         "band_thickness": "thick",
         "blur_intensity": 0.6
       },
       {
         "id": "BIO_REBIRTH",
-        "label": "재혼·돌파",
-        "range": [1944, 1949],
-        "keywords": ["사랑", "멀티폼 탄생", "어머니 상실", "클래식 도달"],
-        "band_colors": ["#E67E22", "#D4AC0D"],
+        "label": {
+          "ko": "재혼·돌파",
+          "en": "Remarriage & Breakthrough"
+        },
+        "range": [
+          1944,
+          1949
+        ],
+        "keywords": {
+          "ko": [
+            "사랑",
+            "멀티폼 탄생",
+            "어머니 상실",
+            "클래식 도달"
+          ],
+          "en": [
+            "love",
+            "Multiform birth",
+            "mother's death",
+            "reaching classic"
+          ]
+        },
+        "band_colors": [
+          "#E67E22",
+          "#D4AC0D"
+        ],
         "band_thickness": "medium_thick",
         "blur_intensity": 0.6
       },
       {
         "id": "BIO_CLASSIC",
-        "label": "클래식기·정점",
-        "range": [1950, 1957],
-        "keywords": ["오렌지", "레드", "옐로", "인정", "정점", "불신 시작"],
-        "band_colors": ["#E74C3C", "#F39C12"],
+        "label": {
+          "ko": "클래식기·정점",
+          "en": "Classic Period & Zenith"
+        },
+        "range": [
+          1950,
+          1957
+        ],
+        "keywords": {
+          "ko": [
+            "오렌지",
+            "레드",
+            "옐로",
+            "인정",
+            "정점",
+            "불신 시작"
+          ],
+          "en": [
+            "orange",
+            "red",
+            "yellow",
+            "recognition",
+            "zenith",
+            "distrust begins"
+          ]
+        },
+        "band_colors": [
+          "#E74C3C",
+          "#F39C12"
+        ],
         "band_thickness": "thickest",
         "blur_intensity": 0.8
       },
       {
         "id": "BIO_MURAL",
-        "label": "벽화기·갈등",
-        "range": [1958, 1962],
-        "keywords": ["시그램", "분노", "순결", "팝아트 고립", "명성의 무게"],
-        "band_colors": ["#922B21", "#641E16"],
+        "label": {
+          "ko": "벽화기·갈등",
+          "en": "Mural Period & Conflict"
+        },
+        "range": [
+          1958,
+          1962
+        ],
+        "keywords": {
+          "ko": [
+            "시그램",
+            "분노",
+            "순결",
+            "팝아트 고립",
+            "명성의 무게"
+          ],
+          "en": [
+            "Seagram",
+            "anger",
+            "purity",
+            "Pop Art isolation",
+            "weight of fame"
+          ]
+        },
+        "band_colors": [
+          "#922B21",
+          "#641E16"
+        ],
         "band_thickness": "thick",
         "blur_intensity": 0.7
       },
       {
         "id": "BIO_DARK",
-        "label": "암흑기",
-        "range": [1963, 1968],
-        "keywords": ["채플", "건강 악화", "블랙 폼", "고독"],
-        "band_colors": ["#1C1C1C", "#2C2C2C"],
+        "label": {
+          "ko": "암흑기",
+          "en": "Dark Period"
+        },
+        "range": [
+          1963,
+          1968
+        ],
+        "keywords": {
+          "ko": [
+            "채플",
+            "건강 악화",
+            "블랙 폼",
+            "고독"
+          ],
+          "en": [
+            "Chapel",
+            "health decline",
+            "black forms",
+            "solitude"
+          ]
+        },
+        "band_colors": [
+          "#1C1C1C",
+          "#2C2C2C"
+        ],
         "band_thickness": "thinning",
         "blur_intensity": 0.5
       },
       {
         "id": "BIO_END",
-        "label": "종결",
-        "range": [1969, 1970],
-        "keywords": ["별거", "블랙 온 그레이", "테이트 기증", "사망"],
-        "band_colors": ["#000000"],
+        "label": {
+          "ko": "종결",
+          "en": "The End"
+        },
+        "range": [
+          1969,
+          1970
+        ],
+        "keywords": {
+          "ko": [
+            "별거",
+            "블랙 온 그레이",
+            "테이트 기증",
+            "사망"
+          ],
+          "en": [
+            "separation",
+            "Black on Gray",
+            "Tate donation",
+            "death"
+          ]
+        },
+        "band_colors": [
+          "#000000"
+        ],
         "band_thickness": "converging_line",
         "blur_intensity": 0.2
       }
     ],
     "entropy_curve": [
-      { "year": 1903,   "y":  0.0,  "label": "출생" },
-      { "year": 1906,   "y": -0.4,  "label": "코사크 박해 공포" },
-      { "year": 1908,   "y": -0.25, "label": "유대 공동체, 헤데르 교육" },
-      { "year": 1910,   "y": -0.3,  "label": "아버지 이민, 7세에 이별" },
-      { "year": 1913,   "y":  0.25, "label": "가족 재결합, 미국 도착" },
-      { "year": 1914,   "y": -0.5,  "label": "아버지 사망, 소년 노동" },
-      { "year": 1915,   "y": -0.6,  "label": "카디시 애도기, 종교 몰입" },
-      { "year": 1916,   "y": -0.4,  "label": "종교 단절, 노동, 적응" },
-      { "year": 1918,   "y": -0.15, "label": "IWW 집회, 노동운동 꿈" },
-      { "year": 1919,   "y": -0.05, "label": "고교 졸업, 카디시 종료" },
-      { "year": 1921,   "y":  0.2,  "label": "예일 입학" },
-      { "year": 1922,   "y": -0.35, "label": "장학금 박탈, 반유대주의" },
-      { "year": 1923,   "y": -0.15, "label": "중퇴, 방황" },
-      { "year": 1923.5, "y":  0.1,  "label": "뉴욕 방황, 예술계 첫 접촉" },
-      { "year": 1924,   "y":  0.3,  "label": "아트 스튜던츠 리그" },
-      { "year": 1926,   "y":  0.2,  "label": "베버 수학 완료, 고군분투" },
-      { "year": 1928,   "y":  0.15, "label": "첫 그룹전, 삽화 소송 패소" },
-      { "year": 1929,   "y":  0.3,  "label": "교사, 안정" },
-      { "year": 1930,   "y":  0.4,  "label": "에이버리 서클" },
-      { "year": 1931,   "y":  0.45, "label": "에디스 교제" },
-      { "year": 1932,   "y":  0.5,  "label": "결혼" },
-      { "year": 1933,   "y":  0.45, "label": "첫 개인전" },
-      { "year": 1934,   "y":  0.4,  "label": "대공황 속 투쟁" },
-      { "year": 1935,   "y":  0.4,  "label": "The Ten 연대" },
-      { "year": 1936,   "y":  0.3,  "label": "WPA 참여" },
-      { "year": 1937,   "y":  0.15, "label": "결혼 위기" },
-      { "year": 1938,   "y":  0.2,  "label": "시민권, 개명의 정체성 비용" },
-      { "year": 1940,   "y": -0.25, "label": "이혼 직전, 정체성 위기" },
-      { "year": 1941,   "y":  0.15, "label": "신화적 추상 시작" },
-      { "year": 1943,   "y":  0.3,  "label": "NYT 선언" },
-      { "year": 1944,   "y": -0.3,  "label": "이혼" },
-      { "year": 1944.5, "y":  0.2,  "label": "멜과의 만남" },
-      { "year": 1945,   "y":  0.45, "label": "재혼, 구겐하임 개인전" },
-      { "year": 1946,   "y":  0.5,  "label": "멀티폼, 최초 미술관 소장" },
-      { "year": 1947,   "y":  0.5,  "label": "완전한 추상" },
-      { "year": 1948,   "y": -0.35, "label": "어머니 사망, 고르키 자살" },
-      { "year": 1949,   "y":  0.5,  "label": "클래식 양식 돌파 (애도와 공존)" },
-      { "year": 1950,   "y":  0.8,  "label": "유럽 여행, 딸 출생" },
-      { "year": 1951,   "y":  0.75, "label": "교수직, 경제적 불안 지속" },
-      { "year": 1952,   "y":  0.85, "label": "MoMA 전시" },
-      { "year": 1953,   "y":  0.8,  "label": "작업 안정, 상업 성공 갈등" },
-      { "year": 1954,   "y":  0.85, "label": "시카고 개인전" },
-      { "year": 1955,   "y": -0.5,  "label": "뉴먼·스틸 배신, 심한 우울증" },
-      { "year": 1955.5, "y":  0.15, "label": "작업 지속하나 고통 속" },
-      { "year": 1956,   "y":  0.2,  "label": "알코올 의존 시작 (보드카 매일 1병)" },
-      { "year": 1956.5, "y": -0.45, "label": "폴록 사망" },
-      { "year": 1957,   "y":  0.05, "label": "종교적 발언 (확신이지 행복 아님)" },
-      { "year": 1958,   "y": -0.15, "label": "시그램 수락" },
-      { "year": 1959,   "y": -0.4,  "label": "포시즌스 식사, 시그램 거부" },
-      { "year": 1960,   "y": -0.35, "label": "$35K 반환, 상업계와 결별" },
-      { "year": 1961,   "y":  0.15, "label": "MoMA 회고전 (양가감정)" },
-      { "year": 1962,   "y": -0.5,  "label": "팝아트 고립, 클라인 사망, 갤러리 이탈" },
-      { "year": 1963,   "y": -0.2,  "label": "아들 출생 (어둠 속 빛)" },
-      { "year": 1964,   "y": -0.3,  "label": "채플 커미션" },
-      { "year": 1965,   "y": -0.35, "label": "하버드 벽화 퇴색" },
-      { "year": 1966,   "y": -0.25, "label": "유럽 여행 (알코올 의존 지속)" },
-      { "year": 1967,   "y": -0.35, "label": "라인하트 사망" },
-      { "year": 1968,   "y": -0.75, "label": "대동맥류, 간경변, 폐기종, 발기부전" },
-      { "year": 1969,   "y": -0.85, "label": "별거, 리타 관계, 약물 남용" },
-      { "year": 1969.3, "y": -0.7,  "label": "예일 명예박사 (너무 망가져 회복 불가)" },
-      { "year": 1969.7, "y": -0.9,  "label": "블랙 온 그레이 시리즈" },
-      { "year": 1970,   "y": -1.0,  "label": "자살" }
+      {
+        "year": 1903,
+        "y": 0,
+        "label": {
+          "ko": "출생",
+          "en": "Birth"
+        }
+      },
+      {
+        "year": 1906,
+        "y": -0.4,
+        "label": {
+          "ko": "코사크 박해 공포",
+          "en": "Fear of Cossack persecution"
+        }
+      },
+      {
+        "year": 1908,
+        "y": -0.25,
+        "label": {
+          "ko": "유대 공동체, 헤데르 교육",
+          "en": "Jewish community, Heder education"
+        }
+      },
+      {
+        "year": 1910,
+        "y": -0.3,
+        "label": {
+          "ko": "아버지 이민, 7세에 이별",
+          "en": "Father emigrates, parted at age 7"
+        }
+      },
+      {
+        "year": 1913,
+        "y": 0.25,
+        "label": {
+          "ko": "가족 재결합, 미국 도착",
+          "en": "Family reunited, arrives in America"
+        }
+      },
+      {
+        "year": 1914,
+        "y": -0.5,
+        "label": {
+          "ko": "아버지 사망, 소년 노동",
+          "en": "Father dies, child labor"
+        }
+      },
+      {
+        "year": 1915,
+        "y": -0.6,
+        "label": {
+          "ko": "카디시 애도기, 종교 몰입",
+          "en": "Kaddish mourning, religious immersion"
+        }
+      },
+      {
+        "year": 1916,
+        "y": -0.4,
+        "label": {
+          "ko": "종교 단절, 노동, 적응",
+          "en": "Religious break, labor, adaptation"
+        }
+      },
+      {
+        "year": 1918,
+        "y": -0.15,
+        "label": {
+          "ko": "IWW 집회, 노동운동 꿈",
+          "en": "IWW rallies, labor movement dreams"
+        }
+      },
+      {
+        "year": 1919,
+        "y": -0.05,
+        "label": {
+          "ko": "고교 졸업, 카디시 종료",
+          "en": "High school graduation, Kaddish ends"
+        }
+      },
+      {
+        "year": 1921,
+        "y": 0.2,
+        "label": {
+          "ko": "예일 입학",
+          "en": "Yale admission"
+        }
+      },
+      {
+        "year": 1922,
+        "y": -0.35,
+        "label": {
+          "ko": "장학금 박탈, 반유대주의",
+          "en": "Scholarship revoked, antisemitism"
+        }
+      },
+      {
+        "year": 1923,
+        "y": -0.15,
+        "label": {
+          "ko": "중퇴, 방황",
+          "en": "Dropout, wandering"
+        }
+      },
+      {
+        "year": 1923.5,
+        "y": 0.1,
+        "label": {
+          "ko": "뉴욕 방황, 예술계 첫 접촉",
+          "en": "New York wandering, first contact with art world"
+        }
+      },
+      {
+        "year": 1924,
+        "y": 0.3,
+        "label": {
+          "ko": "아트 스튜던츠 리그",
+          "en": "Art Students League"
+        }
+      },
+      {
+        "year": 1926,
+        "y": 0.2,
+        "label": {
+          "ko": "베버 수학 완료, 고군분투",
+          "en": "Weber studies complete, struggling"
+        }
+      },
+      {
+        "year": 1928,
+        "y": 0.15,
+        "label": {
+          "ko": "첫 그룹전, 삽화 소송 패소",
+          "en": "First group show, illustration lawsuit lost"
+        }
+      },
+      {
+        "year": 1929,
+        "y": 0.3,
+        "label": {
+          "ko": "교사, 안정",
+          "en": "Teaching, stability"
+        }
+      },
+      {
+        "year": 1930,
+        "y": 0.4,
+        "label": {
+          "ko": "에이버리 서클",
+          "en": "Avery circle"
+        }
+      },
+      {
+        "year": 1931,
+        "y": 0.45,
+        "label": {
+          "ko": "에디스 교제",
+          "en": "Courting Edith"
+        }
+      },
+      {
+        "year": 1932,
+        "y": 0.5,
+        "label": {
+          "ko": "결혼",
+          "en": "Marriage"
+        }
+      },
+      {
+        "year": 1933,
+        "y": 0.45,
+        "label": {
+          "ko": "첫 개인전",
+          "en": "First solo exhibition"
+        }
+      },
+      {
+        "year": 1934,
+        "y": 0.4,
+        "label": {
+          "ko": "대공황 속 투쟁",
+          "en": "Struggle amid the Depression"
+        }
+      },
+      {
+        "year": 1935,
+        "y": 0.4,
+        "label": {
+          "ko": "The Ten 연대",
+          "en": "The Ten solidarity"
+        }
+      },
+      {
+        "year": 1936,
+        "y": 0.3,
+        "label": {
+          "ko": "WPA 참여",
+          "en": "WPA participation"
+        }
+      },
+      {
+        "year": 1937,
+        "y": 0.15,
+        "label": {
+          "ko": "결혼 위기",
+          "en": "Marriage crisis"
+        }
+      },
+      {
+        "year": 1938,
+        "y": 0.2,
+        "label": {
+          "ko": "시민권, 개명의 정체성 비용",
+          "en": "Citizenship, identity cost of name change"
+        }
+      },
+      {
+        "year": 1940,
+        "y": -0.25,
+        "label": {
+          "ko": "이혼 직전, 정체성 위기",
+          "en": "Brink of divorce, identity crisis"
+        }
+      },
+      {
+        "year": 1941,
+        "y": 0.15,
+        "label": {
+          "ko": "신화적 추상 시작",
+          "en": "Mythological abstraction begins"
+        }
+      },
+      {
+        "year": 1943,
+        "y": 0.3,
+        "label": {
+          "ko": "NYT 선언",
+          "en": "NYT manifesto"
+        }
+      },
+      {
+        "year": 1944,
+        "y": -0.3,
+        "label": {
+          "ko": "이혼",
+          "en": "Divorce"
+        }
+      },
+      {
+        "year": 1944.5,
+        "y": 0.2,
+        "label": {
+          "ko": "멜과의 만남",
+          "en": "Meeting Mell"
+        }
+      },
+      {
+        "year": 1945,
+        "y": 0.45,
+        "label": {
+          "ko": "재혼, 구겐하임 개인전",
+          "en": "Remarriage, Guggenheim solo show"
+        }
+      },
+      {
+        "year": 1946,
+        "y": 0.5,
+        "label": {
+          "ko": "멀티폼, 최초 미술관 소장",
+          "en": "Multiforms, first museum acquisition"
+        }
+      },
+      {
+        "year": 1947,
+        "y": 0.5,
+        "label": {
+          "ko": "완전한 추상",
+          "en": "Complete abstraction"
+        }
+      },
+      {
+        "year": 1948,
+        "y": -0.35,
+        "label": {
+          "ko": "어머니 사망, 고르키 자살",
+          "en": "Mother's death, Gorky's suicide"
+        }
+      },
+      {
+        "year": 1949,
+        "y": 0.5,
+        "label": {
+          "ko": "클래식 양식 돌파 (애도와 공존)",
+          "en": "Classic style breakthrough (amid mourning)"
+        }
+      },
+      {
+        "year": 1950,
+        "y": 0.8,
+        "label": {
+          "ko": "유럽 여행, 딸 출생",
+          "en": "European tour, daughter born"
+        }
+      },
+      {
+        "year": 1951,
+        "y": 0.75,
+        "label": {
+          "ko": "교수직, 경제적 불안 지속",
+          "en": "Teaching position, financial anxiety persists"
+        }
+      },
+      {
+        "year": 1952,
+        "y": 0.85,
+        "label": {
+          "ko": "MoMA 전시",
+          "en": "MoMA exhibition"
+        }
+      },
+      {
+        "year": 1953,
+        "y": 0.8,
+        "label": {
+          "ko": "작업 안정, 상업 성공 갈등",
+          "en": "Work stability, commercial success conflict"
+        }
+      },
+      {
+        "year": 1954,
+        "y": 0.85,
+        "label": {
+          "ko": "시카고 개인전",
+          "en": "Chicago solo exhibition"
+        }
+      },
+      {
+        "year": 1955,
+        "y": -0.5,
+        "label": {
+          "ko": "뉴먼·스틸 배신, 심한 우울증",
+          "en": "Newman/Still betrayal, severe depression"
+        }
+      },
+      {
+        "year": 1955.5,
+        "y": 0.15,
+        "label": {
+          "ko": "작업 지속하나 고통 속",
+          "en": "Work continues but in agony"
+        }
+      },
+      {
+        "year": 1956,
+        "y": 0.2,
+        "label": {
+          "ko": "알코올 의존 시작 (보드카 매일 1병)",
+          "en": "Alcohol dependence begins (a bottle of vodka daily)"
+        }
+      },
+      {
+        "year": 1956.5,
+        "y": -0.45,
+        "label": {
+          "ko": "폴록 사망",
+          "en": "Pollock's death"
+        }
+      },
+      {
+        "year": 1957,
+        "y": 0.05,
+        "label": {
+          "ko": "종교적 발언 (확신이지 행복 아님)",
+          "en": "Religious statement (conviction, not happiness)"
+        }
+      },
+      {
+        "year": 1958,
+        "y": -0.15,
+        "label": {
+          "ko": "시그램 수락",
+          "en": "Seagram commission accepted"
+        }
+      },
+      {
+        "year": 1959,
+        "y": -0.4,
+        "label": {
+          "ko": "포시즌스 식사, 시그램 거부",
+          "en": "Four Seasons dinner, Seagram rejection"
+        }
+      },
+      {
+        "year": 1960,
+        "y": -0.35,
+        "label": {
+          "ko": "$35K 반환, 상업계와 결별",
+          "en": "$35K returned, break with commercial world"
+        }
+      },
+      {
+        "year": 1961,
+        "y": 0.15,
+        "label": {
+          "ko": "MoMA 회고전 (양가감정)",
+          "en": "MoMA retrospective (ambivalence)"
+        }
+      },
+      {
+        "year": 1962,
+        "y": -0.5,
+        "label": {
+          "ko": "팝아트 고립, 클라인 사망, 갤러리 이탈",
+          "en": "Pop Art isolation, Kline's death, gallery departure"
+        }
+      },
+      {
+        "year": 1963,
+        "y": -0.2,
+        "label": {
+          "ko": "아들 출생 (어둠 속 빛)",
+          "en": "Son born (light amid darkness)"
+        }
+      },
+      {
+        "year": 1964,
+        "y": -0.3,
+        "label": {
+          "ko": "채플 커미션",
+          "en": "Chapel commission"
+        }
+      },
+      {
+        "year": 1965,
+        "y": -0.35,
+        "label": {
+          "ko": "하버드 벽화 퇴색",
+          "en": "Harvard murals fading"
+        }
+      },
+      {
+        "year": 1966,
+        "y": -0.25,
+        "label": {
+          "ko": "유럽 여행 (알코올 의존 지속)",
+          "en": "European tour (alcohol dependence continues)"
+        }
+      },
+      {
+        "year": 1967,
+        "y": -0.35,
+        "label": {
+          "ko": "라인하트 사망",
+          "en": "Reinhardt's death"
+        }
+      },
+      {
+        "year": 1968,
+        "y": -0.75,
+        "label": {
+          "ko": "대동맥류, 간경변, 폐기종, 발기부전",
+          "en": "Aneurysm, cirrhosis, emphysema, impotence"
+        }
+      },
+      {
+        "year": 1969,
+        "y": -0.85,
+        "label": {
+          "ko": "별거, 리타 관계, 약물 남용",
+          "en": "Separation, Rita relationship, drug abuse"
+        }
+      },
+      {
+        "year": 1969.3,
+        "y": -0.7,
+        "label": {
+          "ko": "예일 명예박사 (너무 망가져 회복 불가)",
+          "en": "Yale honorary doctorate (too broken to recover)"
+        }
+      },
+      {
+        "year": 1969.7,
+        "y": -0.9,
+        "label": {
+          "ko": "블랙 온 그레이 시리즈",
+          "en": "Black on Gray series"
+        }
+      },
+      {
+        "year": 1970,
+        "y": -1,
+        "label": {
+          "ko": "자살",
+          "en": "Suicide"
+        }
+      }
     ]
   },
   "events": [
@@ -217,8 +906,14 @@
       "date": "1903-09-25",
       "category": "life",
       "period": "FIG",
-      "title": "출생",
-      "description": "러시아 제국 드빈스크(현 라트비아 다우가프필스)에서 유대인 가정의 넷째(막내)로 출생. 본명 마르쿠스 야코블레비치 로스코비츠.",
+      "title": {
+        "ko": "출생",
+        "en": "Birth"
+      },
+      "description": {
+        "ko": "러시아 제국 드빈스크(현 라트비아 다우가프필스)에서 유대인 가정의 넷째(막내)로 출생. 본명 마르쿠스 야코블레비치 로스코비츠.",
+        "en": "Born in Dvinsk, Russian Empire (now Daugavpils, Latvia) as the youngest of four children in a Jewish family. Birth name: Markus Yakovlevich Rothkowitz."
+      },
       "emotional_valence": "neutral",
       "significance": "high"
     },
@@ -227,8 +922,14 @@
       "year": 1910,
       "category": "life",
       "period": "FIG",
-      "title": "아버지 미국 이주",
-      "description": "아버지 야콥, 징병 우려와 포그롬을 피해 단독으로 미국 포틀랜드 이주.",
+      "title": {
+        "ko": "아버지 미국 이주",
+        "en": "Father emigrates to America"
+      },
+      "description": {
+        "ko": "아버지 야콥, 징병 우려와 포그롬을 피해 단독으로 미국 포틀랜드 이주.",
+        "en": "Father Jacob emigrates alone to Portland, USA, fleeing conscription fears and pogroms."
+      },
       "emotional_valence": "negative",
       "significance": "medium"
     },
@@ -237,8 +938,14 @@
       "year": 1913,
       "category": "life",
       "period": "FIG",
-      "title": "미국 도착",
-      "description": "마르쿠스, 어머니, 누나 소니아가 엘리스 섬 경유 미국 도착. 포틀랜드에서 가족 재결합.",
+      "title": {
+        "ko": "미국 도착",
+        "en": "Arrives in America"
+      },
+      "description": {
+        "ko": "마르쿠스, 어머니, 누나 소니아가 엘리스 섬 경유 미국 도착. 포틀랜드에서 가족 재결합.",
+        "en": "Markus, his mother, and sister Sonia arrive in America via Ellis Island. Family reunites in Portland."
+      },
       "emotional_valence": "positive",
       "significance": "high"
     },
@@ -248,8 +955,14 @@
       "date": "1914-03",
       "category": "life",
       "period": "FIG",
-      "title": "아버지 사망",
-      "description": "아버지 야콥 대장암으로 사망. 가족 재결합 7개월 만. 약 1년간 시나고그에서 애도 후 종교와 단절 선언.",
+      "title": {
+        "ko": "아버지 사망",
+        "en": "Father dies"
+      },
+      "description": {
+        "ko": "아버지 야콥 대장암으로 사망. 가족 재결합 7개월 만. 약 1년간 시나고그에서 애도 후 종교와 단절 선언.",
+        "en": "Father Jacob dies of colon cancer, just 7 months after family reunification. After about a year of mourning at the synagogue, Markus renounces religion."
+      },
       "emotional_valence": "very_negative",
       "significance": "critical"
     },
@@ -258,8 +971,14 @@
       "year": 1921,
       "category": "life",
       "period": "FIG",
-      "title": "예일대 입학",
-      "description": "예일대학교 전액 장학금 입학. 경제학, 프랑스어, 유럽사, 수학, 물리학, 생물학, 철학, 심리학 수강. 원래 직업 목표는 엔지니어 또는 변호사.",
+      "title": {
+        "ko": "예일대 입학",
+        "en": "Enters Yale University"
+      },
+      "description": {
+        "ko": "예일대학교 전액 장학금 입학. 경제학, 프랑스어, 유럽사, 수학, 물리학, 생물학, 철학, 심리학 수강. 원래 직업 목표는 엔지니어 또는 변호사.",
+        "en": "Enters Yale University on a full scholarship. Studies economics, French, European history, mathematics, physics, biology, philosophy, and psychology. Original career goals: engineer or lawyer."
+      },
       "emotional_valence": "positive",
       "significance": "medium"
     },
@@ -268,8 +987,14 @@
       "year": 1923,
       "category": "life",
       "period": "FIG",
-      "title": "예일 중퇴, 뉴욕 이주",
-      "description": "예일 중퇴, 뉴욕으로 이주. '떠돌고, 어슬렁거리고, 좀 굶으려고' 왔다고 후일 발언. 친구를 방문해 아트 스튜던츠 리그에 들렀을 때 모델을 스케치하는 학생들을 보고 '내 인생이 시작됐다'고 회상.",
+      "title": {
+        "ko": "예일 중퇴, 뉴욕 이주",
+        "en": "Drops out of Yale, moves to NYC"
+      },
+      "description": {
+        "ko": "예일 중퇴, 뉴욕으로 이주. '떠돌고, 어슬렁거리고, 좀 굶으려고' 왔다고 후일 발언. 친구를 방문해 아트 스튜던츠 리그에 들렀을 때 모델을 스케치하는 학생들을 보고 '내 인생이 시작됐다'고 회상.",
+        "en": "Drops out of Yale, moves to New York. Later said he came \"to bum around and starve a bit.\" Saw students sketching models at the Art Students League and recalled: \"My life began.\""
+      },
       "emotional_valence": "neutral",
       "significance": "high"
     },
@@ -278,8 +1003,14 @@
       "year": 1924,
       "category": "art",
       "period": "FIG",
-      "title": "아트 스튜던츠 리그 등록",
-      "description": "아트 스튜던츠 리그(Art Students League) 등록. 조지 브리지먼, 막스 베버에게 수학. 1924년 여름에는 포틀랜드 조세핀 딜런 극단에서 클라크 게이블과 함께 연기. 후일 '나는 클라크 게이블보다 나은 배우였다'고 주장. 무대 세트 그리기 경험.",
+      "title": {
+        "ko": "아트 스튜던츠 리그 등록",
+        "en": "Enrolls at Art Students League"
+      },
+      "description": {
+        "ko": "아트 스튜던츠 리그(Art Students League) 등록. 조지 브리지먼, 막스 베버에게 수학. 1924년 여름에는 포틀랜드 조세핀 딜런 극단에서 클라크 게이블과 함께 연기. 후일 '나는 클라크 게이블보다 나은 배우였다'고 주장. 무대 세트 그리기 경험.",
+        "en": "Enrolls at Art Students League. Studies under George Bridgman and Max Weber. In summer 1924, acts alongside Clark Gable at Josephine Dillon's Portland theater company. Later claimed \"I was a better actor than Clark Gable.\" Gains stage set painting experience."
+      },
       "emotional_valence": "positive",
       "significance": "medium"
     },
@@ -288,8 +1019,14 @@
       "year": 1928,
       "category": "career",
       "period": "FIG",
-      "title": "첫 그룹전 & 삽화 분쟁",
-      "description": "첫 그룹전 참가 (Opportunity Galleries, 뉴욕). 루이스 브라운 'The Graphic Bible' 삽화 크레딧·보수 분쟁 소송 패소.",
+      "title": {
+        "ko": "첫 그룹전 & 삽화 분쟁",
+        "en": "First group show & illustration dispute"
+      },
+      "description": {
+        "ko": "첫 그룹전 참가 (Opportunity Galleries, 뉴욕). 루이스 브라운 'The Graphic Bible' 삽화 크레딧·보수 분쟁 소송 패소.",
+        "en": "First group exhibition at Opportunity Galleries, New York. Loses lawsuit over credits and payment for Lewis Browne's \"The Graphic Bible\" illustrations."
+      },
       "emotional_valence": "mixed",
       "significance": "medium"
     },
@@ -298,8 +1035,14 @@
       "year": 1929,
       "category": "career",
       "period": "FIG",
-      "title": "아동 미술 교사 시작",
-      "description": "브루클린 유대인 센터(Center Academy) 아동 미술 교사 시작. 이후 20년 이상 지속.",
+      "title": {
+        "ko": "아동 미술 교사 시작",
+        "en": "Begins teaching children's art"
+      },
+      "description": {
+        "ko": "브루클린 유대인 센터(Center Academy) 아동 미술 교사 시작. 이후 20년 이상 지속.",
+        "en": "Begins teaching art to children at the Center Academy of the Brooklyn Jewish Center. Continues teaching for over 20 years."
+      },
       "emotional_valence": "positive",
       "significance": "medium"
     },
@@ -308,8 +1051,14 @@
       "year": 1932,
       "category": "life",
       "period": "FIG",
-      "title": "에디스 새커와 결혼",
-      "description": "레이크 조지에서 에디스 새커(Edith Sachar)와 만남. 같은 해 11월 결혼.",
+      "title": {
+        "ko": "에디스 새커와 결혼",
+        "en": "First solo exhibition"
+      },
+      "description": {
+        "ko": "레이크 조지에서 에디스 새커(Edith Sachar)와 만남. 같은 해 11월 결혼.",
+        "en": "First solo exhibition at the Contemporary Arts Gallery, New York."
+      },
       "emotional_valence": "positive",
       "significance": "medium"
     },
@@ -318,8 +1067,14 @@
       "year": 1933,
       "category": "career",
       "period": "FIG",
-      "title": "첫 개인전",
-      "description": "에디스와 뉴욕에서 포틀랜드까지 히치하이크. 워싱턴 파크에서 캠핑. 포틀랜드 미술관에서 첫 개인전 — 자신의 작품과 아동 미술을 병행 전시. 뉴욕 Contemporary Arts Gallery에서도 개인전.",
+      "title": {
+        "ko": "첫 개인전",
+        "en": "The Ten group formed"
+      },
+      "description": {
+        "ko": "에디스와 뉴욕에서 포틀랜드까지 히치하이크. 워싱턴 파크에서 캠핑. 포틀랜드 미술관에서 첫 개인전 — 자신의 작품과 아동 미술을 병행 전시. 뉴욕 Contemporary Arts Gallery에서도 개인전.",
+        "en": "Co-founds \"The Ten: Whitney Dissenters\" with Adolph Gottlieb and others to protest conservative exhibition practices."
+      },
       "emotional_valence": "positive",
       "significance": "high"
     },
@@ -328,8 +1083,14 @@
       "year": 1935,
       "category": "career",
       "period": "FIG",
-      "title": "'더 텐' 결성",
-      "description": "아돌프 고틀리브, 일리야 볼로토프스키 등과 함께 'The Ten' 결성 (1935–1939, 8회 전시).",
+      "title": {
+        "ko": "'더 텐' 결성",
+        "en": "U.S. citizenship, name change"
+      },
+      "description": {
+        "ko": "아돌프 고틀리브, 일리야 볼로토프스키 등과 함께 'The Ten' 결성 (1935–1939, 8회 전시).",
+        "en": "Officially becomes a U.S. citizen. Legally changes name from Marcus Rothkowitz to Mark Rothko."
+      },
       "emotional_valence": "positive",
       "significance": "medium"
     },
@@ -338,8 +1099,14 @@
       "year": 1936,
       "category": "art",
       "period": "FIG",
-      "title": "WPA 참여 & 색채 선언",
-      "description": "'우리는 색으로 시작한다'고 선언. WPA Federal Art Project 이젤부 참여 (1936–37).",
+      "title": {
+        "ko": "WPA 참여 & 색채 선언",
+        "en": "NYT manifesto"
+      },
+      "description": {
+        "ko": "'우리는 색으로 시작한다'고 선언. WPA Federal Art Project 이젤부 참여 (1936–37).",
+        "en": "Publishes letter in New York Times with Adolph Gottlieb: \"We favor flat forms that destroy illusion and reveal truth.\""
+      },
       "emotional_valence": "neutral",
       "significance": "medium"
     },
@@ -348,8 +1115,14 @@
       "year": 1937,
       "category": "life",
       "period": "FIG",
-      "title": "에디스와 별거·재결합",
-      "description": "에디스와 일시 별거 후 재결합. 관계는 계속 불안정.",
+      "title": {
+        "ko": "에디스와 별거·재결합",
+        "en": "Divorce"
+      },
+      "description": {
+        "ko": "에디스와 일시 별거 후 재결합. 관계는 계속 불안정.",
+        "en": "Divorces first wife Edith Sachar after years of marital conflict."
+      },
       "emotional_valence": "negative",
       "significance": "low"
     },
@@ -358,8 +1131,14 @@
       "year": 1938,
       "category": "life",
       "period": "FIG",
-      "title": "미국 시민권 & 개명",
-      "description": "미국 시민권 취득. 반유대주의를 의식해 이름을 'Mark Rothko'로 공식 변경.",
+      "title": {
+        "ko": "미국 시민권 & 개명",
+        "en": "Marries Mell, first solo show (Guggenheim)"
+      },
+      "description": {
+        "ko": "미국 시민권 취득. 반유대주의를 의식해 이름을 'Mark Rothko'로 공식 변경.",
+        "en": "Marries illustrator Mary Alice \"Mell\" Beistle. Holds first major solo exhibition at Peggy Guggenheim's Art of This Century gallery."
+      },
       "emotional_valence": "mixed",
       "significance": "medium"
     },
@@ -368,8 +1147,14 @@
       "year": 1940,
       "category": "career",
       "period": "MYTH",
-      "title": "현대 화가·조각가 연맹 창립",
-      "description": "Federation of Modern Painters and Sculptors 공동 창립.",
+      "title": {
+        "ko": "현대 화가·조각가 연맹 창립",
+        "en": "Co-founds Subjects of the Artist"
+      },
+      "description": {
+        "ko": "Federation of Modern Painters and Sculptors 공동 창립.",
+        "en": "Co-founds the Subjects of the Artist school on East 8th Street with Baziotes, Hare, Motherwell, and David Hare. Becomes a key venue for Abstract Expressionist discourse."
+      },
       "emotional_valence": "neutral",
       "significance": "low"
     },
@@ -378,8 +1163,14 @@
       "year": 1941,
       "category": "art",
       "period": "MYTH",
-      "title": "신화적 추상 시작",
-      "description": "그리스 신화, 초현실주의에 영향받은 'Mythomorphic Abstractionism' 시기 시작. 니체, 그리스 비극에 심취.",
+      "title": {
+        "ko": "신화적 추상 시작",
+        "en": "Mother dies"
+      },
+      "description": {
+        "ko": "그리스 신화, 초현실주의에 영향받은 'Mythomorphic Abstractionism' 시기 시작. 니체, 그리스 비극에 심취.",
+        "en": "Mother Kate Rothkowitz dies. A pivotal personal loss during his artistic breakthrough period."
+      },
       "emotional_valence": "neutral",
       "significance": "high"
     },
@@ -388,8 +1179,14 @@
       "year": 1943,
       "category": "career",
       "period": "MYTH",
-      "title": "뉴욕 타임즈 서한",
-      "description": "고틀리브, 바넷 뉴먼과 함께 뉴욕 타임즈에 현대 회화에 대한 입장 서한 발표. 휘트니 미술관 연례전 참가 시작.",
+      "title": {
+        "ko": "뉴욕 타임즈 서한",
+        "en": "Daughter Kate born"
+      },
+      "description": {
+        "ko": "고틀리브, 바넷 뉴먼과 함께 뉴욕 타임즈에 현대 회화에 대한 입장 서한 발표. 휘트니 미술관 연례전 참가 시작.",
+        "en": "Daughter Kate (Katherine) born. Personal happiness peaks alongside artistic recognition."
+      },
       "emotional_valence": "positive",
       "significance": "high"
     },
@@ -398,8 +1195,14 @@
       "year": 1944,
       "category": "life",
       "period": "MYTH",
-      "title": "이혼 & 멜과의 만남",
-      "description": "에디스와 이혼. 메리 앨리스 'Mell' 바이슬(Mary Alice Beistle)과 만남.",
+      "title": {
+        "ko": "이혼 & 멜과의 만남",
+        "en": "15 Americans, MoMA"
+      },
+      "description": {
+        "ko": "에디스와 이혼. 메리 앨리스 'Mell' 바이슬(Mary Alice Beistle)과 만남.",
+        "en": "Participates in MoMA's landmark \"15 Americans\" exhibition, curated by Dorothy Miller."
+      },
       "emotional_valence": "mixed",
       "significance": "high"
     },
@@ -409,8 +1212,14 @@
       "date": "1945-03",
       "category": "life",
       "period": "MYTH",
-      "title": "멜과 결혼",
-      "description": "멜과 결혼 (만남 수개월 만). 페기 구겐하임 Art of This Century 갤러리 개인전.",
+      "title": {
+        "ko": "멜과 결혼",
+        "en": "Chicago solo exhibition"
+      },
+      "description": {
+        "ko": "멜과 결혼 (만남 수개월 만). 페기 구겐하임 Art of This Century 갤러리 개인전.",
+        "en": "Solo exhibition at the Art Institute of Chicago. Marks peak of Classic Bright period."
+      },
       "emotional_valence": "positive",
       "significance": "high"
     },
@@ -419,8 +1228,14 @@
       "year": 1946,
       "category": "art",
       "period": "MULTI",
-      "title": "멀티폼 시작",
-      "description": "'멀티폼(Multiform)' 회화 시작. 휘트니 미술관이 'Baptismal Scene'(1945) 구입 — 로스코 작품 최초 미술관 소장.",
+      "title": {
+        "ko": "멀티폼 시작",
+        "en": "Whitney retrospective"
+      },
+      "description": {
+        "ko": "'멀티폼(Multiform)' 회화 시작. 휘트니 미술관이 'Baptismal Scene'(1945) 구입 — 로스코 작품 최초 미술관 소장.",
+        "en": "Retrospective exhibition at the Whitney Museum of American Art."
+      },
       "emotional_valence": "positive",
       "significance": "high"
     },
@@ -429,8 +1244,14 @@
       "year": 1947,
       "category": "art",
       "period": "MULTI",
-      "title": "완전한 추상 전환",
-      "description": "작품이 완전한 추상으로 전환. 멀티폼이 더 정제됨.",
+      "title": {
+        "ko": "완전한 추상 전환",
+        "en": "Son Christopher born, Seagram commission"
+      },
+      "description": {
+        "ko": "작품이 완전한 추상으로 전환. 멀티폼이 더 정제됨.",
+        "en": "Son Christopher born. Receives commission for Seagram Building's Four Seasons restaurant murals."
+      },
       "emotional_valence": "neutral",
       "significance": "medium"
     },
@@ -440,8 +1261,14 @@
       "date": "1948-10",
       "category": "life",
       "period": "MULTI",
-      "title": "어머니 사망",
-      "description": "어머니 케이트 사망 (78세, 오랜 투병 끝). 아버지의 죽음, 이민자로서의 차별, 첫 결혼 실패 등 초기 상실감이 되살아남.",
+      "title": {
+        "ko": "어머니 사망",
+        "en": "Seagram contract broken, European tour"
+      },
+      "description": {
+        "ko": "어머니 케이트 사망 (78세, 오랜 투병 끝). 아버지의 죽음, 이민자로서의 차별, 첫 결혼 실패 등 초기 상실감이 되살아남.",
+        "en": "Breaks Seagram contract, reclaims all paintings. Declared he wanted to \"ruin the appetite of every son of a bitch.\" Travels Europe, visits Matisse chapel in Vence and Michelangelo's Laurentian Library."
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     },
@@ -450,8 +1277,14 @@
       "year": 1949,
       "category": "art",
       "period": "CLASSIC_B",
-      "title": "클래식 양식 도달",
-      "description": "2~3개의 발광하는 색면 직사각형이 수직 배열된 '클래식 양식' 도달. 본인이 '나의 큰 양식에 도달했다'고 발언. 클리포드 스틸과의 교류가 결정적 영향.",
+      "title": {
+        "ko": "클래식 양식 도달",
+        "en": "Harvard Mural commission"
+      },
+      "description": {
+        "ko": "2~3개의 발광하는 색면 직사각형이 수직 배열된 '클래식 양식' 도달. 본인이 '나의 큰 양식에 도달했다'고 발언. 클리포드 스틸과의 교류가 결정적 영향.",
+        "en": "Receives commission for Harvard University's Holyoke Center murals. Creates five panels of deep crimson."
+      },
       "emotional_valence": "positive",
       "significance": "critical"
     },
@@ -460,8 +1293,14 @@
       "year": 1950,
       "category": "life",
       "period": "CLASSIC_B",
-      "title": "유럽 여행 & 딸 출생",
-      "description": "멜과 유럽 여행 (이탈리아, 프랑스, 영국). 피렌체에서 프라 안젤리코, 미켈란젤로 라우렌치아나 도서관 방문. 12월 30일, 딸 캐시 린(Kate) 출생.",
+      "title": {
+        "ko": "유럽 여행 & 딸 출생",
+        "en": "Pop Art rises, isolation deepens"
+      },
+      "description": {
+        "ko": "멜과 유럽 여행 (이탈리아, 프랑스, 영국). 피렌체에서 프라 안젤리코, 미켈란젤로 라우렌치아나 도서관 방문. 12월 30일, 딸 캐시 린(Kate) 출생.",
+        "en": "Pop Art dominates the art world. Abstract Expressionism criticized as anachronistic. Rothko grows increasingly isolated and bitter."
+      },
       "emotional_valence": "positive",
       "significance": "high"
     },
@@ -470,8 +1309,14 @@
       "year": 1951,
       "category": "career",
       "period": "CLASSIC_B",
-      "title": "브루클린 칼리지 조교수",
-      "description": "브루클린 칼리지 조교수직 (3년 계약). 베티 파슨스 갤러리 연례 개인전. 1950년 판매 수입 $3,279에 불과.",
+      "title": {
+        "ko": "브루클린 칼리지 조교수",
+        "en": "MoMA retrospective, Kennedy inauguration"
+      },
+      "description": {
+        "ko": "브루클린 칼리지 조교수직 (3년 계약). 베티 파슨스 갤러리 연례 개인전. 1950년 판매 수입 $3,279에 불과.",
+        "en": "MoMA retrospective exhibition. Attends President Kennedy's inauguration ceremony."
+      },
       "emotional_valence": "mixed",
       "significance": "medium"
     },
@@ -480,8 +1325,14 @@
       "year": 1952,
       "category": "career",
       "period": "CLASSIC_B",
-      "title": "MoMA 'Fifteen Americans'전",
-      "description": "MoMA에서 8점 전용 갤러리 부여. 필립 존슨이 록펠러 가문 위해 No.10(1950) 구입 — 기록적 $1,000.",
+      "title": {
+        "ko": "MoMA 'Fifteen Americans'전",
+        "en": "Chapel commission"
+      },
+      "description": {
+        "ko": "MoMA에서 8점 전용 갤러리 부여. 필립 존슨이 록펠러 가문 위해 No.10(1950) 구입 — 기록적 $1,000.",
+        "en": "Receives commission from John and Dominique de Menil for a non-denominational chapel in Houston (later the Rothko Chapel)."
+      },
       "emotional_valence": "positive",
       "significance": "high"
     },
@@ -490,8 +1341,14 @@
       "year": 1954,
       "category": "career",
       "period": "CLASSIC_B",
-      "title": "시카고 아트 인스티튜트 개인전",
-      "description": "시카고 아트 인스티튜트 개인전. 딜러 시드니 재니스(Sidney Janis)와 관계 시작.",
+      "title": {
+        "ko": "시카고 아트 인스티튜트 개인전",
+        "en": "Health decline, heavy drinking"
+      },
+      "description": {
+        "ko": "시카고 아트 인스티튜트 개인전. 딜러 시드니 재니스(Sidney Janis)와 관계 시작.",
+        "en": "Health significantly deteriorates due to excessive drinking, depression, and overwork."
+      },
       "emotional_valence": "positive",
       "significance": "medium"
     },
@@ -500,8 +1357,14 @@
       "year": 1955,
       "category": "career",
       "period": "CLASSIC_B",
-      "title": "판매 증가 & 불신",
-      "description": "포춘 매거진 소개 이후 판매 본격 증가. 그러나 수집가들이 진정한 이해 없이 유행으로 작품을 산다고 점점 불신.",
+      "title": {
+        "ko": "판매 증가 & 불신",
+        "en": "Chapel near completion, aneurysm diagnosis"
+      },
+      "description": {
+        "ko": "포춘 매거진 소개 이후 판매 본격 증가. 그러나 수집가들이 진정한 이해 없이 유행으로 작품을 산다고 점점 불신.",
+        "en": "Chapel murals nearing completion. Diagnosed with aortic aneurysm. Doctors restrict him to small-format works only."
+      },
       "emotional_valence": "mixed",
       "significance": "medium"
     },
@@ -510,8 +1373,14 @@
       "year": 1957,
       "category": "emotional",
       "period": "CLASSIC_B",
-      "title": "'종교적 경험' 발언",
-      "description": "'내 그림 앞에서 우는 사람은 내가 그릴 때와 같은 종교적 경험을 하고 있는 것.' 작품이 '아름답다'는 평가에 강한 거부감 표명.",
+      "title": {
+        "ko": "'종교적 경험' 발언",
+        "en": "Black on Gray series"
+      },
+      "description": {
+        "ko": "'내 그림 앞에서 우는 사람은 내가 그릴 때와 같은 종교적 경험을 하고 있는 것.' 작품이 '아름답다'는 평가에 강한 거부감 표명.",
+        "en": "Begins final series \"Black on Gray\" — two horizontal planes of black and gray, the ultimate reduction of color."
+      },
       "emotional_valence": "mixed",
       "significance": "medium"
     },
@@ -521,8 +1390,14 @@
       "date": "1958-06",
       "category": "career",
       "period": "SEAGRAM",
-      "title": "시그램 커미션 수락 — 전환점",
-      "description": "시그램 빌딩 포시즌스 레스토랑 벽화 커미션 수락 ($35,000). 바워리 222번지 구 YMCA 체육관을 스튜디오로 임대. 색이 급격히 어두워짐. '미켈란젤로처럼 보는 사람을 가두고 싶다'고 발언. 총 30점 제작.",
+      "title": {
+        "ko": "시그램 커미션 수락 — 전환점",
+        "en": "Separation from Mell"
+      },
+      "description": {
+        "ko": "시그램 빌딩 포시즌스 레스토랑 벽화 커미션 수락 ($35,000). 바워리 222번지 구 YMCA 체육관을 스튜디오로 임대. 색이 급격히 어두워짐. '미켈란젤로처럼 보는 사람을 가두고 싶다'고 발언. 총 30점 제작.",
+        "en": "Separates from wife Mell. Lives alone in his East 69th Street studio."
+      },
       "emotional_valence": "mixed",
       "significance": "critical"
     },
@@ -532,8 +1407,14 @@
       "date": "1959-06",
       "category": "life",
       "period": "SEAGRAM",
-      "title": "유럽 재방문 & 포시즌스 식사",
-      "description": "가족과 유럽 여행. 피렌체 재방문. 귀국 후 멜과 포시즌스에서 식사 — 극도의 혐오감. 커미션 반납 결정. '이런 음식에 이런 가격을 내는 사람은 내 그림을 절대 보지 않을 것.'",
+      "title": {
+        "ko": "유럽 재방문 & 포시즌스 식사",
+        "en": "Death"
+      },
+      "description": {
+        "ko": "가족과 유럽 여행. 피렌체 재방문. 귀국 후 멜과 포시즌스에서 식사 — 극도의 혐오감. 커미션 반납 결정. '이런 음식에 이런 가격을 내는 사람은 내 그림을 절대 보지 않을 것.'",
+        "en": "Found dead in his studio on February 25, 1970. The Tate Gallery's Seagram Mural donation arrived the same day. The Rothko Chapel opened the following year (1971)."
+      },
       "emotional_valence": "very_negative",
       "significance": "critical"
     },
@@ -542,8 +1423,14 @@
       "year": 1960,
       "category": "career",
       "period": "DARK",
-      "title": "시그램 커미션 공식 철회",
-      "description": "시그램 커미션 공식 철회, $35,000 전액 반환. 작품은 보관. 상업 미술계와의 관계가 결정적으로 틀어짐.",
+      "title": {
+        "ko": "시그램 커미션 공식 철회",
+        "en": "Seagram commission officially withdrawn"
+      },
+      "description": {
+        "ko": "시그램 커미션 공식 철회, $35,000 전액 반환. 작품은 보관. 상업 미술계와의 관계가 결정적으로 틀어짐.",
+        "en": "Officially withdraws from Seagram commission, returning full $35,000. Keeps the paintings. Relationship with commercial art world permanently severed."
+      },
       "emotional_valence": "negative",
       "significance": "high"
     },
@@ -553,8 +1440,14 @@
       "date": "1961-01",
       "category": "career",
       "period": "DARK",
-      "title": "MoMA 회고전 & 하버드 커미션",
-      "description": "MoMA 대규모 회고전 — 상업적·비평적 성공. JFK 취임 무도회에서 조셉 케네디 옆자리. 하버드 대학교 홀리오크 센터 벽화 커미션 수락.",
+      "title": {
+        "ko": "MoMA 회고전 & 하버드 커미션",
+        "en": "MoMA retrospective & Harvard commission"
+      },
+      "description": {
+        "ko": "MoMA 대규모 회고전 — 상업적·비평적 성공. JFK 취임 무도회에서 조셉 케네디 옆자리. 하버드 대학교 홀리오크 센터 벽화 커미션 수락.",
+        "en": "Major MoMA retrospective — commercial and critical success. Seated next to Joseph Kennedy at JFK inauguration ball. Accepts Harvard University Holyoke Center mural commission."
+      },
       "emotional_valence": "positive",
       "significance": "high"
     },
@@ -563,8 +1456,14 @@
       "year": 1962,
       "category": "emotional",
       "period": "DARK",
-      "title": "팝아트 부상 & 고립감",
-      "description": "팝아트 부상. 워홀 등에 대해 '사기꾼과 젊은 기회주의자들'이라 비판. 재스퍼 존스의 깃발 그림을 보고 '우리가 이것을 없애려고 수년간 작업했다'고 발언. 고립감 심화.",
+      "title": {
+        "ko": "팝아트 부상 & 고립감",
+        "en": "Rise of Pop Art & growing isolation"
+      },
+      "description": {
+        "ko": "팝아트 부상. 워홀 등에 대해 '사기꾼과 젊은 기회주의자들'이라 비판. 재스퍼 존스의 깃발 그림을 보고 '우리가 이것을 없애려고 수년간 작업했다'고 발언. 고립감 심화.",
+        "en": "Pop Art ascends. Calls Warhol and others \"charlatans and young opportunists.\" Upon seeing Jasper Johns' flag paintings: \"We worked for years to get rid of all that.\" Isolation deepens."
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     },
@@ -574,8 +1473,14 @@
       "date": "1963-08-31",
       "category": "life",
       "period": "DARK",
-      "title": "아들 크리스토퍼 출생",
-      "description": "아들 크리스토퍼 출생.",
+      "title": {
+        "ko": "아들 크리스토퍼 출생",
+        "en": "Son Christopher born"
+      },
+      "description": {
+        "ko": "아들 크리스토퍼 출생.",
+        "en": "Son Christopher born."
+      },
       "emotional_valence": "positive",
       "significance": "medium"
     },
@@ -585,8 +1490,14 @@
       "date": "1964-04",
       "category": "career",
       "period": "DARK",
-      "title": "로스코 채플 커미션 & 블랙 폼 시리즈",
-      "description": "드 메닐 부부로부터 휴스턴 비종파 채플 벽화 커미션. 이후 3년간 전념. '블랙 폼(Black-Form)' 시리즈 17점 제작. 이스트 69번가 새 스튜디오로 이동, 도르래 시스템으로 조명 조절.",
+      "title": {
+        "ko": "로스코 채플 커미션 & 블랙 폼 시리즈",
+        "en": "Rothko Chapel commission & Black-Form series"
+      },
+      "description": {
+        "ko": "드 메닐 부부로부터 휴스턴 비종파 채플 벽화 커미션. 이후 3년간 전념. '블랙 폼(Black-Form)' 시리즈 17점 제작. 이스트 69번가 새 스튜디오로 이동, 도르래 시스템으로 조명 조절.",
+        "en": "Receives chapel mural commission from the de Menils for a non-denominational chapel in Houston. Devotes the next three years to the project. Creates 17 \"Black-Form\" paintings. Moves to new East 69th Street studio with pulley system for lighting control."
+      },
       "emotional_valence": "mixed",
       "significance": "high"
     },
@@ -595,8 +1506,14 @@
       "year": 1966,
       "category": "life",
       "period": "DARK",
-      "title": "두 번째 유럽 여행",
-      "description": "유럽 여행 — 이탈리아, 포르투갈, 스페인, 프랑스, 네덜란드, 벨기에, 런던. 아시시 지오토, 피렌체 프라 안젤리코, 파리 모네 수련 방문.",
+      "title": {
+        "ko": "두 번째 유럽 여행",
+        "en": "Second European tour"
+      },
+      "description": {
+        "ko": "유럽 여행 — 이탈리아, 포르투갈, 스페인, 프랑스, 네덜란드, 벨기에, 런던. 아시시 지오토, 피렌체 프라 안젤리코, 파리 모네 수련 방문.",
+        "en": "European tour — Italy, Portugal, Spain, France, Netherlands, Belgium, London. Visits Giotto in Assisi, Fra Angelico in Florence, Monet's Water Lilies room in Paris."
+      },
       "emotional_valence": "positive",
       "significance": "medium"
     },
@@ -605,8 +1522,14 @@
       "year": 1968,
       "category": "life",
       "period": "FINAL",
-      "title": "대동맥류 진단",
-      "description": "초봄, 저녁 식사 후 귀가 중 허리 통증과 다리 마비 — 대동맥류 진단. 약 2주간 입원(담당의 앨런 미드). 고혈압이 원인. 수술은 수년간 과음으로 인한 심한 간경변(cirrhosis)과 폐기종(emphysema)으로 불가. 레세르핀(진정제)과 이뇨제 처방. 의사의 금주·금연·운동 권고 무시. 3피트 이상 높이 그림 금지 → 종이 위 아크릴 소품으로 전환. 신체적 발기부전으로 멜과의 관계 급격 악화.",
+      "title": {
+        "ko": "대동맥류 진단",
+        "en": "Aortic aneurysm diagnosis"
+      },
+      "description": {
+        "ko": "초봄, 저녁 식사 후 귀가 중 허리 통증과 다리 마비 — 대동맥류 진단. 약 2주간 입원(담당의 앨런 미드). 고혈압이 원인. 수술은 수년간 과음으로 인한 심한 간경변(cirrhosis)과 폐기종(emphysema)으로 불가. 레세르핀(진정제)과 이뇨제 처방. 의사의 금주·금연·운동 권고 무시. 3피트 이상 높이 그림 금지 → 종이 위 아크릴 소품으로 전환. 신체적 발기부전으로 멜과의 관계 급격 악화.",
+        "en": "In early spring, experiences back pain and leg numbness after dinner — diagnosed with aortic aneurysm. Hospitalized for approximately two weeks (Dr. Allen Mead). Caused by hypertension. Surgery impossible due to severe cirrhosis and emphysema from years of heavy drinking. Prescribed reserpine and diuretics. Ignores doctor's orders to quit drinking, smoking, and exercise. Banned from paintings over 3 feet — switches to small acrylics on paper. Physical impotence rapidly deteriorates relationship with Mell."
+      },
       "emotional_valence": "very_negative",
       "significance": "critical"
     },
@@ -615,8 +1538,14 @@
       "year": 1968,
       "category": "career",
       "period": "FINAL",
-      "title": "국립예술문학원 선출",
-      "description": "미국 국립예술문학원(National Institute of Arts and Letters) 선출.",
+      "title": {
+        "ko": "국립예술문학원 선출",
+        "en": "Elected to National Institute of Arts and Letters"
+      },
+      "description": {
+        "ko": "미국 국립예술문학원(National Institute of Arts and Letters) 선출.",
+        "en": "Elected to the National Institute of Arts and Letters."
+      },
       "emotional_valence": "positive",
       "significance": "low"
     },
@@ -626,8 +1555,14 @@
       "date": "1969-01-01",
       "category": "life",
       "period": "FINAL",
-      "title": "멜과 별거",
-      "description": "1월 1일, 멜과 공식 별거. 스튜디오로 이사. 고독, 우울증, 과음 심화.",
+      "title": {
+        "ko": "멜과 별거",
+        "en": "Separation from Mell"
+      },
+      "description": {
+        "ko": "1월 1일, 멜과 공식 별거. 스튜디오로 이사. 고독, 우울증, 과음 심화.",
+        "en": "Officially separates from Mell on January 1. Moves into his studio. Solitude, depression, and heavy drinking intensify."
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     },
@@ -636,8 +1571,14 @@
       "year": 1969,
       "category": "career",
       "period": "FINAL",
-      "title": "예일 명예박사 & 테이트 기증",
-      "description": "예일대학교 명예 미술학박사 수여. 시그램 벽화 9점을 런던 테이트 갤러리에 기증 (전용 전시실 조건).",
+      "title": {
+        "ko": "예일 명예박사 & 테이트 기증",
+        "en": "Yale honorary doctorate & Tate donation"
+      },
+      "description": {
+        "ko": "예일대학교 명예 미술학박사 수여. 시그램 벽화 9점을 런던 테이트 갤러리에 기증 (전용 전시실 조건).",
+        "en": "Receives honorary Doctor of Fine Arts from Yale University. Donates nine Seagram Murals to London's Tate Gallery, stipulating a dedicated exhibition room."
+      },
       "emotional_valence": "mixed",
       "significance": "high"
     },
@@ -646,8 +1587,14 @@
       "year": 1969,
       "category": "art",
       "period": "FINAL",
-      "title": "블랙 온 그레이 시리즈",
-      "description": "'Black on Gray' 시리즈 25점 제작. 캔버스를 수평 이분 — 위는 블랙, 아래는 그레이. 색의 진동·내부 발광이 거의 사라짐. 모든 특징이 극도로 환원된 최종 양식.",
+      "title": {
+        "ko": "블랙 온 그레이 시리즈",
+        "en": "Black on Gray series"
+      },
+      "description": {
+        "ko": "'Black on Gray' 시리즈 25점 제작. 캔버스를 수평 이분 — 위는 블랙, 아래는 그레이. 색의 진동·내부 발광이 거의 사라짐. 모든 특징이 극도로 환원된 최종 양식.",
+        "en": "Creates 25-work \"Black on Gray\" series. Canvas bisected horizontally — black above, gray below. The chromatic vibration and internal luminosity nearly vanish. An ultimate style of extreme reduction."
+      },
       "emotional_valence": "very_negative",
       "significance": "critical"
     },
@@ -657,8 +1604,14 @@
       "date": "1970-02-25",
       "category": "life",
       "period": "FINAL",
-      "title": "사망",
-      "description": "이스트 69번가 스튜디오에서 사망 (66세). 조수 올리버 슈타인데커가 발견. 같은 날 시그램 벽화가 런던 테이트 갤러리에 도착.",
+      "title": {
+        "ko": "사망",
+        "en": "Death"
+      },
+      "description": {
+        "ko": "이스트 69번가 스튜디오에서 사망 (66세). 조수 올리버 슈타인데커가 발견. 같은 날 시그램 벽화가 런던 테이트 갤러리에 도착.",
+        "en": "Found dead in his East 69th Street studio (age 66) by assistant Oliver Steindecker. The same day, the Seagram Murals arrive at London's Tate Gallery."
+      },
       "emotional_valence": "very_negative",
       "significance": "critical"
     },
@@ -668,8 +1621,14 @@
       "date": "1970-02-26",
       "category": "career",
       "period": "FINAL",
-      "title": "로스코 채플 축성",
-      "description": "로스코 채플 축성식 (사망 다음 날).",
+      "title": {
+        "ko": "로스코 채플 축성",
+        "en": "Rothko Chapel consecrated"
+      },
+      "description": {
+        "ko": "로스코 채플 축성식 (사망 다음 날).",
+        "en": "Rothko Chapel consecration ceremony (the year after his death)."
+      },
       "emotional_valence": "mixed",
       "significance": "high"
     },
@@ -679,8 +1638,14 @@
       "date": "1970-03-26",
       "category": "career",
       "period": "FINAL",
-      "title": "MoMA 사후 회고전",
-      "description": "MoMA 회고전 'Mark Rothko 1903–1970' 개막 (3.26–5.31).",
+      "title": {
+        "ko": "MoMA 사후 회고전",
+        "en": "MoMA posthumous retrospective"
+      },
+      "description": {
+        "ko": "MoMA 회고전 'Mark Rothko 1903–1970' 개막 (3.26–5.31).",
+        "en": "MoMA retrospective \"Mark Rothko 1903–1970\" opens (March 26 – May 31)."
+      },
       "emotional_valence": "neutral",
       "significance": "high"
     },
@@ -689,8 +1654,14 @@
       "year": 1906,
       "category": "life",
       "period": "FIG",
-      "title": "코사크 박해 공포",
-      "description": "드빈스크에서 코사크의 반유대 폭력을 목격하며 성장. 유대인 아이들이 구덩이에 묻히는 이미지가 평생 트라우마로 작용. 후일 '내 그림의 모든 형태는 이 기억에서 시작된다'고 암시.",
+      "title": {
+        "ko": "코사크 박해 공포",
+        "en": "Fear of Cossack persecution"
+      },
+      "description": {
+        "ko": "드빈스크에서 코사크의 반유대 폭력을 목격하며 성장. 유대인 아이들이 구덩이에 묻히는 이미지가 평생 트라우마로 작용. 후일 '내 그림의 모든 형태는 이 기억에서 시작된다'고 암시.",
+        "en": "Grows up witnessing Cossack anti-Jewish violence in Dvinsk. The image of Jewish children buried in pits becomes a lifelong trauma. Later implied: \"Every shape in my paintings begins with this memory.\""
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     },
@@ -699,8 +1670,14 @@
       "year": 1922,
       "category": "life",
       "period": "FIG",
-      "title": "예일 장학금 박탈",
-      "description": "1학년 후 전액 장학금 취소. 반유대주의가 원인. 웨이터, 세탁소 등 노동으로 학비 충당. WASP 동급생들에게 소외. 급우가 졸업앨범에 '전당포 주인이 될 것'이라 낙서.",
+      "title": {
+        "ko": "예일 장학금 박탈",
+        "en": "Yale scholarship revoked"
+      },
+      "description": {
+        "ko": "1학년 후 전액 장학금 취소. 반유대주의가 원인. 웨이터, 세탁소 등 노동으로 학비 충당. WASP 동급생들에게 소외. 급우가 졸업앨범에 '전당포 주인이 될 것'이라 낙서.",
+        "en": "Full scholarship revoked after freshman year. Antisemitism the likely cause. Works as waiter, laundry worker to pay tuition. Ostracized by WASP classmates. A classmate scrawls \"will be a pawnbroker\" in the yearbook."
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     },
@@ -709,8 +1686,14 @@
       "year": 1930,
       "category": "life",
       "period": "FIG",
-      "title": "밀턴 에이버리 서클",
-      "description": "밀턴 에이버리를 중심으로 아돌프 고틀리브 등 젊은 화가들과 교류. 에이버리가 '직업 화가의 삶이 가능하다'는 것을 보여줌. 레이크 조지, 글로스터에서 함께 여름 작업. 낮에 그리고 밤에 토론하는 창작 공동체.",
+      "title": {
+        "ko": "밀턴 에이버리 서클",
+        "en": "Milton Avery circle"
+      },
+      "description": {
+        "ko": "밀턴 에이버리를 중심으로 아돌프 고틀리브 등 젊은 화가들과 교류. 에이버리가 '직업 화가의 삶이 가능하다'는 것을 보여줌. 레이크 조지, 글로스터에서 함께 여름 작업. 낮에 그리고 밤에 토론하는 창작 공동체.",
+        "en": "Joins the circle around Milton Avery, alongside Adolph Gottlieb and other young painters. Avery demonstrates that \"a life as a professional painter is possible.\" Summers together in Lake George and Gloucester — painting by day, debating by night. A formative creative community."
+      },
       "emotional_valence": "positive",
       "significance": "medium"
     },
@@ -719,8 +1702,14 @@
       "year": 1940,
       "category": "life",
       "period": "MYTH",
-      "title": "로스코비츠→로스코 개명",
-      "description": "반유대주의와 미국 내 유대인 추방 소문을 의식해 성을 'Rothko'로 변경. 'Roth'도 여전히 유대인 성이었으나 타협. '아버지가 나를 이식한 이 땅에서 나는 결코 완전한 소속감을 느끼지 못했다'고 친구에게 고백.",
+      "title": {
+        "ko": "로스코비츠→로스코 개명",
+        "en": "Rothkowitz → Rothko name change"
+      },
+      "description": {
+        "ko": "반유대주의와 미국 내 유대인 추방 소문을 의식해 성을 'Rothko'로 변경. 'Roth'도 여전히 유대인 성이었으나 타협. '아버지가 나를 이식한 이 땅에서 나는 결코 완전한 소속감을 느끼지 못했다'고 친구에게 고백.",
+        "en": "Changes surname to \"Rothko,\" conscious of antisemitism and rumors of Jewish deportation in America. \"Roth\" was still recognizably Jewish but a compromise. Confided to a friend: \"I never felt a complete sense of belonging in this land where my father transplanted me.\""
+      },
       "emotional_valence": "negative",
       "significance": "high"
     },
@@ -730,8 +1719,14 @@
       "date": "1948-07-21",
       "category": "life",
       "period": "MULTI",
-      "title": "아쉴 고르키 자살",
-      "description": "동료 화가이자 뉴스쿨 시절 스승이었던 아쉴 고르키가 자살. 뉴욕 미술계 전체에 충격. 어머니 사망과 같은 해에 동료의 자살까지 겹침.",
+      "title": {
+        "ko": "아쉴 고르키 자살",
+        "en": "Arshile Gorky's suicide"
+      },
+      "description": {
+        "ko": "동료 화가이자 뉴스쿨 시절 스승이었던 아쉴 고르키가 자살. 뉴욕 미술계 전체에 충격. 어머니 사망과 같은 해에 동료의 자살까지 겹침.",
+        "en": "Fellow painter and former New School mentor Arshile Gorky commits suicide. Shocks the entire New York art world. Gorky's death comes the same year as Rothko's mother's passing."
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     },
@@ -740,8 +1735,14 @@
       "year": 1955,
       "category": "life",
       "period": "CLASSIC_B",
-      "title": "뉴먼·스틸의 배신",
-      "description": "포춘 매거진이 로스코 작품을 '좋은 투자처'로 소개. 바넷 뉴먼과 클리포드 스틸이 '부르주아 야심을 가진 변절자'로 비난. 스틸은 선물했던 작품의 반환을 요구. 가장 가까운 예술적 동지들과의 우정이 영구적으로 파괴. 심한 우울증.",
+      "title": {
+        "ko": "뉴먼·스틸의 배신",
+        "en": "Newman & Still's betrayal"
+      },
+      "description": {
+        "ko": "포춘 매거진이 로스코 작품을 '좋은 투자처'로 소개. 바넷 뉴먼과 클리포드 스틸이 '부르주아 야심을 가진 변절자'로 비난. 스틸은 선물했던 작품의 반환을 요구. 가장 가까운 예술적 동지들과의 우정이 영구적으로 파괴. 심한 우울증.",
+        "en": "Fortune magazine features Rothko's work as \"a good investment.\" Barnett Newman and Clyfford Still denounce him as \"a turncoat with bourgeois ambitions.\" Still demands return of gifted paintings. Friendships with closest artistic allies permanently destroyed. Severe depression."
+      },
       "emotional_valence": "very_negative",
       "significance": "critical"
     },
@@ -751,8 +1752,14 @@
       "date": "1956-08-11",
       "category": "life",
       "period": "CLASSIC_B",
-      "title": "잭슨 폴록 사망",
-      "description": "동료이자 라이벌이었던 잭슨 폴록이 음주운전 교통사고로 사망. 추상표현주의 운동의 거대한 상실. 로스코 서클의 동료들이 하나씩 사라지기 시작.",
+      "title": {
+        "ko": "잭슨 폴록 사망",
+        "en": "Jackson Pollock's death"
+      },
+      "description": {
+        "ko": "동료이자 라이벌이었던 잭슨 폴록이 음주운전 교통사고로 사망. 추상표현주의 운동의 거대한 상실. 로스코 서클의 동료들이 하나씩 사라지기 시작.",
+        "en": "Fellow artist and rival Jackson Pollock dies in a drunk-driving accident. An enormous loss for the Abstract Expressionist movement. Members of Rothko's circle begin disappearing one by one."
+      },
       "emotional_valence": "negative",
       "significance": "high"
     },
@@ -761,8 +1768,14 @@
       "year": 1956,
       "category": "life",
       "period": "CLASSIC_B",
-      "title": "알코올 의존 시작",
-      "description": "매일 보드카 한 병을 소비하는 상시 음주자가 됨. 새벽 5시에 병에서 직접 마시며 '잔이나 섞는 게 술을 만드는 것'이라 합리화. 친구 스튜디오에 병을 숨겨둠. 큰 체구 덕에 대부분의 사람들이 알아채지 못함.",
+      "title": {
+        "ko": "알코올 의존 시작",
+        "en": "Alcohol dependence begins"
+      },
+      "description": {
+        "ko": "매일 보드카 한 병을 소비하는 상시 음주자가 됨. 새벽 5시에 병에서 직접 마시며 '잔이나 섞는 게 술을 만드는 것'이라 합리화. 친구 스튜디오에 병을 숨겨둠. 큰 체구 덕에 대부분의 사람들이 알아채지 못함.",
+        "en": "Becomes a constant drinker, consuming a bottle of vodka daily. Drinks straight from the bottle at 5 AM, rationalizing \"glasses and mixers just make it drinking.\" Hides bottles in friends' studios. His large frame keeps most people from noticing."
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     },
@@ -772,8 +1785,14 @@
       "date": "1962-05-13",
       "category": "life",
       "period": "DARK",
-      "title": "프란츠 클라인 사망",
-      "description": "동료 추상표현주의 화가 프란츠 클라인이 류마티스성 심장병으로 52세에 사망. 동료 서클의 또 다른 상실.",
+      "title": {
+        "ko": "프란츠 클라인 사망",
+        "en": "Franz Kline's death"
+      },
+      "description": {
+        "ko": "동료 추상표현주의 화가 프란츠 클라인이 류마티스성 심장병으로 52세에 사망. 동료 서클의 또 다른 상실.",
+        "en": "Fellow Abstract Expressionist Franz Kline dies of rheumatic heart disease at 52. Another loss from the inner circle."
+      },
       "emotional_valence": "negative",
       "significance": "medium"
     },
@@ -782,8 +1801,14 @@
       "year": 1962,
       "category": "life",
       "period": "DARK",
-      "title": "시드니 재니스 갤러리 이탈",
-      "description": "재니스 갤러리가 팝아트 신진작가들을 전시하자, 로스코·마더웰·드 쿠닝 등이 분노하며 갤러리를 떠남. 로스코: '이 젊은 작가들이 우리 모두를 죽이려는 건가?' 잡지에도 언급되지 않고, 젊은 작가들의 방문도 끊김. '나는 죽었다'고 발언.",
+      "title": {
+        "ko": "시드니 재니스 갤러리 이탈",
+        "en": "Departure from Sidney Janis Gallery"
+      },
+      "description": {
+        "ko": "재니스 갤러리가 팝아트 신진작가들을 전시하자, 로스코·마더웰·드 쿠닝 등이 분노하며 갤러리를 떠남. 로스코: '이 젊은 작가들이 우리 모두를 죽이려는 건가?' 잡지에도 언급되지 않고, 젊은 작가들의 방문도 끊김. '나는 죽었다'고 발언.",
+        "en": "When Janis Gallery begins exhibiting Pop Art newcomers, Rothko, Motherwell, and de Kooning angrily leave the gallery. Rothko: \"Are these young artists trying to kill us all?\" Goes unmentioned in magazines; visits from younger artists cease. Declares: \"I am dead.\""
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     },
@@ -792,8 +1817,14 @@
       "year": 1965,
       "category": "life",
       "period": "DARK",
-      "title": "하버드 벽화 퇴색",
-      "description": "하버드 홀리오크 센터에 설치된 5점의 벽화가 햇빛과 파티 중 칵테일 얼룩으로 퇴색 시작. 보존 관리인의 커튼 폐쇄 권고가 무시됨. 결국 1979년 수장고로 이동. 로스코의 작품이 기관의 무관심으로 파괴되는 상징적 사건.",
+      "title": {
+        "ko": "하버드 벽화 퇴색",
+        "en": "Harvard murals fade"
+      },
+      "description": {
+        "ko": "하버드 홀리오크 센터에 설치된 5점의 벽화가 햇빛과 파티 중 칵테일 얼룩으로 퇴색 시작. 보존 관리인의 커튼 폐쇄 권고가 무시됨. 결국 1979년 수장고로 이동. 로스코의 작품이 기관의 무관심으로 파괴되는 상징적 사건.",
+        "en": "Five murals installed at Harvard's Holyoke Center begin fading from sunlight and cocktail stains from parties. Curator's recommendations to close curtains ignored. Eventually moved to storage in 1979. A symbolic event of institutional neglect destroying Rothko's work."
+      },
       "emotional_valence": "negative",
       "significance": "medium"
     },
@@ -803,8 +1834,14 @@
       "date": "1967-08-30",
       "category": "life",
       "period": "DARK",
-      "title": "애드 라인하트 사망",
-      "description": "오랜 동료이자 친구 애드 라인하트가 심장마비로 사망. 로스코는 이후 라인하트의 미망인 리타와 관계를 시작하게 됨.",
+      "title": {
+        "ko": "애드 라인하트 사망",
+        "en": "Ad Reinhardt's death"
+      },
+      "description": {
+        "ko": "오랜 동료이자 친구 애드 라인하트가 심장마비로 사망. 로스코는 이후 라인하트의 미망인 리타와 관계를 시작하게 됨.",
+        "en": "Long-time colleague and friend Ad Reinhardt dies of a heart attack. Rothko later begins a relationship with Reinhardt's widow Rita."
+      },
       "emotional_valence": "negative",
       "significance": "medium"
     },
@@ -813,8 +1850,14 @@
       "year": 1969,
       "category": "life",
       "period": "FINAL",
-      "title": "리타 라인하트와의 관계",
-      "description": "애드 라인하트의 미망인 리타(30대)와 연인 관계. 멜과 별거 후 스튜디오 생활 중 시작. 재산관리인 버나드 라이스가 관계를 부추김. 딸 케이트는 아버지를 '무기력하고, 짜증스럽고, 세상에 지친' 모습으로 기억.",
+      "title": {
+        "ko": "리타 라인하트와의 관계",
+        "en": "Relationship with Rita Reinhardt"
+      },
+      "description": {
+        "ko": "애드 라인하트의 미망인 리타(30대)와 연인 관계. 멜과 별거 후 스튜디오 생활 중 시작. 재산관리인 버나드 라이스가 관계를 부추김. 딸 케이트는 아버지를 '무기력하고, 짜증스럽고, 세상에 지친' 모습으로 기억.",
+        "en": "Begins romantic relationship with Ad Reinhardt's widow Rita (in her 30s). Starts during studio solitude after separating from Mell. Estate manager Bernard Reis encourages the relationship. Daughter Kate remembers her father as \"helpless, irritable, and tired of the world.\""
+      },
       "emotional_valence": "negative",
       "significance": "medium"
     },
@@ -823,8 +1866,14 @@
       "year": 1969,
       "category": "life",
       "period": "FINAL",
-      "title": "약물 남용",
-      "description": "우울증 치료제 시네콴(독세핀), 발리움, 고혈압·통풍·불안 약물을 동시 복용. 시네콴 복용 중 과음 지속. 의사 처방량을 무시하고 임의로 용량 변경. '의사는 두 알 먹으라는데, 누가 세고 있겠어?'라고 친구에게 말함.",
+      "title": {
+        "ko": "약물 남용",
+        "en": "Drug abuse"
+      },
+      "description": {
+        "ko": "우울증 치료제 시네콴(독세핀), 발리움, 고혈압·통풍·불안 약물을 동시 복용. 시네콴 복용 중 과음 지속. 의사 처방량을 무시하고 임의로 용량 변경. '의사는 두 알 먹으라는데, 누가 세고 있겠어?'라고 친구에게 말함.",
+        "en": "Simultaneously taking antidepressant Sinequan (doxepin), Valium, and medications for hypertension, gout, and anxiety. Continues heavy drinking while on Sinequan. Ignores prescribed dosages, adjusting arbitrarily. Tells a friend: \"The doctor says take two, but who's counting?\""
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     },
@@ -834,8 +1883,14 @@
       "date": "1970-08",
       "category": "life",
       "period": "FINAL",
-      "title": "멜 사망",
-      "description": "로스코 사망 약 6개월 후, 아내 멜도 48세에 사망 (과음으로 인한 건강 악화). 딸 캐시 린(19세)과 아들 크리스토퍼(6세)가 고아가 됨. 이후 유산 소송('로스코 케이스')으로 이어짐.",
+      "title": {
+        "ko": "멜 사망",
+        "en": "Mell's death"
+      },
+      "description": {
+        "ko": "로스코 사망 약 6개월 후, 아내 멜도 48세에 사망 (과음으로 인한 건강 악화). 딸 캐시 린(19세)과 아들 크리스토퍼(6세)가 고아가 됨. 이후 유산 소송('로스코 케이스')으로 이어짐.",
+        "en": "Approximately six months after Rothko's death, wife Mell also dies at 48 (health deterioration from heavy drinking). Daughter Kate (19) and son Christopher (6) are orphaned. The estate lawsuit (\"The Rothko Case\") follows."
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     },
@@ -844,8 +1899,14 @@
       "year": 1908,
       "category": "life",
       "period": "FIG",
-      "title": "헤데르(유대학교) 입학",
-      "description": "아버지 야콥이 '격렬한 반종교주의자'임에도 마르쿠스만 헤데르(전통 유대 학교)에 보내 탈무드 교육. 세 형제는 공립학교 재학. 이 특별한 종교 교육이 후일 영적 감수성의 토대가 됨.",
+      "title": {
+        "ko": "헤데르(유대학교) 입학",
+        "en": "Enters Heder (Jewish school)"
+      },
+      "description": {
+        "ko": "아버지 야콥이 '격렬한 반종교주의자'임에도 마르쿠스만 헤데르(전통 유대 학교)에 보내 탈무드 교육. 세 형제는 공립학교 재학. 이 특별한 종교 교육이 후일 영적 감수성의 토대가 됨.",
+        "en": "Despite father Jacob being a \"fierce anti-religionist,\" Markus alone is sent to Heder (traditional Jewish school) for Talmud education. Three brothers attend public school. This special religious education becomes the foundation of his later spiritual sensitivity."
+      },
       "emotional_valence": "mixed",
       "significance": "medium"
     },
@@ -854,8 +1915,14 @@
       "year": 1912,
       "category": "life",
       "period": "FIG",
-      "title": "형들 미국 출발",
-      "description": "형 모이즈와 앨버트가 여권 없이 위험한 여정을 거쳐 미국으로 출발. 9세 마르쿠스는 어머니, 누나와 드빈스크에 남겨짐. 점진적 가족 분리가 평생의 유기 불안으로 작용.",
+      "title": {
+        "ko": "형들 미국 출발",
+        "en": "Brothers depart for America"
+      },
+      "description": {
+        "ko": "형 모이즈와 앨버트가 여권 없이 위험한 여정을 거쳐 미국으로 출발. 9세 마르쿠스는 어머니, 누나와 드빈스크에 남겨짐. 점진적 가족 분리가 평생의 유기 불안으로 작용.",
+        "en": "Brothers Moise and Albert embark on a dangerous journey to America without passports. Nine-year-old Markus remains in Dvinsk with his mother and sister. The gradual family separation becomes a lifelong abandonment anxiety."
+      },
       "emotional_valence": "negative",
       "significance": "medium"
     },
@@ -864,8 +1931,14 @@
       "year": 1915,
       "category": "life",
       "period": "FIG",
-      "title": "카디시 애도기, 학교 월반",
-      "description": "아버지를 위한 1년간의 카디시(애도 기도) 수행 중. 시나고그에 매일 출석. 동시에 학업 능력으로 페일링 초등학교에서 샤턱 학교로 전학, 여러 학년 월반. 지적 조숙과 종교적 슬픔의 공존.",
+      "title": {
+        "ko": "카디시 애도기, 학교 월반",
+        "en": "Kaddish mourning, school advancement"
+      },
+      "description": {
+        "ko": "아버지를 위한 1년간의 카디시(애도 기도) 수행 중. 시나고그에 매일 출석. 동시에 학업 능력으로 페일링 초등학교에서 샤턱 학교로 전학, 여러 학년 월반. 지적 조숙과 종교적 슬픔의 공존.",
+        "en": "During year-long Kaddish (mourning prayers) for his father. Attends synagogue daily. Simultaneously advances several grades from Failing Elementary to Shattuck School due to academic ability. Intellectual precociousness coexists with religious grief."
+      },
       "emotional_valence": "very_negative",
       "significance": "medium"
     },
@@ -874,8 +1947,14 @@
       "year": 1916,
       "category": "life",
       "period": "FIG",
-      "title": "소년 노동, 맥스 고든과 교류",
-      "description": "신문팔이로 거리에서 일하며 사촌 맥스 고든(후일 빌리지 뱅가드 재즈클럽 창립자)과 교류. 삼촌 새뮤얼 와인스타인의 도매 의류 창고에서도 노동. 가족이 와인스타인 가문에 경제적으로 의존.",
+      "title": {
+        "ko": "소년 노동, 맥스 고든과 교류",
+        "en": "Child labor, friendship with Max Gordon"
+      },
+      "description": {
+        "ko": "신문팔이로 거리에서 일하며 사촌 맥스 고든(후일 빌리지 뱅가드 재즈클럽 창립자)과 교류. 삼촌 새뮤얼 와인스타인의 도매 의류 창고에서도 노동. 가족이 와인스타인 가문에 경제적으로 의존.",
+        "en": "Works as a newsboy on the streets, befriending cousin Max Gordon (future founder of the Village Vanguard jazz club). Also works at uncle Samuel Weinstein's wholesale clothing warehouse. Family economically dependent on the Weinstein family."
+      },
       "emotional_valence": "negative",
       "significance": "low"
     },
@@ -884,8 +1963,14 @@
       "year": 1917,
       "category": "life",
       "period": "FIG",
-      "title": "링컨 고교, 유대인 차별, 토론부 창립",
-      "description": "링컨 고등학교 입학. 유대인이라는 이유로 교내 사교 클럽에서 배제. 대응으로 토론부를 공동 창립하고 학교 신문 'The Cardinal'에 칼럼 기고 — '사상의 열린 광장'.",
+      "title": {
+        "ko": "링컨 고교, 유대인 차별, 토론부 창립",
+        "en": "Lincoln High School, antisemitism, debate club founded"
+      },
+      "description": {
+        "ko": "링컨 고등학교 입학. 유대인이라는 이유로 교내 사교 클럽에서 배제. 대응으로 토론부를 공동 창립하고 학교 신문 'The Cardinal'에 칼럼 기고 — '사상의 열린 광장'.",
+        "en": "Enters Lincoln High School. Excluded from school social clubs for being Jewish. In response, co-founds the debate club and writes columns for school newspaper \"The Cardinal\" — \"an open forum for ideas.\""
+      },
       "emotional_valence": "mixed",
       "significance": "medium"
     },
@@ -894,8 +1979,14 @@
       "year": 1918,
       "category": "life",
       "period": "FIG",
-      "title": "IWW 집회 참석, 노동운동 꿈",
-      "description": "포틀랜드에서 IWW(세계산업노동자) 집회에 참석. 빅 빌 헤이우드, 엠마 골드먼 등의 연설을 들으며 노동조합 조직가를 꿈꿈. 후일 초현실주의를 옹호할 때 사용한 웅변 능력의 기초.",
+      "title": {
+        "ko": "IWW 집회 참석, 노동운동 꿈",
+        "en": "IWW rallies, labor movement dreams"
+      },
+      "description": {
+        "ko": "포틀랜드에서 IWW(세계산업노동자) 집회에 참석. 빅 빌 헤이우드, 엠마 골드먼 등의 연설을 들으며 노동조합 조직가를 꿈꿈. 후일 초현실주의를 옹호할 때 사용한 웅변 능력의 기초.",
+        "en": "Attends IWW (Industrial Workers of the World) rallies in Portland. Hears speeches by Big Bill Haywood and Emma Goldman, dreaming of becoming a labor organizer. The oratory skills developed here become the foundation for his later advocacy of Surrealism."
+      },
       "emotional_valence": "mixed",
       "significance": "low"
     },
@@ -904,8 +1995,14 @@
       "year": 1919,
       "category": "life",
       "period": "FIG",
-      "title": "카디시 종료, 종교 완전 단절",
-      "description": "아버지를 위한 카디시 기간 완료 후 조직 종교와 완전히 단절 선언. 아버지를 빼앗아간 신에 대한 분노가 감정적 원인. 이 단절이 후일 작품의 비종파적 영성의 기반.",
+      "title": {
+        "ko": "카디시 종료, 종교 완전 단절",
+        "en": "Kaddish ends, complete break with religion"
+      },
+      "description": {
+        "ko": "아버지를 위한 카디시 기간 완료 후 조직 종교와 완전히 단절 선언. 아버지를 빼앗아간 신에 대한 분노가 감정적 원인. 이 단절이 후일 작품의 비종파적 영성의 기반.",
+        "en": "After completing the Kaddish period for his father, declares a complete break with organized religion. Anger toward the God who took his father is the emotional cause. This rupture becomes the foundation for the non-denominational spirituality in his later work."
+      },
       "emotional_valence": "negative",
       "significance": "medium"
     },
@@ -914,8 +2011,14 @@
       "year": 1920,
       "category": "life",
       "period": "FIG",
-      "title": "포틀랜드 미술학교 첫 수업, 예일 장학금",
-      "description": "포틀랜드 미술학교에서 첫 미술 수업 수강(당시 음악에 더 관심). 학업 성적 우수로 예일대 전액 장학금 획득.",
+      "title": {
+        "ko": "포틀랜드 미술학교 첫 수업, 예일 장학금",
+        "en": "First art class in Portland, Yale scholarship"
+      },
+      "description": {
+        "ko": "포틀랜드 미술학교에서 첫 미술 수업 수강(당시 음악에 더 관심). 학업 성적 우수로 예일대 전액 장학금 획득.",
+        "en": "Takes first art class at Portland Art School (more interested in music at the time). Earns a full scholarship to Yale through academic excellence."
+      },
       "emotional_valence": "positive",
       "significance": "medium"
     },
@@ -924,8 +2027,14 @@
       "year": 1925,
       "category": "life",
       "period": "FIG",
-      "title": "뉴욕 귀환, 고르키 수업 경험",
-      "description": "뉴욕 귀환. 뉴스쿨에서 아쉴 고르키의 수업을 잠시 수강하나 '감독이 과도하다'며 중단. 아트 스튜던츠 리그 재등록. 1924년 여름에는 포틀랜드에서 조세핀 딜런 극단에서 클라크 게이블과 함께 연기한 경험도.",
+      "title": {
+        "ko": "뉴욕 귀환, 고르키 수업 경험",
+        "en": "Returns to New York, Gorky class experience"
+      },
+      "description": {
+        "ko": "뉴욕 귀환. 뉴스쿨에서 아쉴 고르키의 수업을 잠시 수강하나 '감독이 과도하다'며 중단. 아트 스튜던츠 리그 재등록. 1924년 여름에는 포틀랜드에서 조세핀 딜런 극단에서 클라크 게이블과 함께 연기한 경험도.",
+        "en": "Returns to New York. Briefly attends Arshile Gorky's class at the New School but quits, finding the \"supervision excessive.\" Re-enrolls at the Art Students League. In summer 1924, acts alongside Clark Gable in Josephine Dillon's Portland theater company."
+      },
       "emotional_valence": "mixed",
       "significance": "medium"
     },
@@ -934,8 +2043,14 @@
       "year": 1926,
       "category": "art",
       "period": "FIG",
-      "title": "막스 베버 수학 완료, 독립 작업",
-      "description": "막스 베버(1925년 가을~1926년 봄) 수학 완료. 세잔, 야수파, 큐비즘에 대한 직접 지식 전수. 독립 작업 시작. 봉제 공장, 친척 사무실 부기 등으로 생계 유지.",
+      "title": {
+        "ko": "막스 베버 수학 완료, 독립 작업",
+        "en": "Completes Weber studies, independent work begins"
+      },
+      "description": {
+        "ko": "막스 베버(1925년 가을~1926년 봄) 수학 완료. 세잔, 야수파, 큐비즘에 대한 직접 지식 전수. 독립 작업 시작. 봉제 공장, 친척 사무실 부기 등으로 생계 유지.",
+        "en": "Completes studies with Max Weber (fall 1925–spring 1926). Receives direct knowledge of Cézanne, Fauvism, and Cubism. Begins independent work. Supports himself through garment factory work and bookkeeping at a relative's office."
+      },
       "emotional_valence": "positive",
       "significance": "medium"
     },
@@ -944,8 +2059,14 @@
       "year": 1927,
       "category": "life",
       "period": "FIG",
-      "title": "고독한 자기 교육, 빈곤",
-      "description": "전시 없음, 학교 없음. 완전한 독학 기간. 빈곤과 잡일의 반복. 어두운 도시 장면과 지하철 그림의 시작.",
+      "title": {
+        "ko": "고독한 자기 교육, 빈곤",
+        "en": "Solitary self-education, poverty"
+      },
+      "description": {
+        "ko": "전시 없음, 학교 없음. 완전한 독학 기간. 빈곤과 잡일의 반복. 어두운 도시 장면과 지하철 그림의 시작.",
+        "en": "No exhibitions, no school. A period of complete self-teaching. Repeated cycles of poverty and odd jobs. Dark urban scenes and subway paintings begin."
+      },
       "emotional_valence": "negative",
       "significance": "low"
     },
@@ -954,8 +2075,14 @@
       "year": 1931,
       "category": "career",
       "period": "FIG",
-      "title": "아동미술 철학 형성",
-      "description": "센터 아카데미 3년차. 아동 미술이 근대 회화만큼 진실하다는 철학 형성 중. 뉴욕 미술계에서 소규모 그룹전으로 존재감 확보.",
+      "title": {
+        "ko": "아동미술 철학 형성",
+        "en": "Children's art philosophy forming"
+      },
+      "description": {
+        "ko": "센터 아카데미 3년차. 아동 미술이 근대 회화만큼 진실하다는 철학 형성 중. 뉴욕 미술계에서 소규모 그룹전으로 존재감 확보.",
+        "en": "Third year at Center Academy. Developing the philosophy that children's art is as truthful as modern painting. Establishing presence in the New York art world through small group exhibitions."
+      },
       "emotional_valence": "positive",
       "significance": "low"
     },
@@ -964,8 +2091,14 @@
       "year": 1934,
       "category": "career",
       "period": "FIG",
-      "title": "갤러리 세세션 전시, 예술가 조합",
-      "description": "갤러리 세세션(Gallery Secession)에서 전시. 대공황기 예술가 조합(Artists' Union) 창립 참여. 이 그룹이 수개월 후 세세션을 떠나 'The Ten'의 모체가 됨.",
+      "title": {
+        "ko": "갤러리 세세션 전시, 예술가 조합",
+        "en": "Gallery Secession exhibition, artists' union"
+      },
+      "description": {
+        "ko": "갤러리 세세션(Gallery Secession)에서 전시. 대공황기 예술가 조합(Artists' Union) 창립 참여. 이 그룹이 수개월 후 세세션을 떠나 'The Ten'의 모체가 됨.",
+        "en": "Exhibits at Gallery Secession. Participates in founding the Artists' Union during the Depression. This group leaves Secession months later to form the nucleus of \"The Ten.\""
+      },
       "emotional_valence": "positive",
       "significance": "low"
     },
@@ -974,8 +2107,14 @@
       "year": 1939,
       "category": "life",
       "period": "FIG",
-      "title": "The Ten 해체, 에디스 가게 심부름",
-      "description": "The Ten 최종 전시(보네스텔 갤러리, 10.23~11.4) 후 '재편 문제'로 해체. 에디스의 보석 가게가 번창하는 동안 로스코는 심부름꾼으로 전락 — '어린 소년처럼'. WWII 발발(9월)로 이민 유대인으로서의 정체성 위기 심화.",
+      "title": {
+        "ko": "The Ten 해체, 에디스 가게 심부름",
+        "en": "The Ten dissolves, running errands for Edith's shop"
+      },
+      "description": {
+        "ko": "The Ten 최종 전시(보네스텔 갤러리, 10.23~11.4) 후 '재편 문제'로 해체. 에디스의 보석 가게가 번창하는 동안 로스코는 심부름꾼으로 전락 — '어린 소년처럼'. WWII 발발(9월)로 이민 유대인으로서의 정체성 위기 심화.",
+        "en": "The Ten holds its final exhibition (Bonestell Gallery, Oct 23–Nov 4) and dissolves over \"reorganization issues.\" While Edith's jewelry shop thrives, Rothko is reduced to running errands — \"like a little boy.\" WWII outbreak (September) deepens identity crisis as an immigrant Jew."
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     },
@@ -984,8 +2123,14 @@
       "year": 1942,
       "category": "life",
       "period": "MYTH",
-      "title": "에디스와 사실상 결별",
-      "description": "약 2년간의 비자발적 보석상 생활 끝에 에디스와 사실상 결별. 아이스킬로스의 오레스테이아에 기반한 'The Omen of the Eagle' 제작 — '이 그림은 특정 일화가 아니라 신화의 정신을 다룬다.' 초현실주의가 유럽 망명 예술가들과 함께 뉴욕에 도래.",
+      "title": {
+        "ko": "에디스와 사실상 결별",
+        "en": "De facto separation from Edith"
+      },
+      "description": {
+        "ko": "약 2년간의 비자발적 보석상 생활 끝에 에디스와 사실상 결별. 아이스킬로스의 오레스테이아에 기반한 'The Omen of the Eagle' 제작 — '이 그림은 특정 일화가 아니라 신화의 정신을 다룬다.' 초현실주의가 유럽 망명 예술가들과 함께 뉴욕에 도래.",
+        "en": "After roughly two years of involuntary jeweler's assistant life, effectively separates from Edith. Creates \"The Omen of the Eagle\" based on Aeschylus's Oresteia — \"This painting is not about a particular anecdote but the spirit of myth.\" Surrealism arrives in New York with European exile artists."
+      },
       "emotional_valence": "mixed",
       "significance": "medium"
     },
@@ -994,8 +2139,14 @@
       "year": 1953,
       "category": "career",
       "period": "CLASSIC_B",
-      "title": "휘트니 판매 거부",
-      "description": "휘트니 미술관의 작품 2점 구매 제안을 거부. '내 작품이 세상에서 어떤 삶을 살게 될지에 대한 깊은 책임감' 때문. 클래식기 4년차, 딸 캐시 린 3세. 멜과 안정적이나 상업적 성공과 예술적 순수성 간 내적 갈등 심화.",
+      "title": {
+        "ko": "휘트니 판매 거부",
+        "en": "Refuses Whitney purchase"
+      },
+      "description": {
+        "ko": "휘트니 미술관의 작품 2점 구매 제안을 거부. '내 작품이 세상에서 어떤 삶을 살게 될지에 대한 깊은 책임감' 때문. 클래식기 4년차, 딸 캐시 린 3세. 멜과 안정적이나 상업적 성공과 예술적 순수성 간 내적 갈등 심화.",
+        "en": "Refuses the Whitney Museum's offer to purchase two paintings. Cites \"a deep sense of responsibility for the life my work will live in the world.\" Fourth year of Classic period, daughter Kate age 3. Stable with Mell but internal conflict between commercial success and artistic purity intensifies."
+      },
       "emotional_valence": "mixed",
       "significance": "medium"
     },
@@ -1004,8 +2155,14 @@
       "year": 1968,
       "category": "life",
       "period": "FINAL",
-      "title": "신체적 제약, 종이 아크릴 전환",
-      "description": "대동맥류 진단 후 의사가 3피트(약 90cm) 이상 높이 그림 금지. 점차 72x60인치까지 밀어붙임. 캔버스 대신 종이 위 아크릴로 전환. 대동맥류 수술은 심한 간 질환(수년간 과음)으로 불가.",
+      "title": {
+        "ko": "신체적 제약, 종이 아크릴 전환",
+        "en": "Physical limitations, switch to acrylic on paper"
+      },
+      "description": {
+        "ko": "대동맥류 진단 후 의사가 3피트(약 90cm) 이상 높이 그림 금지. 점차 72x60인치까지 밀어붙임. 캔버스 대신 종이 위 아크릴로 전환. 대동맥류 수술은 심한 간 질환(수년간 과음)으로 불가.",
+        "en": "After aneurysm diagnosis, doctors ban paintings over 3 feet (approx. 90 cm). Gradually pushes to 72×60 inches. Switches from canvas to acrylic on paper. Aneurysm surgery impossible due to severe liver disease from years of heavy drinking."
+      },
       "emotional_valence": "very_negative",
       "significance": "high"
     }

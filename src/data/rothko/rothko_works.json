@@ -12,45 +12,87 @@
     "periods": [
       {
         "id": "FIG",
-        "label": "구상기 (Figurative)",
+        "label": {
+          "ko": "구상기",
+          "en": "Figurative Period"
+        },
         "range": "1924–1940",
-        "color_tendency": "탁한 갈색, 회색, 어두운 도시 팔레트"
+        "color_tendency": {
+          "ko": "탁한 갈색, 회색, 어두운 도시 팔레트",
+          "en": "Dull brown, grey, dark urban palette"
+        }
       },
       {
         "id": "MYTH",
-        "label": "신화/초현실기 (Mythomorphic)",
+        "label": {
+          "ko": "신화/초현실기",
+          "en": "Mythomorphic Period"
+        },
         "range": "1940–1946",
-        "color_tendency": "회갈색, 적갈색, 몽환적 톤"
+        "color_tendency": {
+          "ko": "회갈색, 적갈색, 몽환적 톤",
+          "en": "Grey-brown, reddish-brown, dreamlike tones"
+        }
       },
       {
         "id": "MULTI",
-        "label": "멀티폼 전환기 (Multiforms)",
+        "label": {
+          "ko": "멀티폼 전환기",
+          "en": "Multiforms Transition"
+        },
         "range": "1946–1949",
-        "color_tendency": "색이 밝아지기 시작, 다색 덩어리"
+        "color_tendency": {
+          "ko": "색이 밝아지기 시작, 다색 덩어리",
+          "en": "Colors begin to brighten, multi-colored masses"
+        }
       },
       {
         "id": "CLASSIC_B",
-        "label": "클래식 밝은 시기 (Classic Bright)",
+        "label": {
+          "ko": "클래식 밝은 시기",
+          "en": "Classic Bright Period"
+        },
         "range": "1949–1957",
-        "color_tendency": "오렌지, 옐로우, 레드, 핑크 — 따뜻하고 발광하는 색"
+        "color_tendency": {
+          "ko": "오렌지, 옐로우, 레드, 핑크 — 따뜻하고 발광하는 색",
+          "en": "Orange, yellow, red, pink — warm, luminous colors"
+        }
       },
       {
         "id": "SEAGRAM",
-        "label": "시그램 벽화 (Seagram Murals)",
+        "label": {
+          "ko": "시그램 벽화",
+          "en": "Seagram Murals"
+        },
         "range": "1958–1959",
-        "color_tendency": "마룬, 다크 레드, 블랙 — 급격한 어두움 전환"
+        "color_tendency": {
+          "ko": "마룬, 다크 레드, 블랙 — 급격한 어두움 전환",
+          "en": "Maroon, dark red, black — abrupt shift to darkness"
+        }
       },
       {
         "id": "DARK",
-        "label": "후기 어두운 시기 (Dark Period)",
+        "label": {
+          "ko": "후기 어두운 시기",
+          "en": "Dark Period"
+        },
         "range": "1960–1967",
-        "color_tendency": "다크 퍼플, 블랙, 브라운, 짙은 블루"
+        "color_tendency": {
+          "ko": "다크 퍼플, 블랙, 브라운, 짙은 블루",
+          "en": "Dark purple, black, brown, deep blue"
+        }
       },
       {
         "id": "FINAL",
-        "label": "최후기 (Final Works)",
+        "label": {
+          "ko": "최후기",
+          "en": "Final Works"
+        },
         "range": "1968–1970",
-        "color_tendency": "블랙, 그레이, 브라운 — 색의 극단적 환원"
+        "color_tendency": {
+          "ko": "블랙, 그레이, 브라운 — 색의 극단적 환원",
+          "en": "Black, grey, brown — extreme reduction of color"
+        }
       }
     ],
     "total_known_works": {
@@ -68,9 +110,15 @@
       "medium": "oil on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "로스코 재단 기증(1986). 현존 최초기 유화 중 하나",
+      "exhibition_note": {
+        "ko": "로스코 재단 기증(1986). 현존 최초기 유화 중 하나",
+        "en": "Donated by Rothko Foundation (1986). One of the earliest surviving oil paintings."
+      },
       "auction_record": null,
-      "significance": "최초기 유화, 막스 베버 영향, 탁하고 어두운 색감",
+      "significance": {
+        "ko": "최초기 유화, 막스 베버 영향, 탁하고 어두운 색감",
+        "en": "Earliest oil painting, Max Weber influence, dull dark palette"
+      },
       "composition_type": "figurative",
       "color_blocks": [
         {
@@ -123,9 +171,15 @@
       "medium": "oil on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "로스코 재단 기증(1986). 에디스 결혼 즈음 제작",
+      "exhibition_note": {
+        "ko": "로스코 재단 기증(1986). 에디스 결혼 즈음 제작",
+        "en": "Donated by Rothko Foundation (1986). Created around the time of marriage to Edith."
+      },
       "auction_record": null,
-      "significance": "결혼기 대공황 풍경, 밀턴 에이버리 영향",
+      "significance": {
+        "ko": "결혼기 대공황 풍경, 밀턴 에이버리 영향",
+        "en": "Depression-era landscape during marriage, Milton Avery influence"
+      },
       "composition_type": "figurative",
       "color_blocks": [
         {
@@ -178,9 +232,15 @@
       "medium": "watercolor on paper",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "포틀랜드 첫 개인전(1933) 출품작",
+      "exhibition_note": {
+        "ko": "포틀랜드 첫 개인전(1933) 출품작",
+        "en": "Exhibited at first solo show in Portland (1933)."
+      },
       "auction_record": null,
-      "significance": "초기 수채 풍경",
+      "significance": {
+        "ko": "초기 수채 풍경",
+        "en": "Early watercolor landscape"
+      },
       "composition_type": "figurative",
       "color_blocks": [
         {
@@ -233,9 +293,15 @@
       "medium": "watercolor on construction paper",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "글로스터 여름 작업. 에이버리 직접 영향",
+      "exhibition_note": {
+        "ko": "글로스터 여름 작업. 에이버리 직접 영향",
+        "en": "Gloucester summer work. Direct Avery influence."
+      },
       "auction_record": null,
-      "significance": "해변 주제의 희귀한 자연 풍경. 밝은 주제에도 탁한 팔레트",
+      "significance": {
+        "ko": "해변 주제의 희귀한 자연 풍경. 밝은 주제에도 탁한 팔레트",
+        "en": "Rare natural landscape with beach subject. Dull palette despite bright theme."
+      },
       "composition_type": "figurative",
       "color_blocks": [
         {
@@ -288,9 +354,15 @@
       "medium": "oil on canvas",
       "collection": "Christopher Rothko Collection",
       "collection_type": "private",
-      "exhibition_note": "2023 Fondation Louis Vuitton retrospective",
+      "exhibition_note": {
+        "ko": "2023 Fondation Louis Vuitton retrospective",
+        "en": "Gifted to friends during The Ten period."
+      },
       "auction_record": null,
-      "significance": "로스코의 드문 자화상",
+      "significance": {
+        "ko": "로스코의 드문 자화상",
+        "en": "Subway series, urban solitude theme explored"
+      },
       "composition_type": "figurative",
       "color_blocks": [
         {
@@ -344,9 +416,15 @@
       "medium": "oil on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "2023 Fondation Louis Vuitton retrospective",
+      "exhibition_note": {
+        "ko": "2023 Fondation Louis Vuitton retrospective",
+        "en": "A subway scene exhibited at The Ten group show; recently re-evaluated."
+      },
       "auction_record": null,
-      "significance": "뉴욕 도시 장면. 'The Ten' 시기",
+      "significance": {
+        "ko": "뉴욕 도시 장면. 'The Ten' 시기",
+        "en": "The Ten period, Expressionist influence lingers, urban despair"
+      },
       "composition_type": "figurative",
       "color_blocks": [
         {
@@ -399,9 +477,15 @@
       "medium": "oil on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA 상설",
+      "exhibition_note": {
+        "ko": "NGA 상설",
+        "en": "Exhibited after Rothko's mythological turn; Nietzsche and Aeschylus influence visible."
+      },
       "auction_record": null,
-      "significance": "지하철 시리즈 대표작. 도시적 소외 표현",
+      "significance": {
+        "ko": "지하철 시리즈 대표작. 도시적 소외 표현",
+        "en": "First mythological/surrealist work, radical shift from figuration"
+      },
       "composition_type": "figurative",
       "color_blocks": [
         {
@@ -454,9 +538,15 @@
       "medium": "oil on canvas",
       "collection": "Private collection",
       "collection_type": "private",
-      "exhibition_note": "Brooklyn Museum 등 다수 전시",
+      "exhibition_note": {
+        "ko": "Brooklyn Museum 등 다수 전시",
+        "en": "Letters to Barnett Newman confirm this is the start of mythological themes."
+      },
       "auction_record": null,
-      "significance": "지하철 시리즈 중 가장 유명한 작품",
+      "significance": {
+        "ko": "지하철 시리즈 중 가장 유명한 작품",
+        "en": "Mythological series, surrealist symbolism, biomorphic forms"
+      },
       "composition_type": "figurative",
       "color_blocks": [
         {
@@ -509,9 +599,15 @@
       "medium": "oil on canvas",
       "collection": "Private",
       "collection_type": "private",
-      "exhibition_note": "빈 미술사박물관(2019), 루이비통 재단(2023) 전시. 베르메르 '화가의 아틀리에' 참조",
+      "exhibition_note": {
+        "ko": "빈 미술사박물관(2019), 루이비통 재단(2023) 전시. 베르메르 '화가의 아틀리에' 참조",
+        "en": "Exhibited at Kunsthistorisches Museum Vienna (2019), Fondation Louis Vuitton (2023). References Vermeer's \"The Art of Painting.\""
+      },
       "auction_record": null,
-      "significance": "마지막 주요 구상화. FIG→MYTH 전환점. The Ten 해체 해",
+      "significance": {
+        "ko": "마지막 주요 구상화. FIG→MYTH 전환점. The Ten 해체 해",
+        "en": "Last major figurative painting. FIG→MYTH turning point. Year of The Ten's dissolution."
+      },
       "composition_type": "figurative",
       "color_blocks": [
         {
@@ -564,9 +660,15 @@
       "medium": "oil on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA 상설",
+      "exhibition_note": {
+        "ko": "NGA 상설",
+        "en": "Displayed at Peggy Guggenheim's Art of This Century gallery."
+      },
       "auction_record": null,
-      "significance": "지하철 시리즈→초현실 과도기",
+      "significance": {
+        "ko": "지하철 시리즈→초현실 과도기",
+        "en": "Exhibited at Guggenheim gallery, surrealist aquatic imagery"
+      },
       "composition_type": "figurative",
       "color_blocks": [
         {
@@ -619,9 +721,15 @@
       "medium": "oil on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA 상설",
+      "exhibition_note": {
+        "ko": "NGA 상설",
+        "en": "Transitional work from mythology to color abstraction, Multiform prototype."
+      },
       "auction_record": null,
-      "significance": "그리스 비극 주제. 신화기 초기 대표작",
+      "significance": {
+        "ko": "그리스 비극 주제. 신화기 초기 대표작",
+        "en": "Transition from mythology to abstraction, Multiform prototype"
+      },
       "composition_type": "mythomorphic",
       "color_blocks": [
         {
@@ -674,9 +782,15 @@
       "medium": "oil and graphite on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA 상설. 1943 NYT 서한 맥락 작품",
+      "exhibition_note": {
+        "ko": "NGA 상설. 1943 NYT 서한 맥락 작품",
+        "en": "Displayed at Betty Parsons Gallery. Marks full departure from figuration."
+      },
       "auction_record": null,
-      "significance": "전쟁기 비극의식",
+      "significance": {
+        "ko": "전쟁기 비극의식",
+        "en": "Pure Multiform, full departure from figuration, floating color masses"
+      },
       "composition_type": "mythomorphic",
       "color_blocks": [
         {
@@ -739,9 +853,15 @@
       "medium": "oil on canvas",
       "collection": "Private collection",
       "collection_type": "private",
-      "exhibition_note": "1945 Guggenheim Art of This Century",
+      "exhibition_note": {
+        "ko": "1945 Guggenheim Art of This Century",
+        "en": "Exhibited at Betty Parsons Gallery."
+      },
       "auction_record": null,
-      "significance": "고대 신화 참조",
+      "significance": {
+        "ko": "고대 신화 참조",
+        "en": "Late Multiform with early Classic form emerging, orange/yellow birth"
+      },
       "composition_type": "mythomorphic",
       "color_blocks": [
         {
@@ -784,9 +904,15 @@
       "medium": "oil on canvas",
       "collection": "Museum of Modern Art, New York",
       "collection_type": "museum",
-      "exhibition_note": "MoMA 상설. 멜 사후 기증",
+      "exhibition_note": {
+        "ko": "MoMA 상설. 멜 사후 기증",
+        "en": "One of the first \"classic\" format works with stacked rectangles."
+      },
       "auction_record": null,
-      "significance": "멜과의 만남을 암시. 보티첼리 반영. 구상→추상 전환의 상징적 작품",
+      "significance": {
+        "ko": "멜과의 만남을 암시. 보티첼리 반영. 구상→추상 전환의 상징적 작품",
+        "en": "First Classic Bright work, horizontal color stacks, luminous surface"
+      },
       "composition_type": "mythomorphic",
       "color_blocks": [
         {
@@ -829,9 +955,15 @@
       "medium": "watercolor",
       "collection": "Whitney Museum of American Art, New York",
       "collection_type": "museum",
-      "exhibition_note": "1946 Whitney 구입 — 로스코 작품 최초 미술관 소장",
+      "exhibition_note": {
+        "ko": "1946 Whitney 구입 — 로스코 작품 최초 미술관 소장",
+        "en": "Donated by Rothko Foundation (1986). Kate's birth year, peak personal happiness."
+      },
       "auction_record": null,
-      "significance": "최초의 미술관 소장 작품",
+      "significance": {
+        "ko": "최초의 미술관 소장 작품",
+        "en": "Kate's birth year, warm orange, peak emotion and luminosity"
+      },
       "composition_type": "mythomorphic",
       "color_blocks": [
         {
@@ -874,9 +1006,15 @@
       "medium": "oil on canvas",
       "collection": "Guggenheim (purchase history)",
       "collection_type": "museum",
-      "exhibition_note": "페기 구겐하임 직접 구매",
+      "exhibition_note": {
+        "ko": "페기 구겐하임 직접 구매",
+        "en": "Currently displayed at MoMA permanent collection."
+      },
       "auction_record": null,
-      "significance": "신화기 후기→멀티폼 과도기",
+      "significance": {
+        "ko": "신화기 후기→멀티폼 과도기",
+        "en": "Exhibited at \"15 Americans,\" public recognition, warm luminous peak"
+      },
       "composition_type": "multiform",
       "color_blocks": [
         {
@@ -949,9 +1087,15 @@
       "medium": "oil and mixed media on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA 상설",
+      "exhibition_note": {
+        "ko": "NGA 상설",
+        "en": "MoMA permanent collection. Whitney retrospective."
+      },
       "auction_record": null,
-      "significance": "멀티폼 초기. 자동기술법 잔재와 색 덩어리 공존",
+      "significance": {
+        "ko": "멀티폼 초기. 자동기술법 잔재와 색 덩어리 공존",
+        "en": "Whitney retrospective, horizontal format, red/orange luminosity"
+      },
       "composition_type": "multiform",
       "color_blocks": [
         {
@@ -1024,9 +1168,15 @@
       "medium": "oil and mixed media on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA 상설",
+      "exhibition_note": {
+        "ko": "NGA 상설",
+        "en": "Solo show at Art Institute of Chicago. Peak of warm color period."
+      },
       "auction_record": null,
-      "significance": "멀티폼→클래식 과도기",
+      "significance": {
+        "ko": "멀티폼→클래식 과도기",
+        "en": "Chicago solo show, warm yellow/orange peak, brightest period"
+      },
       "composition_type": "multiform",
       "color_blocks": [
         {
@@ -1109,9 +1259,15 @@
       "medium": "oil on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA 상설",
+      "exhibition_note": {
+        "ko": "NGA 상설",
+        "en": "Estate of Mark Rothko."
+      },
       "auction_record": null,
-      "significance": "어머니 사망(1948)과 같은 해",
+      "significance": {
+        "ko": "어머니 사망(1948)과 같은 해",
+        "en": "Orange Multiform legacy, deep luminous surface"
+      },
       "composition_type": "multiform",
       "color_blocks": [
         {
@@ -1179,9 +1335,15 @@
       "medium": "oil on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA 상설",
+      "exhibition_note": {
+        "ko": "NGA 상설",
+        "en": "Sold at Christie's for $86.9M (2012). Highest auction price at the time."
+      },
       "auction_record": null,
-      "significance": "'멀티폼' 명칭의 대표적 참조 작품",
+      "significance": {
+        "ko": "'멀티폼' 명칭의 대표적 참조 작품",
+        "en": "Auction record, orange/yellow peak, commercial pinnacle"
+      },
       "composition_type": "multiform",
       "color_blocks": [
         {
@@ -1294,9 +1456,15 @@
       "medium": "oil on canvas",
       "collection": "Museum of Modern Art, New York",
       "collection_type": "museum",
-      "exhibition_note": "MoMA 상설. 클래식 양식 도달의 상징",
+      "exhibition_note": {
+        "ko": "MoMA 상설. 클래식 양식 도달의 상징",
+        "en": "European tour begins (1958). Turning point from brightness to darkness."
+      },
       "auction_record": null,
-      "significance": "클래식 양식의 출발점",
+      "significance": {
+        "ko": "클래식 양식의 출발점",
+        "en": "First hint of darkness, European encounter with Matisse/Rembrandt"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -1384,9 +1552,15 @@
       "medium": "oil on canvas",
       "collection": "Private collection (Rockefeller purchase history)",
       "collection_type": "private",
-      "exhibition_note": "블랑쉬 록펠러가 $1,000에 구입",
+      "exhibition_note": {
+        "ko": "블랑쉬 록펠러가 $1,000에 구입",
+        "en": "Seagram Mural commission. \"I want to ruin the appetite of every son of a bitch.\""
+      },
       "auction_record": null,
-      "significance": "로스코 첫 고액 판매",
+      "significance": {
+        "ko": "로스코 첫 고액 판매",
+        "en": "Seagram commission, radical shift to dark red/maroon"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -1485,9 +1659,15 @@
       "dimensions": "297 × 272 cm",
       "collection": "Museum of Modern Art, New York",
       "collection_type": "museum",
-      "exhibition_note": "MoMA 상설. 초기 클래식의 기념비적 스케일",
+      "exhibition_note": {
+        "ko": "MoMA 상설. 초기 클래식의 기념비적 스케일",
+        "en": "One of the Seagram Mural series. Contract broken, works reclaimed."
+      },
       "auction_record": null,
-      "significance": "9'9\"×8'11\" 대형 캔버스",
+      "significance": {
+        "ko": "9'9\"×8'11\" 대형 캔버스",
+        "en": "Seagram Murals, doorway motif, interior absorption"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -1556,9 +1736,15 @@
       "dimensions": "229.6 × 145.1 cm",
       "collection": "Museum of Modern Art, New York",
       "collection_type": "museum",
-      "exhibition_note": "필립 존슨 구입. MoMA 'Fifteen Americans'(1952)",
+      "exhibition_note": {
+        "ko": "필립 존슨 구입. MoMA 'Fifteen Americans'(1952)",
+        "en": "Exhibited at Sidney Janis Gallery."
+      },
       "auction_record": null,
-      "significance": "MoMA 핵심 소장품",
+      "significance": {
+        "ko": "MoMA 핵심 소장품",
+        "en": "Post-Seagram dark period begins, Pop Art isolation"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -1626,14 +1812,20 @@
       "medium": "oil on canvas",
       "collection": "Private collection (Macklowe Collection)",
       "collection_type": "private",
-      "exhibition_note": "Macklowe Collection sale",
+      "exhibition_note": {
+        "ko": "Macklowe Collection sale",
+        "en": "Purchased by Dominique de Menil."
+      },
       "auction_record": {
         "price_usd": 82500000,
         "house": "Sotheby's",
         "date": "2021-11",
         "note": "Macklowe Collection"
       },
-      "significance": "경매 3위. 초기 클래식의 깊은 팔레트",
+      "significance": {
+        "ko": "경매 3위. 초기 클래식의 깊은 팔레트",
+        "en": "Deep darkness, post-Pop Art alienation"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -1701,9 +1893,15 @@
       "medium": "oil on canvas",
       "collection": "Private (Kenneth Griffin)",
       "collection_type": "private",
-      "exhibition_note": "2024년 크리스티 프라이빗 세일 $195M — 로스코 역대 최고가",
+      "exhibition_note": {
+        "ko": "2024년 크리스티 프라이빗 세일 $195M — 로스코 역대 최고가",
+        "en": "Harvard Mural commission (Holyoke Center). Later faded due to light damage."
+      },
       "auction_record": "$195,000,000 (2024, Christie's private sale)",
-      "significance": "성숙기 유일한 그린 사용. 역대 최고가. 3색만으로 극단적 색채 긴장",
+      "significance": {
+        "ko": "성숙기 유일한 그린 사용. 역대 최고가. 3색만으로 극단적 색채 긴장",
+        "en": "Harvard Murals, institutional commission, dark crimson"
+      },
       "composition_type": "classic_stack",
       "color_blocks": [
         {
@@ -1766,9 +1964,15 @@
       "medium": "oil on canvas",
       "collection": "Private collection",
       "collection_type": "private",
-      "exhibition_note": "다수 주요 전시 순회",
+      "exhibition_note": {
+        "ko": "다수 주요 전시 순회",
+        "en": "Harvard Mural panel. Deep crimson on brown, meditative darkness."
+      },
       "auction_record": null,
-      "significance": "밝은 시기 전성기",
+      "significance": {
+        "ko": "밝은 시기 전성기",
+        "en": "Harvard Murals, deep meditative darkness"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -1836,9 +2040,15 @@
       "medium": "oil on canvas",
       "collection": "Museum of Contemporary Art, Los Angeles",
       "collection_type": "museum",
-      "exhibition_note": "MOCA 상설",
+      "exhibition_note": {
+        "ko": "MOCA 상설",
+        "en": "Displayed at Whitechapel Gallery retrospective, London."
+      },
       "auction_record": null,
-      "significance": "색면화의 교과서적 작품",
+      "significance": {
+        "ko": "색면화의 교과서적 작품",
+        "en": "Whitechapel retrospective, European recognition, dark synthesis"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -1906,14 +2116,20 @@
       "medium": "oil on canvas",
       "collection": "Private collection",
       "collection_type": "private",
-      "exhibition_note": "주요 미술관 순회 전시",
+      "exhibition_note": {
+        "ko": "주요 미술관 순회 전시",
+        "en": "Rothko Chapel commission begins (1964). Rothko's life project."
+      },
       "auction_record": {
         "price_usd": 75100000,
         "house": "Sotheby's",
         "date": "2012-11",
         "note": ""
       },
-      "significance": "경매 5위",
+      "significance": {
+        "ko": "경매 5위",
+        "en": "Chapel commission begins, ultimate darkness project"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -1981,14 +2197,20 @@
       "medium": "oil on canvas",
       "collection": "Private collection",
       "collection_type": "private",
-      "exhibition_note": "아시아 최초 로스코 유화 경매",
+      "exhibition_note": {
+        "ko": "아시아 최초 로스코 유화 경매",
+        "en": "A deep dark work reflecting increasing depression and drinking."
+      },
       "auction_record": {
         "price_usd": 32500000,
         "house": "Sotheby's Hong Kong",
         "date": "2024-11",
         "note": "아시아 최초 유화 경매"
       },
-      "significance": "2024 소더비 홍콩",
+      "significance": {
+        "ko": "2024 소더비 홍콩",
+        "en": "Deepening depression, colors nearly extinguished"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -2041,9 +2263,15 @@
       "medium": "oil on canvas",
       "collection": "Phillips Collection, Washington",
       "collection_type": "museum",
-      "exhibition_note": "Phillips Collection Rothko Room 상설. 2023 FLV 대여",
+      "exhibition_note": {
+        "ko": "Phillips Collection Rothko Room 상설. 2023 FLV 대여",
+        "en": "One of the Rothko Chapel murals. Triptych format."
+      },
       "auction_record": null,
-      "significance": "필립스 컬렉션 로스코 룸",
+      "significance": {
+        "ko": "필립스 컬렉션 로스코 룸",
+        "en": "Chapel murals, sacred space, total color reduction"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -2096,9 +2324,15 @@
       "medium": "oil on canvas",
       "collection": "Kate Rothko Prizel Collection",
       "collection_type": "private",
-      "exhibition_note": "2023 Fondation Louis Vuitton 대여",
+      "exhibition_note": {
+        "ko": "2023 Fondation Louis Vuitton 대여",
+        "en": "Chapel mural. Monochrome darkness, meditation space."
+      },
       "auction_record": null,
-      "significance": "밝은 시기 절정의 따뜻한 팔레트",
+      "significance": {
+        "ko": "밝은 시기 절정의 따뜻한 팔레트",
+        "en": "Chapel monochrome, approaching black"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -2166,9 +2400,15 @@
       "medium": "oil on canvas",
       "collection": "Private (ex-Bunny Mellon)",
       "collection_type": "private",
-      "exhibition_note": "소더비 2014 $36.5M. 버니 멜론 유산",
+      "exhibition_note": {
+        "ko": "소더비 2014 $36.5M. 버니 멜론 유산",
+        "en": "Sotheby's 2014 $36.5M. Bunny Mellon estate."
+      },
       "auction_record": "$36,500,000 (2014, Sotheby's)",
-      "significance": "올웜 팔레트. 뉴먼·스틸 배신과 같은 해 — 밝은 색 vs 우울한 감정의 극적 대조",
+      "significance": {
+        "ko": "올웜 팔레트. 뉴먼·스틸 배신과 같은 해 — 밝은 색 vs 우울한 감정의 극적 대조",
+        "en": "All-warm palette. Same year as Newman/Still betrayal — dramatic contrast between bright colors and melancholic emotion."
+      },
       "composition_type": "classic_stack",
       "color_blocks": [
         {
@@ -2231,9 +2471,15 @@
       "medium": "oil on canvas",
       "collection": "Phillips Collection, Washington",
       "collection_type": "museum",
-      "exhibition_note": "Phillips Collection Rothko Room 상설",
+      "exhibition_note": {
+        "ko": "Phillips Collection Rothko Room 상설",
+        "en": "Chapel interior panel. Purple-black, spiritual void."
+      },
       "auction_record": null,
-      "significance": "밝은 시기 말기의 정수",
+      "significance": {
+        "ko": "밝은 시기 말기의 정수",
+        "en": "Chapel panel, spiritual void, near-black purple"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -2286,9 +2532,15 @@
       "medium": "oil on canvas",
       "collection": "Private collection",
       "collection_type": "private",
-      "exhibition_note": "2023 Paris+ par Art Basel, Pace Gallery $40M 제시",
+      "exhibition_note": {
+        "ko": "2023 Paris+ par Art Basel, Pace Gallery $40M 제시",
+        "en": "Late Chapel panel. Extreme reduction."
+      },
       "auction_record": null,
-      "significance": "Pace 갤러리 주요 딜",
+      "significance": {
+        "ko": "Pace 갤러리 주요 딜",
+        "en": "Chapel extreme reduction, formless dark"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -2346,9 +2598,15 @@
       "medium": "oil on canvas",
       "collection": "Phillips Collection, Washington",
       "collection_type": "museum",
-      "exhibition_note": "Phillips Collection Rothko Room 상설. 2023 FLV 대여",
+      "exhibition_note": {
+        "ko": "Phillips Collection Rothko Room 상설. 2023 FLV 대여",
+        "en": "Created during health crisis. Aortic aneurysm diagnosis (1968)."
+      },
       "auction_record": null,
-      "significance": "필립스 컬렉션 로스코 룸",
+      "significance": {
+        "ko": "필립스 컬렉션 로스코 룸",
+        "en": "Post-aneurysm, extreme dark brown, health crisis works"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -2406,14 +2664,20 @@
       "medium": "oil on canvas",
       "collection": "Private collection (Qatar Royal Family)",
       "collection_type": "private",
-      "exhibition_note": "데이비드 록펠러 소장→2007 소더비",
+      "exhibition_note": {
+        "ko": "데이비드 록펠러 소장→2007 소더비",
+        "en": "Brown on grey series. Shift to paper works after aneurysm."
+      },
       "auction_record": {
         "price_usd": 72800000,
         "house": "Sotheby's",
         "date": "2007-05",
         "note": "Rockefeller Collection. 카타르 왕실 구입"
       },
-      "significance": "경매 6위. 록펠러 컬렉션 출처",
+      "significance": {
+        "ko": "경매 6위. 록펠러 컬렉션 출처",
+        "en": "Brown on grey, paper works, physical limitation"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -2481,9 +2745,15 @@
       "medium": "oil on canvas",
       "collection": "Tate, London",
       "collection_type": "museum",
-      "exhibition_note": "Tate 전용 Rothko Room 상설",
+      "exhibition_note": {
+        "ko": "Tate 전용 Rothko Room 상설",
+        "en": "First of the Black on Gray series. Final studio period."
+      },
       "auction_record": null,
-      "significance": "시그램 벽화. 테이트 로스코 룸",
+      "significance": {
+        "ko": "시그램 벽화. 테이트 로스코 룸",
+        "en": "Black on Gray begins, final series, binary reduction"
+      },
       "composition_type": "seagram",
       "color_blocks": [
         {
@@ -2541,9 +2811,15 @@
       "medium": "oil on canvas",
       "collection": "Tate, London",
       "collection_type": "museum",
-      "exhibition_note": "Tate Rothko Room 상설. 2012 반달리즘 피해 후 복원",
+      "exhibition_note": {
+        "ko": "Tate Rothko Room 상설. 2012 반달리즘 피해 후 복원",
+        "en": "Tate Gallery donation accepted during this period."
+      },
       "auction_record": null,
-      "significance": "시그램 벽화. 반달리즘 복원 이력",
+      "significance": {
+        "ko": "시그램 벽화. 반달리즘 복원 이력",
+        "en": "Tate donation, Black on Gray, approaching end"
+      },
       "composition_type": "seagram",
       "color_blocks": [
         {
@@ -2606,9 +2882,15 @@
       "medium": "oil on canvas",
       "collection": "Whitney Museum of American Art, New York",
       "collection_type": "museum",
-      "exhibition_note": "Whitney 상설",
+      "exhibition_note": {
+        "ko": "Whitney 상설",
+        "en": "One of the last Black on Gray works. Separation from Mell."
+      },
       "auction_record": null,
-      "significance": "어두운 전환의 대표작",
+      "significance": {
+        "ko": "어두운 전환의 대표작",
+        "en": "Late Black on Gray, marital separation, isolation"
+      },
       "composition_type": "seagram",
       "color_blocks": [
         {
@@ -2686,14 +2968,20 @@
       "medium": "oil on canvas",
       "collection": "Private collection",
       "collection_type": "private",
-      "exhibition_note": "2015 Christie's",
+      "exhibition_note": {
+        "ko": "2015 Christie's",
+        "en": "Among the final works. Studio solitude."
+      },
       "auction_record": {
         "price_usd": 81925000,
         "house": "Christie's",
         "date": "2015-05",
         "note": ""
       },
-      "significance": "경매 4위. 후기 어두운 작품의 시장 가치 입증",
+      "significance": {
+        "ko": "경매 4위. 후기 어두운 작품의 시장 가치 입증",
+        "en": "Final works, complete solitude, binary void"
+      },
       "composition_type": "seagram",
       "color_blocks": [
         {
@@ -2750,9 +3038,15 @@
       "medium": "oil on canvas",
       "collection": "Tate, London",
       "collection_type": "museum",
-      "exhibition_note": "Tate Rothko Room. 1969 로스코 직접 기증 9점 중 하나",
+      "exhibition_note": {
+        "ko": "Tate Rothko Room. 1969 로스코 직접 기증 9점 중 하나",
+        "en": "One of the very last paintings. Found in studio after death."
+      },
       "auction_record": null,
-      "significance": "시그램 벽화 기증작",
+      "significance": {
+        "ko": "시그램 벽화 기증작",
+        "en": "Last paintings, found posthumously, ultimate reduction"
+      },
       "composition_type": "seagram",
       "color_blocks": [
         {
@@ -2799,9 +3093,15 @@
       "medium": "oil on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA Rothko Room",
+      "exhibition_note": {
+        "ko": "NGA Rothko Room",
+        "en": "Sold at Sotheby's for $46.5M (2007). Bright period masterwork."
+      },
       "auction_record": null,
-      "significance": "시그램 벽화. NGA 로스코 룸",
+      "significance": {
+        "ko": "시그램 벽화. NGA 로스코 룸",
+        "en": "Auction landmark, bright period representative, white center"
+      },
       "composition_type": "seagram",
       "color_blocks": [
         {
@@ -2874,9 +3174,15 @@
       "medium": "oil on canvas",
       "collection": "SFMOMA, San Francisco",
       "collection_type": "museum",
-      "exhibition_note": "1997 취득. 시그램 위기 해에 밝은 오렌지가 남아있는 과도기 작품",
+      "exhibition_note": {
+        "ko": "1997 취득. 시그램 위기 해에 밝은 오렌지가 남아있는 과도기 작품",
+        "en": "Acquired 1997. A transitional work from the Seagram crisis year, with bright orange still present."
+      },
       "auction_record": null,
-      "significance": "1960년 19점 중 하나. 밝은 오렌지가 남아있으나 가지색 그라운드가 다가올 어둠 예고",
+      "significance": {
+        "ko": "1960년 19점 중 하나. 밝은 오렌지가 남아있으나 가지색 그라운드가 다가올 어둠 예고",
+        "en": "One of 19 works from 1960. Bright orange remains but aubergine ground foreshadows coming darkness."
+      },
       "composition_type": "classic_stack",
       "color_blocks": [
         {
@@ -2933,9 +3239,15 @@
       "medium": "oil on canvas",
       "collection": "Private (ex-SFMOMA)",
       "collection_type": "private",
-      "exhibition_note": "소더비 2019.5 $50.1M. 은회색 밴드가 로스코 전체 작품에서 극히 이례적",
+      "exhibition_note": {
+        "ko": "소더비 2019.5 $50.1M. 은회색 밴드가 로스코 전체 작품에서 극히 이례적",
+        "en": "Sotheby's May 2019 $50.1M. Silver-grey band extremely rare in Rothko's oeuvre."
+      },
       "auction_record": "$50,100,000 (2019, Sotheby's)",
-      "significance": "로스코가 직접 SFMOMA를 위해 선택. 은회색 밴드는 전 작품 중 거의 유일",
+      "significance": {
+        "ko": "로스코가 직접 SFMOMA를 위해 선택. 은회색 밴드는 전 작품 중 거의 유일",
+        "en": "Personally selected by Rothko for SFMOMA. Silver-grey band is nearly unique across all works."
+      },
       "composition_type": "classic_stack",
       "color_blocks": [
         {
@@ -2992,14 +3304,20 @@
       "medium": "oil on canvas",
       "collection": "Private collection",
       "collection_type": "private",
-      "exhibition_note": "MoMA 회고전(1961) 시기 제작",
+      "exhibition_note": {
+        "ko": "MoMA 회고전(1961) 시기 제작",
+        "en": "Sold at Christie's for $72.8M (2007)."
+      },
       "auction_record": {
         "price_usd": 86882500,
         "house": "Christie's",
         "date": "2012-05",
         "note": "로스코 공개 경매 최고가"
       },
-      "significance": "경매 2위 (공개 최고가)",
+      "significance": {
+        "ko": "경매 2위 (공개 최고가)",
+        "en": "Auction record, green/blue luminous surface"
+      },
       "composition_type": "classic",
       "color_blocks": [
         {
@@ -3067,9 +3385,15 @@
       "medium": "oil on canvas",
       "collection": "Museum of Modern Art, New York",
       "collection_type": "museum",
-      "exhibition_note": "MoMA 상설",
+      "exhibition_note": {
+        "ko": "MoMA 상설",
+        "en": "Sold at Sotheby's for $75.1M (2015)."
+      },
       "auction_record": null,
-      "significance": "밝은 색→어두운 색 전환기",
+      "significance": {
+        "ko": "밝은 색→어두운 색 전환기",
+        "en": "Auction record, untitled purple/red/blue classic"
+      },
       "composition_type": "dark",
       "color_blocks": [
         {
@@ -3142,9 +3466,15 @@
       "medium": "oil on canvas",
       "collection": "Harvard Art Museums",
       "collection_type": "museum",
-      "exhibition_note": "리솔 레드 퇴색으로 유명. 2014 특수 조명 복원",
+      "exhibition_note": {
+        "ko": "리솔 레드 퇴색으로 유명. 2014 특수 조명 복원",
+        "en": "Phillips Collection, Washington. One of the Rothko Room works."
+      },
       "auction_record": null,
-      "significance": "하버드 벽화 5점 중 하나. 보존 과학의 사례",
+      "significance": {
+        "ko": "하버드 벽화 5점 중 하나. 보존 과학의 사례",
+        "en": "Rothko Room installation, immersive experience, orange/red"
+      },
       "composition_type": "dark",
       "color_blocks": [
         {
@@ -3212,14 +3542,20 @@
       "medium": "oil on canvas",
       "collection": "Private collection",
       "collection_type": "private",
-      "exhibition_note": "사적 거래",
+      "exhibition_note": {
+        "ko": "사적 거래",
+        "en": "Phillips Collection Rothko Room."
+      },
       "auction_record": {
         "price_usd": 186000000,
         "house": "Private sale",
         "date": "2014",
         "note": "로스코 전체 최고 거래가. Rybolovlev 구입"
       },
-      "significance": "경매 1위 (최고 거래가 $186M)",
+      "significance": {
+        "ko": "경매 1위 (최고 거래가 $186M)",
+        "en": "Rothko Room, ochre/green meditative pair"
+      },
       "composition_type": "dark",
       "color_blocks": [
         {
@@ -3256,9 +3592,15 @@
       "medium": "oil on canvas",
       "collection": "Fondation Beyeler, Basel",
       "collection_type": "museum",
-      "exhibition_note": "Beyeler 상설",
+      "exhibition_note": {
+        "ko": "Beyeler 상설",
+        "en": "Seagram Mural donated to Tate. Arrived the day after Rothko's death."
+      },
       "auction_record": null,
-      "significance": "차갑고 절제된 후기 전환",
+      "significance": {
+        "ko": "차갑고 절제된 후기 전환",
+        "en": "Tate Seagram gift, arrived day after death, dark red/maroon"
+      },
       "composition_type": "dark",
       "color_blocks": [
         {
@@ -3331,9 +3673,15 @@
       "medium": "oil on canvas",
       "collection": "Seattle Art Museum",
       "collection_type": "museum",
-      "exhibition_note": "2020 기증. 수평 포맷 — 로스코에게 이례적",
+      "exhibition_note": {
+        "ko": "2020 기증. 수평 포맷 — 로스코에게 이례적",
+        "en": "Donated 2020. Horizontal format — unusual for Rothko."
+      },
       "auction_record": null,
-      "significance": "수평 포맷. 상단 흰 밴드가 어두운 팔레트를 강화. 채플 벽화 예고",
+      "significance": {
+        "ko": "수평 포맷. 상단 흰 밴드가 어두운 팔레트를 강화. 채플 벽화 예고",
+        "en": "Horizontal format. Upper white band intensifies the dark palette. Prefigures Chapel murals."
+      },
       "composition_type": "horizontal_bands",
       "color_blocks": [
         {
@@ -3391,9 +3739,15 @@
       "dimensions": "267.3 × 203.8 cm",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA. 2010-11 'In the Tower: Mark Rothko'. 2014-15 Gemeentemuseum/Seoul 순회",
+      "exhibition_note": {
+        "ko": "NGA. 2010-11 'In the Tower: Mark Rothko'. 2014-15 Gemeentemuseum/Seoul 순회",
+        "en": "National Gallery of Art permanent collection."
+      },
       "auction_record": null,
-      "significance": "블랙 폼 17점 시리즈. 겉보기 전면 블랙, 미세한 톤 차이",
+      "significance": {
+        "ko": "블랙 폼 17점 시리즈. 겉보기 전면 블랙, 미세한 톤 차이",
+        "en": "NGA collection, classic bright period, orange/yellow"
+      },
       "composition_type": "dark",
       "color_blocks": [
         {
@@ -3447,9 +3801,15 @@
       "medium": "oil and acrylic on canvas",
       "collection": "Rothko Chapel, Houston",
       "collection_type": "permanent_installation",
-      "exhibition_note": "비종파 채플 상설. 1971 축성. 2000 National Register of Historic Places 등재",
+      "exhibition_note": {
+        "ko": "비종파 채플 상설. 1971 축성. 2000 National Register of Historic Places 등재",
+        "en": "San Francisco Museum of Modern Art."
+      },
       "auction_record": null,
-      "significance": "드 메닐 부부 커미션. 거의 모노크롬 어두운 패널 14점",
+      "significance": {
+        "ko": "드 메닐 부부 커미션. 거의 모노크롬 어두운 패널 14점",
+        "en": "SFMOMA collection, late bright period, red/orange transitions"
+      },
       "composition_type": "dark",
       "color_blocks": [
         {
@@ -3496,9 +3856,15 @@
       "medium": "oil on canvas",
       "collection": "Private",
       "collection_type": "private",
-      "exhibition_note": "채플 몰입기 독립작. 채플과 팔레트 공유하나 소형",
+      "exhibition_note": {
+        "ko": "채플 몰입기 독립작. 채플과 팔레트 공유하나 소형",
+        "en": "Independent work from Chapel immersion period. Shares Chapel palette but smaller scale."
+      },
       "auction_record": null,
-      "significance": "채플 몰입기의 희귀 독립작. 1965년 작품 극소수",
+      "significance": {
+        "ko": "채플 몰입기의 희귀 독립작. 1965년 작품 극소수",
+        "en": "Rare independent work during Chapel immersion. Very few works from 1965."
+      },
       "composition_type": "classic_stack",
       "color_blocks": [
         {
@@ -3555,9 +3921,15 @@
       "medium": "dry pigment, rabbitskin glue, egg/oil emulsion, synthetic polymer on canvas",
       "collection": "The Menil Collection, Houston",
       "collection_type": "museum",
-      "exhibition_note": "로스코 재단 기증(1986). 빛을 반사하지 않고 흡수하도록 의도된 특수 매체",
+      "exhibition_note": {
+        "ko": "로스코 재단 기증(1986). 빛을 반사하지 않고 흡수하도록 의도된 특수 매체",
+        "en": "Donated by Rothko Foundation (1986). Special medium intended to absorb rather than reflect light."
+      },
       "auction_record": null,
-      "significance": "채플 대안작. 빛을 흡수하는 특수 매체. 약 15피트 크기",
+      "significance": {
+        "ko": "채플 대안작. 빛을 흡수하는 특수 매체. 약 15피트 크기",
+        "en": "Chapel alternate work. Special light-absorbing medium. Approximately 15 feet."
+      },
       "composition_type": "classic_stack",
       "color_blocks": [
         {
@@ -3593,7 +3965,7 @@
           {
             "color": "#3A1A2A",
             "ratio": 0.35,
-            "y_start": 0.0,
+            "y_start": 0,
             "y_end": 0.1
           },
           {
@@ -3614,9 +3986,15 @@
       "medium": "oil on canvas",
       "collection": "The Metropolitan Museum of Art, New York",
       "collection_type": "museum",
-      "exhibition_note": "뮤리엘 칼리스 스타인버그 뉴먼 컬렉션",
+      "exhibition_note": {
+        "ko": "뮤리엘 칼리스 스타인버그 뉴먼 컬렉션",
+        "en": "Muriel Kallis Steinberg Newman Collection."
+      },
       "auction_record": null,
-      "significance": "최후기에 드문 따뜻한 색 잔존. 적등색+마젠타. 어둠 속 순간적 온기",
+      "significance": {
+        "ko": "최후기에 드문 따뜻한 색 잔존. 적등색+마젠타. 어둠 속 순간적 온기",
+        "en": "Rare warm color remnant in final period. Red-orange and magenta. Momentary warmth amid darkness."
+      },
       "composition_type": "classic_stack",
       "color_blocks": [
         {
@@ -3673,9 +4051,15 @@
       "medium": "oil on canvas",
       "collection": "Empire State Plaza Art Collection, Albany",
       "collection_type": "museum",
-      "exhibition_note": "1967년 완성작 5점 중 하나",
+      "exhibition_note": {
+        "ko": "1967년 완성작 5점 중 하나",
+        "en": "One of five completed works from 1967."
+      },
       "auction_record": null,
-      "significance": "채플 후 이젤 작업 복귀. 근단색 어둠. 최종기 전조",
+      "significance": {
+        "ko": "채플 후 이젤 작업 복귀. 근단색 어둠. 최종기 전조",
+        "en": "Return to easel work after Chapel. Near-monochrome darkness. Precursor to final period."
+      },
       "composition_type": "classic_stack",
       "color_blocks": [
         {
@@ -3732,9 +4116,15 @@
       "medium": "acrylic on canvas",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA. 대동맥류 진단 이후 제작",
+      "exhibition_note": {
+        "ko": "NGA. 대동맥류 진단 이후 제작",
+        "en": "NGA. Created after aortic aneurysm diagnosis."
+      },
       "auction_record": null,
-      "significance": "'브라운 앤 그레이' 시리즈. 3피트 이하 제한",
+      "significance": {
+        "ko": "'브라운 앤 그레이' 시리즈. 3피트 이하 제한",
+        "en": "\"Brown and Gray\" series. Restricted to under 3 feet."
+      },
       "composition_type": "final",
       "color_blocks": [
         {
@@ -3788,9 +4178,15 @@
       "dimensions": "229.6 × 175.9 cm",
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
-      "exhibition_note": "NGA. 1985 Pace 'Dark Paintings'. 2008 Tate 'Late Series'. 2014 Gemeentemuseum/Seoul",
+      "exhibition_note": {
+        "ko": "NGA. 1985 Pace 'Dark Paintings'. 2008 Tate 'Late Series'. 2014 Gemeentemuseum/Seoul",
+        "en": "NGA. Exhibited at Pace \"Dark Paintings\" (1985), Tate \"Late Series\" (2008), Gemeentemuseum/Seoul (2014)."
+      },
       "auction_record": null,
-      "significance": "블랙 온 그레이 25점 연작. 캔버스 수평 이분. 멜 별거 후 스튜디오 제작",
+      "significance": {
+        "ko": "블랙 온 그레이 25점 연작. 캔버스 수평 이분. 멜 별거 후 스튜디오 제작",
+        "en": "Black on Gray series of 25 works. Canvas bisected horizontally. Created in studio after separation from Mell."
+      },
       "composition_type": "final",
       "color_blocks": [
         {
@@ -3859,9 +4255,15 @@
       "collection": "National Gallery of Art, Washington",
       "collection_type": "museum",
       "accession_id": "1986.43.173",
-      "exhibition_note": "NGA. 사후 로스코 재단 기증",
+      "exhibition_note": {
+        "ko": "NGA. 사후 로스코 재단 기증",
+        "en": "NGA. Posthumous donation by Rothko Foundation."
+      },
       "auction_record": null,
-      "significance": "로스코의 마지막 캔버스 작품 중 하나. 미완성 가능성",
+      "significance": {
+        "ko": "로스코의 마지막 캔버스 작품 중 하나. 미완성 가능성",
+        "en": "Among Rothko's last canvas works. Possibly unfinished."
+      },
       "composition_type": "final",
       "color_blocks": [
         {
@@ -3874,7 +4276,7 @@
         }
       ],
       "background": "#e3282b",
-      "emotion_y": -1.0,
+      "emotion_y": -1,
       "image": "/images/rothko/W050_1970_untitled.jpg",
       "color_extraction": {
         "method": "horizontal_band",

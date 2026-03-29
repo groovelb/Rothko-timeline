@@ -22,13 +22,13 @@ const BAND_POSITIONS = Object.fromEntries(
   })
 );
 
-/** 밴드 한글 라벨 */
-const BAND_LABELS = {
-  EXPAND: '팽창',
-  RADIATE: '발산',
-  EQUIL: '균형',
-  CONTRACT: '수축',
-  VOID: '소멸',
+/** 밴드 ID → locale 키 매핑 */
+const BAND_LOCALE_KEYS = {
+  EXPAND: 'band.expand',
+  RADIATE: 'band.radiate',
+  EQUIL: 'band.equil',
+  CONTRACT: 'band.contract',
+  VOID: 'band.void',
 };
 
 /** work.id 기반 일관적 지터 값 생성 */
@@ -152,7 +152,7 @@ function useTimelineLayout({
       const ratio = BAND_POSITIONS[band.id];
       return {
         id: band.id,
-        label: BAND_LABELS[band.id],
+        localeKey: BAND_LOCALE_KEYS[band.id],
         y: scaleTop + scaleHeight * (1 - ratio),
       };
     });

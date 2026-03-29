@@ -1,6 +1,7 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import { useLocale } from '../../i18n';
 
 /** 마커 색상 */
 const DOT_COLOR = '#000';
@@ -27,6 +28,7 @@ function TimelineEventItem({
   onMouseEnter,
   onMouseLeave,
 }) {
+  const { localized } = useLocale();
   const isHigh = event.significance === 'high' || event.significance === 'critical';
 
   return (
@@ -67,7 +69,7 @@ function TimelineEventItem({
           color: 'text.disabled',
         } }
       >
-        { event.title }
+        { localized(event.title) }
       </Typography>
     </Box>
   );

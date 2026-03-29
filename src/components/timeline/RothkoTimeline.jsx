@@ -4,6 +4,7 @@ import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { HorizontalScrollContainer } from '../content-transition/HorizontalScrollContainer.jsx';
 import { TimelineCanvas } from './TimelineCanvas.jsx';
+import { TimelineMinimap } from './TimelineMinimap.jsx';
 import { useTimelineLayout } from './useTimelineLayout.js';
 
 /**
@@ -85,7 +86,22 @@ function RothkoTimeline({
     setActiveId(null);
   }, []);
 
+  /** 미니맵 클릭 → 해당 위치로 스크롤 */
+  const handleMinimapNavigate = useCallback((targetProgress) => {
+    const targetY = targetProgress * scrollDistance;
+    window.scrollTo({ top: targetY, behavior: 'smooth' });
+  }, [scrollDistance]);
+
   return (
+    <>
+    <TimelineMinimap
+      positionedWorks={ layout.positionedWorks }
+      totalWidth={ layout.totalWidth }
+      axisY={ layout.axisY }
+      viewportWidth={ viewportWidth }
+      scrollProgress={ scrollProgress }
+      onNavigate={ handleMinimapNavigate }
+    />
     <HorizontalScrollContainer
       backgroundColor={ backgroundColor }
       onScrollProgress={ handleScrollProgress }
@@ -106,6 +122,7 @@ function RothkoTimeline({
         nodeScale={ nodeScale }
       />
     </HorizontalScrollContainer>
+    </>
   );
 }
 

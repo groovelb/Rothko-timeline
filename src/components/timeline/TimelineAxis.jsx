@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { motion } from 'framer-motion';
+import { useLocale } from '../../i18n';
 
 /**
  * TimelineAxis — 중앙 수평 축선 + 연도 틱 + 시기 배경 밴드 + Y축 감정 밴드 틱
@@ -19,6 +20,8 @@ import { motion } from 'framer-motion';
  * <TimelineAxis totalWidth={8000} axisY={400} yearTicks={ticks} periodBands={bands} emotionBands={eBands} viewportHeight={800} />
  */
 function TimelineAxis({ totalWidth, axisY, yearTicks, periodBands, emotionBands, viewportHeight, scrollOffset }) {
+  const { t } = useLocale();
+
   return (
     <>
 
@@ -65,7 +68,7 @@ function TimelineAxis({ totalWidth, axisY, yearTicks, periodBands, emotionBands,
               userSelect: 'none',
             } }
           >
-            { band.label }
+            { band.localeKey ? t(band.localeKey) : band.label }
           </Typography>
         </motion.div>
       )) }
